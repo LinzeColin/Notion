@@ -1,0 +1,7 @@
+date,source,title,url,used_for
+2026-06-13,OpenAI,Prompt engineering,https://developers.openai.com/api/docs/guides/prompt-engineering,Phase B source baseline
+2026-06-13,OpenAI,Evaluation best practices,https://developers.openai.com/api/docs/guides/evaluation-best-practices,Eval flywheel baseline
+2026-06-13,OpenAI,Running agents,https://developers.openai.com/api/docs/guides/agents/running-agents,Loop engineering baseline
+2026-06-13,OpenAI,Evaluate agent workflows,https://developers.openai.com/api/docs/guides/agent-evals,Trace and grader baseline
+2026-06-13,Anthropic,Effective context engineering for AI agents,https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents,Context engineering cross-check
+

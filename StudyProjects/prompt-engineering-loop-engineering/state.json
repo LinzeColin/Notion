@@ -1,0 +1,45 @@
+{
+  "project_slug": "prompt-engineering-loop-engineering",
+  "project_name": "Prompt Engineering and Loop Engineering",
+  "domain": "AI / Agent / LLM / Automation",
+  "timezone": "Australia/Sydney",
+  "start_date": "2026-06-14",
+  "planned_end_date": "2026-07-04",
+  "duration_days": 21,
+  "current_week": 1,
+  "current_day": 1,
+  "current_phase": {
+    "code": "B",
+    "name": "7-day Top 1% practical sprint",
+    "day_in_phase": 1,
+    "phase_days": 7,
+    "starts_on": "2026-06-14",
+    "ends_on": "2026-06-20"
+  },
+  "next_phase": {
+    "code": "C",
+    "name": "14-day engineering extension",
+    "status": "conditional_after_w01_review",
+    "starts_on": "2026-06-21",
+    "ends_on": "2026-07-04"
+  },
+  "current_focus": "Prompt Contract and Output Contract",
+  "last_session_date": "2026-06-13",
+  "streak": 0,
+  "missed_study_today": false,
+  "last_reminder_at": "",
+  "next_action": "Continue prompt-engineering-loop-engineering W01D01. Start with active recall, then build Prompt Contract v1 and sync Notion notes.",
+  "notion_source": {
+    "database_url": "https://app.notion.com/p/37eb1a986ba680bdb5f9ea2367b08991",
+    "data_source_url": "collection://37eb1a98-6ba6-80ad-94e0-000bbda7ab85",
+    "page_url": "",
+    "sync_mode": "summary_structured_links_plus_optional_full_body"
+  },
+  "github_source": {
+    "repository": "LinzeColin/Notion",
+    "path": "StudyProjects/prompt-engineering-loop-engineering"
+  },
+  "reminder_mode": "return_to_codex_manual",
+  "status": "active"
+}
+
