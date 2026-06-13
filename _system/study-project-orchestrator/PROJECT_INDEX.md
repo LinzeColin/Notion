@@ -10,7 +10,7 @@ This file is the routing index for all concurrent Study Projects under `LinzeCol
 
 | Project | Slug | Status | Domain | Notion source | Current week/day | Last sync | Next action |
 |---|---|---|---|---|---|---|---|
-| AI | ai | scope_pending_confirmation | AI / Large Models / Agents / Automation | Codex Study Timeline `37eb1a986ba680bdb5f9ea2367b08991` | W01D01 / 第1/28天 pending start | 2026-06-13 | Confirm AI scope, Day 1 date, and authorization |
+| AI | ai | active | AI / Large Models / Agents / Automation | Codex Study Timeline `37eb1a986ba680bdb5f9ea2367b08991`; D01 page `37eb1a986ba681098a14d2c8c71f3715` | W01D01 / 第1/28天 | 2026-06-13 | Complete D01 baseline active recall and Personal AI leverage map |
 
 ## Routing Rules
 
@@ -53,7 +53,6 @@ StudyProjects/<project-slug>/
 ├── 08_REMINDERS/
 ├── 09_FRONTIER/
 ├── metrics.csv
-├── state.json
 └── HANDOFF.md
 ```
 
