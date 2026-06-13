@@ -1,5 +1,6 @@
 {
   "as_of": "2026-06-13",
+  "rule": "Active tracks are the two archives studied today. Group route dates are tracked separately in archive_catalog.csv and state.json.",
   "active_tracks": [
     {
       "track_id": 1,
@@ -8,9 +9,14 @@
       "full_code": "q-fin.TR",
       "display_code": "Q-FIN - TR",
       "archive_name": "Trading and Market Microstructure",
+      "archive_route_order": 1,
+      "archive_count_in_group": 9,
       "archive_day": 1,
       "archive_cycle_days": 30,
-      "mastery_pct": 0
+      "planned_start": "2026-06-13",
+      "planned_end": "2026-07-12",
+      "mastery_pct": 0,
+      "route_file": "10_PROGRAM_STATE/group_routes/Q-FIN.csv"
     },
     {
       "track_id": 2,
@@ -19,9 +25,14 @@
       "full_code": "quant-ph",
       "display_code": "PHYS - quant-ph",
       "archive_name": "Quantum Physics",
+      "archive_route_order": 1,
+      "archive_count_in_group": 51,
       "archive_day": 1,
       "archive_cycle_days": 30,
-      "mastery_pct": 0
+      "planned_start": "2026-06-13",
+      "planned_end": "2026-07-12",
+      "mastery_pct": 0,
+      "route_file": "10_PROGRAM_STATE/group_routes/PHYS.csv"
     }
   ]
 }
