@@ -5,34 +5,39 @@ Timezone: Australia/Sydney
 
 ## Current Goal
 
-Run a 30-day Study Project for AI / large models / agents / automation with maximum ROI and daily Codex-guided learning.
+Run a 28-day Study Project for AI / large models / agents / automation with maximum ROI and daily Codex-guided learning.
 
 ## Current State
 
 - GitHub project folder initialized at `StudyProjects/ai/`.
 - Notion connector verified search/read access.
 - Pre-creation Notion connector backup saved under `NotionBackup/20260613/`.
-- Notion database creation under `Linz Dashboard` is blocked because the current database creation tool does not accept teamspace root as parent.
+- User created `Codex Study Timeline` under `Linz Dashboard`.
+- `Codex Study Timeline` database is connected: `37eb1a986ba680bdb5f9ea2367b08991`.
+- Project status is `scope_pending_confirmation`.
 
 ## Key Decisions
 
 - GitHub is source of truth.
-- Notion remains clean notebook.
+- Notion remains clean notebook and timeline.
 - Daily sync happens after user returns to Codex.
 - Existing Notion workspaces are read-only by default.
-- First project defaults: 30 days, 45-60 minutes/day, expert-track practical AI judgment and output.
+- Duration is 28 days.
+- Daily sessions must state progress as `第X/28天`.
+- Do not start D01 learning until the user confirms final scope, Day 1 date, and authorization to start.
 
 ## Next Step
 
-Continue `ai W01D01`:
+Clarify AI scope and content, then wait for explicit confirmation.
 
-1. Baseline active recall: what the user already understands about AI, LLMs, agents, and automation.
-2. Build the AI capability map.
-3. Teach the first concept: AI as prediction/compression/action layer.
-4. Create the first output: personal AI leverage map.
+Pending confirmation:
 
-Return prompt:
+1. Final AI learning scope.
+2. Day 1 start date.
+3. Authorization to start.
+
+Return prompt after confirmation:
 
 ```text
-Continue ai W01D01
+Continue ai W01D01 第1/28天
 ```
