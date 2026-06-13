@@ -13,6 +13,11 @@ Run a 21-day adaptive Study Project for prompt engineering and loop engineering:
 
 Project initialized and synced to GitHub.
 Notion timeline page created.
+Automations configured:
+
+- `study-project-daily-sync`: detached cron, daily 18:10 Sydney.
+- `prompt-loop-study-daily-reminder`: thread heartbeat, daily 09:00 Sydney for 21 occurrences.
+
 Day 1 is 2026-06-14.
 
 ## Key Decisions
@@ -21,6 +26,7 @@ Day 1 is 2026-06-14.
 - Use Notion `Codex Study Timeline` as learning timeline.
 - Do not overwrite existing Notion pages.
 - Use `第X/21天` plus phase progress such as `B阶段第1/7天`.
+- Do not end after B sprint. Phase C remains scheduled for 2026-06-21 to 2026-07-04 and must be promoted/revised/cancelled from W01 review evidence.
 
 ## Files To Watch
 

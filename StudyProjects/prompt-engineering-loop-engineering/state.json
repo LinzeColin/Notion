@@ -39,6 +39,13 @@
     "repository": "LinzeColin/Notion",
     "path": "StudyProjects/prompt-engineering-loop-engineering"
   },
-  "reminder_mode": "return_to_codex_manual",
+  "automation": {
+    "daily_sync_id": "study-project-daily-sync",
+    "daily_sync_role": "detached local cron; checks active Study Projects at 18:10 Sydney and marks missed study without relying on this thread",
+    "thread_reminder_id": "prompt-loop-study-daily-reminder",
+    "thread_reminder_role": "daily return-to-Codex heartbeat at 09:00 Sydney for 21 occurrences",
+    "phase_c_guard": "Phase C is scheduled 2026-06-21 to 2026-07-04 and must be promoted, revised, or cancelled from W01 review evidence."
+  },
+  "reminder_mode": "app_automation_daily_sync_plus_thread_heartbeat",
   "status": "active"
 }
