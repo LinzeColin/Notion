@@ -3,23 +3,25 @@
   "project_name": "AI",
   "domain": "AI / Large Models / Agents / Automation",
   "timezone": "Australia/Sydney",
-  "start_date": "2026-06-13",
-  "duration_days": 30,
+  "start_date": "pending_user_confirmation",
+  "duration_days": 28,
   "current_week": 1,
   "current_day": 1,
-  "current_focus": "Scope lock, AI mental map, high-ROI learning route",
+  "current_focus": "Scope confirmation before starting D01",
   "last_session_date": "2026-06-13",
   "streak": 0,
-  "next_action": "Continue ai W01D01: active recall baseline and AI capability map",
+  "next_action": "Confirm AI scope, Day 1 start date, and authorization to start",
   "github_path": "LinzeColin/Notion/StudyProjects/ai/",
   "notion_source": {
     "teamspace": "Linz Dashboard",
     "teamspace_id": "1aeb1a98-6ba6-813a-8420-0042760f36b1",
-    "page_url": "",
-    "database_url": "",
+    "timeline_name": "Codex Study Timeline",
+    "timeline_database_id": "37eb1a986ba680bdb5f9ea2367b08991",
+    "timeline_database_url": "https://www.notion.so/37eb1a986ba680bdb5f9ea2367b08991?v=37eb1a986ba68040b4f4000cc8b21956&source=copy_link",
+    "timeline_data_source_url": "collection://37eb1a98-6ba6-80ad-94e0-000bbda7ab85",
     "sync_mode": "summary_structured_links_plus_optional_full_body",
-    "creation_status": "blocked_by_teamspace_parent_tool_limit"
+    "creation_status": "user_created_timeline_database_connected"
   },
   "reminder_mode": "return_to_codex",
-  "status": "active"
+  "status": "scope_pending_confirmation"
 }
