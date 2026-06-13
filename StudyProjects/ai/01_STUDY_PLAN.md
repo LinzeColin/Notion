@@ -1,49 +1,55 @@
-# AI 30-Day Study Plan
+# AI 28-Day Study Plan
 
 Project: AI
 Slug: `ai`
-Start date: 2026-06-13
+Start date: pending user confirmation
 Daily time: 45-60 minutes
+Status: scope pending confirmation
+
+## Start Gate
+
+Do not begin daily learning content until the user confirms:
+
+| Lock | Status |
+|---|---|
+| Final scope | Pending |
+| Day 1 start date | Pending |
+| Authorization to start | Pending |
+
+Every daily session must state progress as `第X/28天`.
 
 ## Learning Operating System
 
 Every daily session follows:
 
-1. Active recall from previous material.
-2. Diagnosis of weak understanding.
-3. One core concept explained deeply and practically.
-4. One high-ROI practice/output task.
-5. Translation into work, decisions, learning, productivity, or life.
-6. GitHub log update and next return prompt.
+1. State current day, e.g. `第1/28天`.
+2. Active recall from previous material.
+3. Diagnosis of weak understanding.
+4. One core concept explained deeply and practically.
+5. One high-ROI practice/output task.
+6. Translation into work, decisions, learning, productivity, or life.
+7. GitHub log update and next return prompt.
 
-## 3-Day Launch
+## Proposed 4-Week Structure
 
-| Day | Focus | Input | Recall | Output |
-|---|---|---|---|---|
-| D01 | AI capability map | AI/LLM/Agent/Automation scope | Define all four in your words | Personal AI leverage map |
-| D02 | LLM mental model | Tokens, context, prompting, tool use | Explain what LLMs are good/bad at | LLM usage decision checklist |
-| D03 | Automation map | Workflows, triggers, actions, approvals | Identify automatable routines | 3 automation candidates ranked by ROI |
+| Week | Days | Focus | Weekly Output |
+|---|---:|---|---|
+| W01 | 1-7 | AI/LLM/Agent/Automation mental map | AI leverage map + prompt pack v0.1 |
+| W02 | 8-14 | LLM workflow design, tool use, eval basics | Tool-use workflow + eval checklist |
+| W03 | 15-21 | Agent architecture and applied automation | Agent spec/prototype + automation backlog |
+| W04 | 22-28 | Personal AI operating system and final synthesis | Personal AI automation playbook |
 
-## 7-Day Sprint
+## Proposed 7-Day Sprint
 
 | Day | Theme | Training Task | Deliverable |
 |---|---|---|---|
-| W01D01 | Scope and AI mental map | Baseline recall and capability map | Personal AI leverage map |
-| W01D02 | Large models | Explain tokens/context/reasoning/tool use | LLM decision checklist |
-| W01D03 | Prompting and outputs | Build reusable prompt patterns | Prompt pack v0.1 |
-| W01D04 | Tools and function calling | Map tools/API/action boundaries | Tool-use workflow diagram |
-| W01D05 | Agents | Learn loop: goal, state, tools, evals, approvals | Agent architecture one-pager |
-| W01D06 | Automation | Convert repeated work into workflows | Automation opportunity backlog |
-| W01D07 | Review | Score recall/output/ROI | Week 1 review and Week 2 adjustment |
-
-## 30-Day System Plan
-
-| Phase | Days | Goal | Weekly Output |
-|---|---:|---|---|
-| Foundation | 1-7 | Build the AI/LLM/Agent/Automation map | AI leverage map + prompt pack |
-| Application | 8-14 | Use LLMs and tools for real workflows | Tool-use workflow + eval checklist |
-| Agent Systems | 15-21 | Design and test agentic workflows | Agent prototype/spec |
-| Automation Portfolio | 22-30 | Convert learning into practical systems | Final AI automation playbook |
+| D01 | Scope and AI mental map | Baseline recall and capability map | Personal AI leverage map |
+| D02 | Large models | Explain tokens/context/reasoning/tool use | LLM decision checklist |
+| D03 | Prompting and outputs | Build reusable prompt patterns | Prompt pack v0.1 |
+| D04 | Tools and function calling | Map tools/API/action boundaries | Tool-use workflow diagram |
+| D05 | Agents | Learn loop: goal, state, tools, evals, approvals | Agent architecture one-pager |
+| D06 | Automation | Convert repeated work into workflows | Automation opportunity backlog |
+| D07 | Review | Score recall/output/ROI | Week 1 review and Week 2 adjustment |
 
 ## Daily Scoring
 
@@ -54,11 +60,6 @@ Every daily session follows:
 | Output | No artifact | Partial artifact | Useful reusable artifact |
 | ROI | Vague use | Some use case | Concrete action with payoff |
 
-## Weekly Deliverables
+## Pending Scope Decision
 
-| Week | Deliverable |
-|---|---|
-| W01 | AI leverage map + prompt pack v0.1 |
-| W02 | LLM/tool-use workflow and evaluation checklist |
-| W03 | Agent architecture/spec or small prototype |
-| W04 | Personal AI automation playbook |
+The user asked to clarify scope and content before starting. The recommended high-ROI options are recorded in the next assistant response and should be persisted after confirmation.
