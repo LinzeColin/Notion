@@ -12,21 +12,53 @@ Status: connected
 | Notion | Connected with search/read access | Search found study-related pages and fetch verified `Codex Study Project 4周` |
 | Codex Skill | Installed locally | `/Users/linzezhang/.codex/skills/study-project-orchestrator/` validated with `Skill is valid!` |
 
-## Default Repository Rule
+## Repository Structure Rule
 
-Each Study Project uses a top-level project folder:
+System files live under:
 
 ```text
-LinzeColin/Notion/<project-slug>/
+LinzeColin/Notion/_system/
+```
+
+Study Project folders live under:
+
+```text
+LinzeColin/Notion/StudyProjects/<project-slug>/
+```
+
+Notion backups live under:
+
+```text
+LinzeColin/Notion/NotionBackup/YYYYMMDD/
 ```
 
 Examples:
 
 ```text
-LinzeColin/Notion/ai-agent/
-LinzeColin/Notion/macro-investing/
-LinzeColin/Notion/python-backend/
+LinzeColin/Notion/StudyProjects/ai/
+LinzeColin/Notion/StudyProjects/macro-investing/
+LinzeColin/Notion/StudyProjects/python-backend/
+LinzeColin/Notion/NotionBackup/20260613/
 ```
+
+## Notion Workspace Rule
+
+The user's Notion structure is:
+
+```text
+Linz Dashboard
+├── 个人价值增长
+├── 制造业
+├── Re:0
+└── arXiv
+```
+
+For every new Study Project:
+
+1. Create the new Study Project database/page under `Linz Dashboard` as a peer to the existing workspaces.
+2. Do not modify `个人价值增长`, `制造业`, `Re:0`, `arXiv`, or other existing workspaces unless explicitly requested.
+3. Existing workspaces are read-only by default.
+4. Before creating/importing a new Notion Study Project workspace/database, back up currently accessible relevant Notion content to `NotionBackup/YYYYMMDD/`.
 
 ## Default Daily Sync Rule
 
@@ -80,6 +112,8 @@ When a Study Project is triggered, the agent must first lock:
 3. Subdomain or concrete content focus.
 4. Duration and daily time.
 5. Weekly output type.
+
+For broad fields, the agent must propose high-ROI adjacent subdomains, industry boards, practical use cases, automation opportunities, and frontier areas before locking the scope.
 
 The agent should use numbered choices, multi-select matrices, and a default recommendation. The agent should not create a new project folder until these are locked or explicit defaults are accepted.
 
