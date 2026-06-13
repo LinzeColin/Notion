@@ -1,0 +1,27 @@
+{
+  "as_of": "2026-06-13",
+  "active_tracks": [
+    {
+      "track_id": 1,
+      "group_code": "Q-FIN",
+      "archive_code": "TR",
+      "full_code": "q-fin.TR",
+      "display_code": "Q-FIN - TR",
+      "archive_name": "Trading and Market Microstructure",
+      "archive_day": 1,
+      "archive_cycle_days": 30,
+      "mastery_pct": 0
+    },
+    {
+      "track_id": 2,
+      "group_code": "PHYS",
+      "archive_code": "quant-ph",
+      "full_code": "quant-ph",
+      "display_code": "PHYS - quant-ph",
+      "archive_name": "Quantum Physics",
+      "archive_day": 1,
+      "archive_cycle_days": 30,
+      "mastery_pct": 0
+    }
+  ]
+}
