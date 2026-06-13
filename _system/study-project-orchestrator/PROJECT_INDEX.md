@@ -1,0 +1,56 @@
+# Study Project Index
+
+Generated: 2026-06-13
+Timezone: Australia/Sydney
+Status: initialized
+
+This file is the routing index for all concurrent Study Projects under `LinzeColin/Notion/<project-slug>/`.
+
+## Active Projects
+
+| Project | Slug | Status | Domain | Notion source | Current week/day | Last sync | Next action |
+|---|---|---|---|---|---|---|---|
+| None yet | | | | | | | Start the first Study Project |
+
+## Routing Rules
+
+Before reading or writing any project state:
+
+1. Identify the intended project from explicit `project-slug`, Notion page URL/title, domain name, or week/day code.
+2. Match it against this index.
+3. If there is no matching project, run the new project intake lock.
+4. If multiple projects match, ask the user to choose from a numbered list.
+5. Write only to the selected project folder.
+
+## New Project Minimum Fields
+
+| Field | Required | Notes |
+|---|---|---|
+| Project name | yes | Human-readable name |
+| Slug | yes | Folder name under `LinzeColin/Notion/` |
+| Learning goal | yes | Understand, apply, monetize/career, expert judgment |
+| Domain/industry | yes | Broad field |
+| Subdomain/content focus | yes | Concrete track chosen from options |
+| Duration | yes | 30/60/90 days by default |
+| Daily time | yes | 30, 45-60, or 90+ minutes |
+| Notion source | optional at start | Page/database URL when available |
+| Reminder mode | yes | Return-to-Codex trigger |
+
+## Default Folder Structure Per Project
+
+```text
+<project-slug>/
+├── 00_PROJECT_BRIEF.md
+├── 01_STUDY_PLAN.md
+├── 02_TOP1_STRATEGY.md
+├── 03_WEEKLY_PLANS/
+├── 04_DAILY_LOGS/
+├── 05_REVIEWS/
+├── 06_PERSONALIZATION/
+├── 07_NOTION/
+├── 08_REMINDERS/
+├── 09_FRONTIER/
+├── metrics.csv
+├── state.json
+└── HANDOFF.md
+```
