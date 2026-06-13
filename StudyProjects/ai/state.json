@@ -1,0 +1,25 @@
+{
+  "project_slug": "ai",
+  "project_name": "AI",
+  "domain": "AI / Large Models / Agents / Automation",
+  "timezone": "Australia/Sydney",
+  "start_date": "2026-06-13",
+  "duration_days": 30,
+  "current_week": 1,
+  "current_day": 1,
+  "current_focus": "Scope lock, AI mental map, high-ROI learning route",
+  "last_session_date": "2026-06-13",
+  "streak": 0,
+  "next_action": "Continue ai W01D01: active recall baseline and AI capability map",
+  "github_path": "LinzeColin/Notion/StudyProjects/ai/",
+  "notion_source": {
+    "teamspace": "Linz Dashboard",
+    "teamspace_id": "1aeb1a98-6ba6-813a-8420-0042760f36b1",
+    "page_url": "",
+    "database_url": "",
+    "sync_mode": "summary_structured_links_plus_optional_full_body",
+    "creation_status": "blocked_by_teamspace_parent_tool_limit"
+  },
+  "reminder_mode": "return_to_codex",
+  "status": "active"
+}
