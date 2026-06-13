@@ -1,0 +1,46 @@
+{
+  "project_slug": "arxiv-top1-program",
+  "domain": "arXiv archive mastery",
+  "timezone": "Australia/Sydney",
+  "start_date": "2026-06-13",
+  "program_mode": "rolling_parallel_groups",
+  "current_global_day": 1,
+  "active_track_limit": 2,
+  "archive_cycle_days": 30,
+  "group_order": ["Q-FIN", "PHYS", "MATH", "STAT", "CS", "ECON", "EE/EESS", "Q-BIO"],
+  "active_tracks": [
+    {
+      "track_id": 1,
+      "group_code": "Q-FIN",
+      "archive_code": "TR",
+      "full_code": "q-fin.TR",
+      "display_code": "Q-FIN - TR",
+      "archive_name": "Trading and Market Microstructure",
+      "archive_day": 1,
+      "archive_cycle_days": 30,
+      "mastery_pct": 0,
+      "status": "active"
+    },
+    {
+      "track_id": 2,
+      "group_code": "PHYS",
+      "archive_code": "quant-ph",
+      "full_code": "quant-ph",
+      "display_code": "PHYS - quant-ph",
+      "archive_name": "Quantum Physics",
+      "archive_day": 1,
+      "archive_cycle_days": 30,
+      "mastery_pct": 0,
+      "status": "active"
+    }
+  ],
+  "queued_groups": ["MATH", "STAT", "CS", "ECON", "EE/EESS", "Q-BIO"],
+  "notion_sources": {
+    "arxiv_taxonomy_database_id": "37cb1a986ba680838ccddc8c0931281b",
+    "arxiv_taxonomy_data_source": "collection://37cb1a98-6ba6-80a3-ae9e-000b6b455c93",
+    "codex_study_timeline_database_id": "37eb1a986ba680bdb5f9ea2367b08991"
+  },
+  "last_sync_date": "2026-06-13",
+  "next_action": "Run D001 concept-first lesson for Q-FIN - TR and PHYS - quant-ph",
+  "status": "active"
+}
