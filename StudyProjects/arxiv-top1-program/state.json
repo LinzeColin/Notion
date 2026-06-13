@@ -2,21 +2,23 @@
   "project_slug": "arxiv-top1-program",
   "domain": "arXiv archive mastery",
   "timezone": "Australia/Sydney",
-  "start_date": "2026-06-13",
+  "program_start_date": "2026-06-13",
   "program_mode": "rolling_parallel_groups",
   "current_global_day": 1,
   "active_track_limit": 2,
   "archive_cycle_days": 30,
+  "hard_rule": "One archive/category is always a 30-day cycle. A group is not 30 days; group route duration equals archive_count * 30 days.",
+  "date_rule_for_notion_timeline": "Each group page uses route_start_date = 2026-06-13 and route_end_date = program_start_date + archive_count * 30 - 1. Active status is tracked separately.",
   "group_order": ["Q-FIN", "PHYS", "MATH", "STAT", "CS", "ECON", "EE/EESS", "Q-BIO"],
-  "planned_group_windows": [
-    {"group_code": "Q-FIN", "start_date": "2026-06-13", "end_date": "2026-07-12"},
-    {"group_code": "PHYS", "start_date": "2026-06-13", "end_date": "2026-07-12"},
-    {"group_code": "MATH", "start_date": "2026-07-13", "end_date": "2026-08-11"},
-    {"group_code": "STAT", "start_date": "2026-07-13", "end_date": "2026-08-11"},
-    {"group_code": "CS", "start_date": "2026-08-12", "end_date": "2026-09-10"},
-    {"group_code": "ECON", "start_date": "2026-08-12", "end_date": "2026-09-10"},
-    {"group_code": "EE/EESS", "start_date": "2026-09-11", "end_date": "2026-10-10"},
-    {"group_code": "Q-BIO", "start_date": "2026-09-11", "end_date": "2026-10-10"}
+  "group_route_windows": [
+    {"group_code": "Q-FIN", "group_name": "Quantitative Finance", "archive_count": 9, "route_start_date": "2026-06-13", "route_end_date": "2027-03-09", "route_file": "10_PROGRAM_STATE/group_routes/Q-FIN.csv", "status": "active"},
+    {"group_code": "PHYS", "group_name": "Physics", "archive_count": 51, "route_start_date": "2026-06-13", "route_end_date": "2030-08-20", "route_file": "10_PROGRAM_STATE/group_routes/PHYS.csv", "status": "active"},
+    {"group_code": "MATH", "group_name": "Mathematics", "archive_count": 32, "route_start_date": "2026-06-13", "route_end_date": "2029-01-27", "status": "queued"},
+    {"group_code": "STAT", "group_name": "Statistics", "archive_count": 6, "route_start_date": "2026-06-13", "route_end_date": "2026-12-09", "status": "queued"},
+    {"group_code": "CS", "group_name": "Computer Science", "archive_count": 40, "route_start_date": "2026-06-13", "route_end_date": "2029-09-24", "route_file": "10_PROGRAM_STATE/group_routes/CS.csv", "status": "queued"},
+    {"group_code": "ECON", "group_name": "Economics", "archive_count": 3, "route_start_date": "2026-06-13", "route_end_date": "2026-09-10", "status": "queued"},
+    {"group_code": "EE/EESS", "group_name": "Electrical Engineering and Systems Science", "archive_count": 4, "route_start_date": "2026-06-13", "route_end_date": "2026-10-10", "status": "queued"},
+    {"group_code": "Q-BIO", "group_name": "Quantitative Biology", "archive_count": 10, "route_start_date": "2026-06-13", "route_end_date": "2027-04-08", "status": "queued"}
   ],
   "active_tracks": [
     {
@@ -26,6 +28,8 @@
       "full_code": "q-fin.TR",
       "display_code": "Q-FIN - TR",
       "archive_name": "Trading and Market Microstructure",
+      "archive_route_order": 1,
+      "archive_count_in_group": 9,
       "start_date": "2026-06-13",
       "end_date": "2026-07-12",
       "archive_day": 1,
@@ -40,6 +44,8 @@
       "full_code": "quant-ph",
       "display_code": "PHYS - quant-ph",
       "archive_name": "Quantum Physics",
+      "archive_route_order": 1,
+      "archive_count_in_group": 51,
       "start_date": "2026-06-13",
       "end_date": "2026-07-12",
       "archive_day": 1,
@@ -48,13 +54,19 @@
       "status": "active"
     }
   ],
+  "promotion_rule": "When any active group completes all archive cycles and reaches archive/group mastery criteria, the next queued group in group_order becomes active in that freed slot. Do not assign fake active dates before promotion.",
   "queued_groups": ["MATH", "STAT", "CS", "ECON", "EE/EESS", "Q-BIO"],
   "notion_sources": {
     "arxiv_taxonomy_database_id": "37cb1a986ba680838ccddc8c0931281b",
     "arxiv_taxonomy_data_source": "collection://37cb1a98-6ba6-80a3-ae9e-000b6b455c93",
-    "codex_study_timeline_database_id": "37eb1a986ba680bdb5f9ea2367b08991"
+    "codex_study_timeline_database_id": "37eb1a986ba680bdb5f9ea2367b08991",
+    "timeline_pages": {
+      "Q-FIN": "37eb1a98-6ba6-8133-a01b-e6fbff80849b",
+      "PHYS": "37eb1a98-6ba6-81a9-a1a3-e42720e82960",
+      "CS": "37eb1a98-6ba6-800a-8e95-f17a784cf2a8"
+    }
   },
   "last_sync_date": "2026-06-13",
-  "next_action": "Run D001 concept-first lesson for Q-FIN - TR and PHYS - quant-ph",
+  "next_action": "Present corrected Q-FIN and PHYS route, then run D001 concept-first lesson only after the route model is clear.",
   "status": "active"
 }
