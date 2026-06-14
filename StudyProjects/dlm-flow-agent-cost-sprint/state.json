@@ -2,14 +2,21 @@
   "project_slug": "dlm-flow-agent-cost-sprint",
   "project_name": "DLM Flow Agent Cost Sprint",
   "timezone": "Australia/Sydney",
-  "status": "setup_created",
+  "status": "plan_enriched_zero_base_patch",
   "duration_days": 7,
   "start_date": "2026-06-14",
   "end_date": "2026-06-20",
   "current_day": 1,
   "current_day_label": "第1/7天",
-  "current_focus": "D01 - AR vs Diffusion LM + KV cache",
+  "current_focus": "D01 - zero-base gate + AR vs Diffusion LM + KV cache",
   "source_pack": "/Users/linzezhang/Downloads/dlm_learning_pack_zh.zip",
+  "supplemental_packs": [
+    {
+      "path": "/Users/linzezhang/Downloads/dlm_zero_base_patch_zh.zip",
+      "status": "integrated",
+      "purpose": "Add zero-base concept gates, infill/local interaction practice, and review cards to the 7-day sprint."
+    }
+  ],
   "github_source": {
     "repository": "LinzeColin/Notion",
     "path": "StudyProjects/dlm-flow-agent-cost-sprint"
@@ -31,8 +38,18 @@
     "date": "2026-06-14",
     "day": 1,
     "progress_label": "第1/7天",
-    "topic": "AR vs Diffusion LM + KV cache",
+    "topic": "zero-base gate + AR vs Diffusion LM + KV cache",
     "required_output": "AR cost model diagram"
+  },
+  "plan_enrichment": {
+    "date": "2026-06-14",
+    "source": "/Users/linzezhang/Downloads/dlm_zero_base_patch_zh.zip",
+    "changes": [
+      "Added daily zero-base gates.",
+      "Compressed eight mini-lessons into the existing seven-day route.",
+      "Added review cards for active recall.",
+      "Preserved the original advanced DLM/ELF/Cola/cost/infill route."
+    ]
   },
   "setup_sync": {
     "date": "2026-06-14",

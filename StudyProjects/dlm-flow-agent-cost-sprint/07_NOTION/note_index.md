@@ -8,6 +8,12 @@
 
 `/Users/linzezhang/Downloads/dlm_learning_pack_zh.zip`
 
+## Supplemental Patch
+
+`/Users/linzezhang/Downloads/dlm_zero_base_patch_zh.zip`
+
+Purpose: add zero-base explanations, check questions, infill practice, local interaction practice, and review cards into the existing 7-day DLM sprint without widening scope.
+
 ## Notion Icon Status
 
 | Page | Icon |

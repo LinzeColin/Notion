@@ -1,5 +1,6 @@
 date,source,title,url,status,notes
 2026-06-14,local_zip,dlm_learning_pack_zh.zip,/Users/linzezhang/Downloads/dlm_learning_pack_zh.zip,available,Chinese source pack
+2026-06-14,local_zip,dlm_zero_base_patch_zh.zip,/Users/linzezhang/Downloads/dlm_zero_base_patch_zh.zip,integrated,Zero-base patch integrated into 7-day plan gates and review cards
 2026-06-14,arxiv,Flow Matching for Generative Modeling,https://arxiv.org/abs/2210.02747,reference,Flow Matching baseline
 2026-06-14,arxiv,Diffusion-LM Improves Controllable Text Generation,https://arxiv.org/abs/2205.14217,reference,Early continuous text diffusion
 2026-06-14,arxiv,Large Language Diffusion Models,https://arxiv.org/abs/2502.09992,reference,LLaDA discrete diffusion LM

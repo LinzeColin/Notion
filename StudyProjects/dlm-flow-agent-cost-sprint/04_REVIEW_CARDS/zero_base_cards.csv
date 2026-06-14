@@ -1,0 +1,13 @@
+term,plain_chinese,analogy,check_question
+Token,模型眼里的文字小块,乐高块,为什么输入输出越长通常越贵？
+AR,从左到右逐个生成 token,打字机,为什么 AR 输出长文本会有串行瓶颈？
+Diffusion,从模糊或噪声多轮变清晰,先草稿再修改,为什么它适合局部修正？
+Embedding,文字对应的数字坐标,语义地图坐标,为什么猫和狗的 embedding 可能接近？
+Latent,更抽象压缩的语义表示,文章大纲,latent 和表面文字有什么区别？
+VAE,压缩器加解压器,压缩包,为什么 Cola DLM 需要 Text VAE？
+Flow Matching,学习噪声到真实内容的移动方向,导航路线,它学的是终点还是路线？
+KV Cache,保存已读上下文的中间计算,临时记忆,为什么长上下文会增加缓存成本？
+Inference Cost,一次回答消耗的时间算力钱,水电费,除了 token 还有哪些成本来源？
+Agent,能调用工具并执行步骤的 AI 助手,实习生,为什么 agent 需要预算和权限限制？
+Infill,补中间缺失代码,填空题,它和续写有什么不同？
+Local Interaction,AI 在本地工作界面快速响应,贴身小助手,为什么本地模型不一定要最聪明？
