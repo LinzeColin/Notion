@@ -28,6 +28,8 @@ The user requested autonomous live trading, but the project boundary keeps real-
 - Kill Conditions v1.
 - 21-day project plan.
 - Source baseline log.
+- Active recall update: Q1 scored 3/5 because the user correctly named timing, trading friction, market change, slippage, spread, and event sensitivity as reasons paper/model analysis differs from realized return. Q2/Q3 were unknown and taught in the D1 log.
+- Added supervised live execution workflow: Agent monitors, validates, risk-checks, generates `OrderIntent`, and alerts; human confirms any real-money execution.
 
 ## Questions For Reviewers
 
@@ -35,4 +37,4 @@ The user requested autonomous live trading, but the project boundary keeps real-
 2. Are the D01 boundaries strong enough to prevent live-order bypass?
 3. What should D02 evidence/data matrix include?
 4. What should be deferred until after paper-forward validation?
-
+5. What low-latency approval design best reduces time loss without permitting unattended live order submission?

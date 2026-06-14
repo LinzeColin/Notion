@@ -9,12 +9,12 @@
   "current_week": 1,
   "current_day": 1,
   "current_day_label": "第1/21天",
-  "current_focus": "Workspace Charter, OrderIntent schema, and kill conditions",
+  "current_focus": "D01 recall correction and supervised live execution workflow boundary",
   "last_session_date": "2026-06-14",
   "streak": 1,
   "missed_study_today": false,
   "last_reminder_at": "",
-  "next_action": "Continue quant-agent-workspace W01D01. Start with active recall: why good backtests are not enough, what permission is most dangerous for a trading agent, and what paper trading cannot prove.",
+  "next_action": "Continue quant-agent-workspace W01D01. Restate Q2 and Q3 in your own words, then confirm the supervised live execution workflow boundary before D02.",
   "notion_source": {
     "database_url": "https://app.notion.com/p/37eb1a986ba680bdb5f9ea2367b08991",
     "data_source_url": "collection://37eb1a98-6ba6-80ad-94e0-000bbda7ab85",
@@ -36,6 +36,6 @@
     "daily_sync_id": "study-project-daily-sync",
     "daily_sync_role": "detached local cron; reads project index and checks missed study"
   },
-  "lesson_status": "D01 assets complete; user active recall pending; do not advance to D02 until recall is answered",
+  "lesson_status": "D01 recall partially answered: Q1 score 3/5, Q2-Q3 taught after user said unknown; D02 gate closed until user restates Q2-Q3",
   "status": "active"
 }
