@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="60" y1="40" x2="450" y2="472" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#050A18"/>
+      <stop offset="0.52" stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="line" x1="142" y1="158" x2="370" y2="354" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F8FAFC"/>
+      <stop offset="0.48" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#FBBF24"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="512" height="512" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="22" stdDeviation="24" flood-color="#020617" flood-opacity="0.38"/>
+    </filter>
+    <filter id="glow" x="80" y="100" width="360" height="320" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.22 0 0 0 0 0.72 0 0 0 0 1 0 0 0 0.35 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect x="36" y="36" width="440" height="440" rx="112" fill="url(#bg)" filter="url(#shadow)"/>
+  <rect x="58" y="58" width="396" height="396" rx="92" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="2"/>
+
+  <path d="M146 174C196 174 210 234 256 256C302 278 318 338 366 338" stroke="url(#line)" stroke-width="34" stroke-linecap="round" filter="url(#glow)"/>
+
+  <circle cx="146" cy="174" r="39" fill="#F8FAFC"/>
+  <circle cx="146" cy="174" r="18" fill="#0F172A"/>
+
+  <circle cx="256" cy="256" r="42" fill="#38BDF8"/>
+  <circle cx="256" cy="256" r="18" fill="#07111F"/>
+
+  <circle cx="366" cy="338" r="39" fill="#FBBF24"/>
+  <circle cx="366" cy="338" r="17" fill="#111827"/>
+
+  <path d="M337 152L354 188L392 194L364 220L371 258L337 240L303 258L310 220L282 194L320 188L337 152Z" fill="#F8FAFC" fill-opacity="0.9"/>
+  <path d="M118 361H254" stroke="#E5E7EB" stroke-opacity="0.18" stroke-width="18" stroke-linecap="round"/>
+</svg>
