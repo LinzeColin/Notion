@@ -5,13 +5,13 @@
   "program_start_date": "2026-06-13",
   "program_mode": "rolling_parallel_groups",
   "current_global_day": 2,
-  "active_track_limit": 2,
+  "active_track_limit": 3,
   "archive_cycle_days": 30,
   "hard_rule": "One archive/category is always a 30-day cycle. A group is not 30 days; group route duration equals archive_count * 30 days.",
-  "date_rule_for_notion_timeline": "Only currently active groups default to the program start date. Queued group dates must be computed from active-slot promotion rules or explicit project state; never default every queued group to today.",
+  "date_rule_for_notion_timeline": "Only currently active groups default to their real active-slot start date. Queued group dates must be computed from active-slot promotion rules or explicit project state; never default every queued group to today.",
   "learning_note_language_rule": "Learning notes, daily logs, reviews, and Notion note content must be Chinese by default. Keep English only for unavoidable professional terms, API names, paper/category codes, exact source titles, and tool names.",
-  "daily_session_header_rule": "Every arXiv daily session must first state Global Day, both active Groups, current Archive codes/names, and Archive Day out of 30.",
-  "daily_judgment_question": "如果我是交易系统，今天这个概念会让我避免哪一种亏钱错觉？",
+  "daily_session_header_rule": "Every arXiv daily session must first state Global Day, all three active Groups, current Archive codes/names, and Archive Day out of 30.",
+  "daily_judgment_question": "如果我是交易系统/研究系统/agent 系统，今天这个概念会让我避免哪一种亏钱、误判或伪知识错觉？",
   "group_order": [
     "Q-FIN",
     "PHYS",
@@ -47,26 +47,27 @@
       "group_code": "MATH",
       "group_name": "Mathematics",
       "archive_count": 32,
-      "route_start_date": "2027-03-10",
-      "route_end_date": "2029-10-24",
-      "status": "queued",
-      "slot_after": "Q-FIN"
+      "route_start_date": "2026-06-15",
+      "route_end_date": "2029-01-29",
+      "route_file": "10_PROGRAM_STATE/group_routes/MATH.csv",
+      "status": "active_from_2026-06-15",
+      "slot": 3
     },
     {
       "group_code": "STAT",
       "group_name": "Statistics",
       "archive_count": 6,
-      "route_start_date": "2029-10-25",
-      "route_end_date": "2030-04-22",
+      "route_start_date": "2027-03-10",
+      "route_end_date": "2027-09-05",
       "status": "queued",
-      "slot_after": "MATH"
+      "slot_after": "Q-FIN"
     },
     {
       "group_code": "CS",
       "group_name": "Computer Science",
       "archive_count": 40,
-      "route_start_date": "2030-04-23",
-      "route_end_date": "2033-08-04",
+      "route_start_date": "2027-09-06",
+      "route_end_date": "2030-12-18",
       "route_file": "10_PROGRAM_STATE/group_routes/CS.csv",
       "status": "queued",
       "slot_after": "STAT"
@@ -75,17 +76,17 @@
       "group_code": "ECON",
       "group_name": "Economics",
       "archive_count": 3,
-      "route_start_date": "2030-08-21",
-      "route_end_date": "2030-11-18",
+      "route_start_date": "2029-01-30",
+      "route_end_date": "2029-04-29",
       "status": "queued",
-      "slot_after": "PHYS"
+      "slot_after": "MATH"
     },
     {
       "group_code": "EE/EESS",
       "group_name": "Electrical Engineering and Systems Science",
       "archive_count": 4,
-      "route_start_date": "2030-11-19",
-      "route_end_date": "2031-03-18",
+      "route_start_date": "2029-04-30",
+      "route_end_date": "2029-08-27",
       "status": "queued",
       "slot_after": "ECON"
     },
@@ -93,8 +94,8 @@
       "group_code": "Q-BIO",
       "group_name": "Quantitative Biology",
       "archive_count": 10,
-      "route_start_date": "2031-03-19",
-      "route_end_date": "2032-01-12",
+      "route_start_date": "2029-08-28",
+      "route_end_date": "2030-06-23",
       "status": "queued",
       "slot_after": "EE/EESS"
     }
@@ -133,11 +134,27 @@
       "mastery_pct": 8,
       "status": "active",
       "last_lesson_status": "D002 state recall validated on 2026-06-14. User understands state as computable/quantified compression that preserves some information and omits other information."
+    },
+    {
+      "track_id": 3,
+      "group_code": "MATH",
+      "archive_code": "PR",
+      "full_code": "math.PR",
+      "display_code": "MATH - PR",
+      "archive_name": "Probability",
+      "archive_route_order": 1,
+      "archive_count_in_group": 32,
+      "start_date": "2026-06-15",
+      "end_date": "2026-07-14",
+      "archive_day": 0,
+      "archive_cycle_days": 30,
+      "mastery_pct": 0,
+      "status": "active_from_2026-06-15",
+      "last_lesson_status": "Not started yet. Start D001 math.PR Probability in the next arXiv daily session; do not mark 2026-06-14 as studied."
     }
   ],
-  "promotion_rule": "Two active slots are maintained. When an active group completes, the next queued group in group_order starts the next calendar day in the freed slot. Do not assign queued group start dates before promotion unless the queue simulation already determines them.",
+  "promotion_rule": "Three active slots are maintained. From 2026-06-15 the active groups are Q-FIN, PHYS, and MATH. When an active group completes, the next queued group in group_order starts the next calendar day in the freed slot. Do not assign queued group start dates before promotion unless the queue simulation already determines them.",
   "queued_groups": [
-    "MATH",
     "STAT",
     "CS",
     "ECON",
@@ -151,6 +168,7 @@
     "timeline_pages": {
       "Q-FIN": "37eb1a98-6ba6-8133-a01b-e6fbff80849b",
       "PHYS": "37eb1a98-6ba6-81a9-a1a3-e42720e82960",
+      "MATH": null,
       "CS": "37eb1a98-6ba6-800a-8e95-f17a784cf2a8"
     }
   },
@@ -164,6 +182,6 @@
     "external_review_result": "05_REVIEWS/external_ai_reviews/2026-06-14_review_results.md",
     "reason": "User recalled market/limit/state. Stop order was taught after user asked; external reviewer recommended spread/depth bridge before D003."
   },
-  "next_action": "D003 must start with quick stop-order recall and a 10-minute bid/ask spread + order book depth bridge, then teach price formation and amplitude vs probability. Include daily judgment question: 如果我是交易系统，今天这个概念会让我避免哪一种亏钱错觉？",
+  "next_action": "D003 must include three groups: Q-FIN q-fin.TR archive day 3 starts with stop-order recall and a 10-minute bid/ask spread + depth bridge; PHYS quant-ph archive day 3 starts with state recall then amplitude vs probability; MATH math.PR archive day 1 starts with probability as uncertainty compression and stochastic-process bridge. Include daily judgment question: 如果我是交易系统/研究系统/agent 系统，今天这个概念会让我避免哪一种亏钱、误判或伪知识错觉？",
   "status": "active"
 }
