@@ -1,0 +1,358 @@
+{
+  "scope": "Direct rows under Notion data source collection://1b3b1a98-6ba6-8015-8857-000b3b9feec4 only; T2 nested databases/pages excluded; default template New doc excluded.",
+  "generated_at": "2026-06-14",
+  "database_icon_candidate": "00-personal-value-growth-database.png",
+  "count": 35,
+  "pages": [
+    {
+      "n": 1,
+      "title": "T2 2026",
+      "slug": "t2-2026",
+      "id": "379b1a986ba6804b8317d0298fdfb320",
+      "status": "UNSW",
+      "glyph": "T2",
+      "file": "01-t2-2026.png",
+      "raw_url": "https://raw.githubusercontent.com/LinzeColin/Notion/main/_assets/notion-icons/personal-value-growth/direct-pages-v2/01-t2-2026.png"
+    },
+    {
+      "n": 2,
+      "title": "8404",
+      "slug": "course-8404",
+      "id": "21eb1a986ba68005ae9ac90c86a9eda3",
+      "status": "UNSW",
+      "glyph": "84",
+      "file": "02-course-8404.png",
+      "raw_url": "https://raw.githubusercontent.com/LinzeColin/Notion/main/_assets/notion-icons/personal-value-growth/direct-pages-v2/02-course-8404.png"
+    },
+    {
+      "n": 3,
+      "title": "ACCT5972",
+      "slug": "acct5972",
+      "id": "275b1a986ba6809c93b5d3420fad0691",
+      "status": "UNSW",
+      "glyph": "A5",
+      "file": "03-acct5972.png",
+      "raw_url": "https://raw.githubusercontent.com/LinzeColin/Notion/main/_assets/notion-icons/personal-value-growth/direct-pages-v2/03-acct5972.png"
+    },
+    {
+      "n": 4,
+      "title": "FINS5512",
+      "slug": "fins5512",
+      "id": "36fb1a986ba6801aae21d2edd5e1869a",
+      "status": "UNSW",
+      "glyph": "F5",
+      "file": "04-fins5512.png",
+      "raw_url": "https://raw.githubusercontent.com/LinzeColin/Notion/main/_assets/notion-icons/personal-value-growth/direct-pages-v2/04-fins5512.png"
+    },
+    {
+      "n": 5,
+      "title": "FINS3626 Tutorial",
+      "slug": "fins3626-tutorial",
+      "id": "208b1a986ba680a4b990e8b9655914bc",
+      "status": "UNSW",
+      "glyph": "F3",
+      "file": "05-fins3626-tutorial.png",
+      "raw_url": "https://raw.githubusercontent.com/LinzeColin/Notion/main/_assets/notion-icons/personal-value-growth/direct-pages-v2/05-fins3626-tutorial.png"
+    },
+    {
+      "n": 6,
+      "title": "MGMT5050",
+      "slug": "mgmt5050",
+      "id": "36fb1a986ba68032b810df91e27ae64f",
+      "status": "UNSW",
+      "glyph": "M5",
+      "file": "06-mgmt5050.png",
+      "raw_url": "https://raw.githubusercontent.com/LinzeColin/Notion/main/_assets/notion-icons/personal-value-growth/direct-pages-v2/06-mgmt5050.png"
+    },
+    {
+      "n": 7,
+      "title": "ACCT5925",
+      "slug": "acct5925",
+      "id": "36fb1a986ba680128db0df3e4c58ab38",
+      "status": "UNSW",
+      "glyph": "A9",
+      "file": "07-acct5925.png",
+      "raw_url": "https://raw.githubusercontent.com/LinzeColin/Notion/main/_assets/notion-icons/personal-value-growth/direct-pages-v2/07-acct5925.png"
+    },
+    {
+      "n": 8,
+      "title": "ACCT5925 Weekly Submission",
+      "slug": "acct5925-weekly-submission",
+      "id": "375b1a986ba680b68163d991b242b35d",
+      "status": "UNSW",
+      "glyph": "WS",
+      "file": "08-acct5925-weekly-submission.png",
+      "raw_url": "https://raw.githubusercontent.com/LinzeColin/Notion/main/_assets/notion-icons/personal-value-growth/direct-pages-v2/08-acct5925-weekly-submission.png"
+    },
+    {
+      "n": 9,
+      "title": "FINS5512 Workshop Quiz",
+      "slug": "fins5512-workshop-quiz",
+      "id": "373b1a986ba6804e8d08d683e0540f5c",
+      "status": "UNSW",
+      "glyph": "WQ",
+      "file": "09-fins5512-workshop-quiz.png",
+      "raw_url": "https://raw.githubusercontent.com/LinzeColin/Notion/main/_assets/notion-icons/personal-value-growth/direct-pages-v2/09-fins5512-workshop-quiz.png"
+    },
+    {
+      "n": 10,
+      "title": "ACCT5995 Case Study",
+      "slug": "acct5995-case-study",
+      "id": "26fb1a986ba680709824f1f6697f977c",
+      "status": "UNSW",
+      "glyph": "CS",
+      "file": "10-acct5995-case-study.png",
+      "raw_url": "https://raw.githubusercontent.com/LinzeColin/Notion/main/_assets/notion-icons/personal-value-growth/direct-pages-v2/10-acct5995-case-study.png"
+    },
+    {
+      "n": 11,
+      "title": "ACCT5995 Notes",
+      "slug": "acct5995-notes",
+      "id": "276b1a986ba680cfa54de0256904f1f2",
+      "status": "UNSW",
+      "glyph": "AN",
+      "file": "11-acct5995-notes.png",
+      "raw_url": "https://raw.githubusercontent.com/LinzeColin/Notion/main/_assets/notion-icons/personal-value-growth/direct-pages-v2/11-acct5995-notes.png"
+    },
+    {
+      "n": 12,
+      "title": "COMM5040",
+      "slug": "comm5040",
+      "id": "274b1a986ba68000aa8fc255fa7325f2",
+      "status": "UNSW",
+      "glyph": "C5",
+      "file": "12-comm5040.png",
+      "raw_url": "https://raw.githubusercontent.com/LinzeColin/Notion/main/_assets/notion-icons/personal-value-growth/direct-pages-v2/12-comm5040.png"
+    },
+    {
+      "n": 13,
+      "title": "公司运营",
+      "slug": "company-operations",
+      "id": "26cb1a986ba68057a0a8fdf72a61f57e",
+      "status": "Work",
+      "glyph": "CO",
+      "file": "13-company-operations.png",
+      "raw_url": "https://raw.githubusercontent.com/LinzeColin/Notion/main/_assets/notion-icons/personal-value-growth/direct-pages-v2/13-company-operations.png"
+    },
+    {
+      "n": 14,
+      "title": "经营分析报告",
+      "slug": "operations-analysis-report",
+      "id": "2b0b1a986ba680588d55fc6e46a72f55",
+      "status": "Work",
+      "glyph": "OR",
+      "file": "14-operations-analysis-report.png",
+      "raw_url": "https://raw.githubusercontent.com/LinzeColin/Notion/main/_assets/notion-icons/personal-value-growth/direct-pages-v2/14-operations-analysis-report.png"
+    },
+    {
+      "n": 15,
+      "title": "PDCA待办",
+      "slug": "pdca-todos",
+      "id": "2a5b1a986ba680a6b607e7e477148f28",
+      "status": "Work",
+      "glyph": "PD",
+      "file": "15-pdca-todos.png",
+      "raw_url": "https://raw.githubusercontent.com/LinzeColin/Notion/main/_assets/notion-icons/personal-value-growth/direct-pages-v2/15-pdca-todos.png"
+    },
+    {
+      "n": 16,
+      "title": "财务",
+      "slug": "work-finance",
+      "id": "2a7b1a986ba680fdb08cc4299f5db78c",
+      "status": "Work",
+      "glyph": "WF",
+      "file": "16-work-finance.png",
+      "raw_url": "https://raw.githubusercontent.com/LinzeColin/Notion/main/_assets/notion-icons/personal-value-growth/direct-pages-v2/16-work-finance.png"
+    },
+    {
+      "n": 17,
+      "title": "生产",
+      "slug": "production",
+      "id": "2a7b1a986ba680049699c54c99e006c5",
+      "status": "Work",
+      "glyph": "PR",
+      "file": "17-production.png",
+      "raw_url": "https://raw.githubusercontent.com/LinzeColin/Notion/main/_assets/notion-icons/personal-value-growth/direct-pages-v2/17-production.png"
+    },
+    {
+      "n": 18,
+      "title": "贷款管理",
+      "slug": "loan-management",
+      "id": "2a5b1a986ba680c8a9a4ea816a1a0e4d",
+      "status": "Work",
+      "glyph": "LM",
+      "file": "18-loan-management.png",
+      "raw_url": "https://raw.githubusercontent.com/LinzeColin/Notion/main/_assets/notion-icons/personal-value-growth/direct-pages-v2/18-loan-management.png"
+    },
+    {
+      "n": 19,
+      "title": "应收账款责任到人",
+      "slug": "receivables-owner",
+      "id": "2a5b1a986ba68063abeaece8bdddead5",
+      "status": "Work",
+      "glyph": "AR",
+      "file": "19-receivables-owner.png",
+      "raw_url": "https://raw.githubusercontent.com/LinzeColin/Notion/main/_assets/notion-icons/personal-value-growth/direct-pages-v2/19-receivables-owner.png"
+    },
+    {
+      "n": 20,
+      "title": "工作记录",
+      "slug": "work-log",
+      "id": "259b1a986ba68076bd09e88d062aa38c",
+      "status": "Work",
+      "glyph": "WL",
+      "file": "20-work-log.png",
+      "raw_url": "https://raw.githubusercontent.com/LinzeColin/Notion/main/_assets/notion-icons/personal-value-growth/direct-pages-v2/20-work-log.png"
+    },
+    {
+      "n": 21,
+      "title": "项目经理交接清单",
+      "slug": "pm-handoff-checklist",
+      "id": "2b2b1a986ba6804bb25bc1a6ebf4bd06",
+      "status": "Work",
+      "glyph": "PH",
+      "file": "21-pm-handoff-checklist.png",
+      "raw_url": "https://raw.githubusercontent.com/LinzeColin/Notion/main/_assets/notion-icons/personal-value-growth/direct-pages-v2/21-pm-handoff-checklist.png"
+    },
+    {
+      "n": 22,
+      "title": "存款投资",
+      "slug": "deposit-investment",
+      "id": "1e2b1a986ba680f29dd7f227274446dc",
+      "status": "Finance",
+      "glyph": "DI",
+      "file": "22-deposit-investment.png",
+      "raw_url": "https://raw.githubusercontent.com/LinzeColin/Notion/main/_assets/notion-icons/personal-value-growth/direct-pages-v2/22-deposit-investment.png"
+    },
+    {
+      "n": 23,
+      "title": "AI Prompt",
+      "slug": "ai-prompt",
+      "id": "28ab1a986ba680c9b15ed6c7c25c131d",
+      "status": "Life",
+      "glyph": "AI",
+      "file": "23-ai-prompt.png",
+      "raw_url": "https://raw.githubusercontent.com/LinzeColin/Notion/main/_assets/notion-icons/personal-value-growth/direct-pages-v2/23-ai-prompt.png"
+    },
+    {
+      "n": 24,
+      "title": "阅读总结与观点思考",
+      "slug": "reading-reflection",
+      "id": "1aeb1a986ba6806ca6fec86ee47cc53c",
+      "status": "Life",
+      "glyph": "RR",
+      "file": "24-reading-reflection.png",
+      "raw_url": "https://raw.githubusercontent.com/LinzeColin/Notion/main/_assets/notion-icons/personal-value-growth/direct-pages-v2/24-reading-reflection.png"
+    },
+    {
+      "n": 25,
+      "title": "Github",
+      "slug": "github",
+      "id": "294b1a986ba680ebbf9ce56d7bca4e23",
+      "status": "Life",
+      "glyph": "GH",
+      "file": "25-github.png",
+      "raw_url": "https://raw.githubusercontent.com/LinzeColin/Notion/main/_assets/notion-icons/personal-value-growth/direct-pages-v2/25-github.png"
+    },
+    {
+      "n": 26,
+      "title": "待办 & 回国待买",
+      "slug": "todo-return-buy",
+      "id": "229b1a986ba680cf8e0bcb2cb16ba054",
+      "status": "Life",
+      "glyph": "TB",
+      "file": "26-todo-return-buy.png",
+      "raw_url": "https://raw.githubusercontent.com/LinzeColin/Notion/main/_assets/notion-icons/personal-value-growth/direct-pages-v2/26-todo-return-buy.png"
+    },
+    {
+      "n": 27,
+      "title": "Mermaid",
+      "slug": "mermaid",
+      "id": "292b1a986ba6806a8e03f0c81f544a20",
+      "status": "Life",
+      "glyph": "MD",
+      "file": "27-mermaid.png",
+      "raw_url": "https://raw.githubusercontent.com/LinzeColin/Notion/main/_assets/notion-icons/personal-value-growth/direct-pages-v2/27-mermaid.png"
+    },
+    {
+      "n": 28,
+      "title": "通识",
+      "slug": "general-knowledge",
+      "id": "2ccb1a986ba680fc91bad0e3939e74a2",
+      "status": "Knowledge",
+      "glyph": "GK",
+      "file": "28-general-knowledge.png",
+      "raw_url": "https://raw.githubusercontent.com/LinzeColin/Notion/main/_assets/notion-icons/personal-value-growth/direct-pages-v2/28-general-knowledge.png"
+    },
+    {
+      "n": 29,
+      "title": "政策文件解读",
+      "slug": "policy-reading",
+      "id": "1f3b1a986ba68008b06af7eaf1075f09",
+      "status": "Knowledge",
+      "glyph": "PL",
+      "file": "29-policy-reading.png",
+      "raw_url": "https://raw.githubusercontent.com/LinzeColin/Notion/main/_assets/notion-icons/personal-value-growth/direct-pages-v2/29-policy-reading.png"
+    },
+    {
+      "n": 30,
+      "title": "设备",
+      "slug": "equipment",
+      "id": "26bb1a986ba680c48b24ed71eb01b9fa",
+      "status": "Knowledge",
+      "glyph": "EQ",
+      "file": "30-equipment.png",
+      "raw_url": "https://raw.githubusercontent.com/LinzeColin/Notion/main/_assets/notion-icons/personal-value-growth/direct-pages-v2/30-equipment.png"
+    },
+    {
+      "n": 31,
+      "title": "新闻联播解读",
+      "slug": "news-analysis",
+      "id": "1fbb1a986ba680e1956ace17af11f5c2",
+      "status": "Knowledge",
+      "glyph": "NW",
+      "file": "31-news-analysis.png",
+      "raw_url": "https://raw.githubusercontent.com/LinzeColin/Notion/main/_assets/notion-icons/personal-value-growth/direct-pages-v2/31-news-analysis.png"
+    },
+    {
+      "n": 32,
+      "title": "广联达",
+      "slug": "glodon",
+      "id": "2c8b1a986ba680f48a4ad4e244259282",
+      "status": "Knowledge",
+      "glyph": "GL",
+      "file": "32-glodon.png",
+      "raw_url": "https://raw.githubusercontent.com/LinzeColin/Notion/main/_assets/notion-icons/personal-value-growth/direct-pages-v2/32-glodon.png"
+    },
+    {
+      "n": 33,
+      "title": "外贸电商",
+      "slug": "cross-border-ecommerce",
+      "id": "28ab1a986ba6806890ccfaeea5355d82",
+      "status": "Knowledge",
+      "glyph": "CE",
+      "file": "33-cross-border-ecommerce.png",
+      "raw_url": "https://raw.githubusercontent.com/LinzeColin/Notion/main/_assets/notion-icons/personal-value-growth/direct-pages-v2/33-cross-border-ecommerce.png"
+    },
+    {
+      "n": 34,
+      "title": "Codex量化研究",
+      "slug": "codex-quant-research",
+      "id": "373b1a986ba6803493c4f185c1fcbec9",
+      "status": "Knowledge",
+      "glyph": "CQ",
+      "file": "34-codex-quant-research.png",
+      "raw_url": "https://raw.githubusercontent.com/LinzeColin/Notion/main/_assets/notion-icons/personal-value-growth/direct-pages-v2/34-codex-quant-research.png"
+    },
+    {
+      "n": 35,
+      "title": "行业分析",
+      "slug": "industry-analysis",
+      "id": "1aeb1a986ba680398b8bf564c0352081",
+      "status": "Knowledge",
+      "glyph": "IA",
+      "file": "35-industry-analysis.png",
+      "raw_url": "https://raw.githubusercontent.com/LinzeColin/Notion/main/_assets/notion-icons/personal-value-growth/direct-pages-v2/35-industry-analysis.png"
+    }
+  ]
+}
