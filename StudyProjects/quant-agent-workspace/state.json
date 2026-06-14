@@ -1,0 +1,41 @@
+{
+  "project_slug": "quant-agent-workspace",
+  "project_name": "Quant Agent Workspace",
+  "domain": "Quantitative Trading / Agent Workspace / Risk Controls",
+  "timezone": "Australia/Sydney",
+  "start_date": "2026-06-14",
+  "planned_end_date": "2026-07-04",
+  "duration_days": 21,
+  "current_week": 1,
+  "current_day": 1,
+  "current_day_label": "第1/21天",
+  "current_focus": "Workspace Charter, OrderIntent schema, and kill conditions",
+  "last_session_date": "2026-06-14",
+  "streak": 1,
+  "missed_study_today": false,
+  "last_reminder_at": "",
+  "next_action": "Continue quant-agent-workspace W01D01. Start with active recall: why good backtests are not enough, what permission is most dangerous for a trading agent, and what paper trading cannot prove.",
+  "notion_source": {
+    "database_url": "https://app.notion.com/p/37eb1a986ba680bdb5f9ea2367b08991",
+    "data_source_url": "collection://37eb1a98-6ba6-80ad-94e0-000bbda7ab85",
+    "page_url": "https://app.notion.com/p/37fb1a986ba681669090fcf04f072208",
+    "sync_mode": "summary_structured_links_plus_optional_full_body"
+  },
+  "github_source": {
+    "repository": "LinzeColin/Notion",
+    "path": "StudyProjects/quant-agent-workspace"
+  },
+  "safety_boundary": {
+    "live_trading_autonomy": "prohibited",
+    "allowed_execution": "paper_trading_and_broker_ready_order_intent_only",
+    "approval_gateway_required": true,
+    "kill_switch_required": true,
+    "secrets_policy": "no_live_broker_credentials_in_repo"
+  },
+  "automation": {
+    "daily_sync_id": "study-project-daily-sync",
+    "daily_sync_role": "detached local cron; reads project index and checks missed study"
+  },
+  "lesson_status": "D01 assets complete; user active recall pending; do not advance to D02 until recall is answered",
+  "status": "active"
+}

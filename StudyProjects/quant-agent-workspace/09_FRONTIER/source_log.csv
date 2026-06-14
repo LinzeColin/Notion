@@ -1,0 +1,10 @@
+date,source,title,url,used_for
+2026-06-14,SEC,Rule 15c3-5 Risk Management Controls for Brokers or Dealers with Market Access,https://www.sec.gov/files/rules/final/2010/34-63241-secg.htm,Market access and risk-control baseline
+2026-06-14,SEC,Trading and Markets FAQ on Rule 15c3-5,https://www.sec.gov/rules-regulations/staff-guidance/trading-markets-frequently-asked-questions/divisionsmarketregfaq-0,Real-time monitoring/control baseline
+2026-06-14,FINRA,Algorithmic Trading,https://www.finra.org/rules-guidance/key-topics/algorithmic-trading,Supervision and control guidance
+2026-06-14,ASIC,Trading systems and automated trading modernization,https://www.asic.gov.au/about-asic/news-centre/news-items/asic-moves-to-modernise-trading-system-rules-to-keep-pace-with-technology-and-ai/,Australian regulatory direction
+2026-06-14,IBKR,Paper Trading Account,https://www.interactivebrokers.com/campus/trading-lessons/request-paper-trading-account/,Paper trading baseline
+2026-06-14,Alpaca,Paper Trading,https://docs.alpaca.markets/us/docs/paper-trading,Paper API baseline
+2026-06-14,SSRN,The Probability of Backtest Overfitting,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2326253,Anti-overfitting baseline
+2026-06-14,SSRN,Deflated Sharpe Ratio,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2460551,Selection bias and non-normality baseline
+
