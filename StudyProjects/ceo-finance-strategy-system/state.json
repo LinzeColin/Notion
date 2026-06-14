@@ -1,0 +1,14 @@
+{
+  "project_slug": "ceo-finance-strategy-system",
+  "project_name": "CEO Finance Strategy System",
+  "timezone": "Australia/Sydney",
+  "status": "queued",
+  "duration_days": 28,
+  "start_date": "2026-09-13",
+  "end_date": "2026-10-10",
+  "current_day": 0,
+  "absorbed_sources": ["business strategy", "business analysis", "business acumen", "startup CEO legal basics", "web-wide arbitrage opportunities", "investment", "finance", "trading", "stocks", "futures"],
+  "next_action": "Start after Local AI Infrastructure unless user explicitly chooses parallel mode.",
+  "education_boundary": "This project is education and decision-framework building, not legal, financial, or trading advice.",
+  "last_updated": "2026-06-14"
+}
