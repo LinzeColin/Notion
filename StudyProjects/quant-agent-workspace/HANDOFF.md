@@ -19,7 +19,8 @@ D01 completed and D02 opened early on 2026-06-14:
 - Q2/Q3 were retested and passed. D01 gate is closed as complete.
 - User strongly wants time-loss reduction in real trading. Safe translation recorded as `supervised live execution workflow`: Agent monitors, validates, risk-checks, generates `OrderIntent`, and alerts; human confirms execution.
 - D02 created `09_FRONTIER/data_source_matrix.md`; user practice is pending: classify three sources by grade, `OrderIntent` eligibility, and fail-closed action.
-- D02 was reviewed by Codex reviewer sub-agent `Nietzsche` (`019ec431-be0c-7f40-9696-9648356de974`). Fixes adopted: Case 1 is `OrderIntent=conditional`, matrix now includes trade-use fields, three-part grading, reconciliation rules, and `OrderIntent` non-executable safety flags.
+- D02 has now been reviewed by three Codex reviewer sub-agents: `Nietzsche`, `Archimedes`, and `Ramanujan`. Fixes adopted: Case 1 is `OrderIntent=conditional`, matrix includes trade-use fields, three-part grading, reconciliation rules, and `OrderIntent` non-executable safety flags.
+- User attempted Case 1. Decision: partial pass, score 3/5. The answer named the right blockers, but "可操作候选池" must be corrected to `conditional signal candidate`, not `OrderIntent` yet.
 
 ## Key Decisions
 
@@ -41,5 +42,5 @@ D01 completed and D02 opened early on 2026-06-14:
 ## Next Step
 
 ```text
-Continue quant-agent-workspace W01D02. Classify the three D02 sources by grade, OrderIntent eligibility, and fail-closed action.
+Continue quant-agent-workspace W01D02. Rewrite Case 1 in fixed format, then answer Case 2 and Case 3.
 ```

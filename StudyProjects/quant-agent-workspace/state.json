@@ -15,7 +15,7 @@
   "streak": 1,
   "missed_study_today": false,
   "last_reminder_at": "",
-  "next_action": "Continue quant-agent-workspace W01D02. Classify the three D02 sources by grade, OrderIntent eligibility, and fail-closed action.",
+  "next_action": "Continue quant-agent-workspace W01D02. Rewrite Case 1 in fixed format, then answer Case 2 and Case 3.",
   "notion_source": {
     "database_url": "https://app.notion.com/p/37eb1a986ba680bdb5f9ea2367b08991",
     "data_source_url": "collection://37eb1a98-6ba6-80ad-94e0-000bbda7ab85",
@@ -37,6 +37,6 @@
     "daily_sync_id": "study-project-daily-sync",
     "daily_sync_role": "detached local cron; reads project index and checks missed study"
   },
-  "lesson_status": "D01 recall passed; D02 opened early; reviewer completed; Data Source Matrix rubric patched; D02 practice classification pending",
+  "lesson_status": "D01 recall passed; D02 opened early; 3-agent review completed; Case 1 partial pass; Case 2-3 pending; D3 closed",
   "status": "active"
 }
