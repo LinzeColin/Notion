@@ -1,0 +1,1087 @@
+[
+  {
+    "archive": "Artificial Intelligence",
+    "archiveNameCode": "Artificial Intelligence - AI",
+    "code": "CS - AI",
+    "group": "Computer Science - CS",
+    "pageId": "37cb1a98-6ba6-80f3-949c-fde34ad7b91c"
+  },
+  {
+    "archive": "Hardware Architecture",
+    "archiveNameCode": "Hardware Architecture - AR",
+    "code": "CS - AR",
+    "group": "Computer Science - CS",
+    "pageId": "37cb1a98-6ba6-800c-a218-c6b5edbe5fe0"
+  },
+  {
+    "archive": "Computational Complexity",
+    "archiveNameCode": "Computational Complexity - CC",
+    "code": "CS - CC",
+    "group": "Computer Science - CS",
+    "pageId": "37cb1a98-6ba6-8096-9507-fca225cd6e2d"
+  },
+  {
+    "archive": "Computational Engineering, Finance, and Science",
+    "archiveNameCode": "Computational Engineering",
+    "code": "CS - CE",
+    "group": "Computer Science - CS",
+    "pageId": "37cb1a98-6ba6-8026-bc76-e484959ffea7"
+  },
+  {
+    "archive": "Computational Geometry",
+    "archiveNameCode": "Computational Geometry - CG",
+    "code": "CS - CG",
+    "group": "Computer Science - CS",
+    "pageId": "37cb1a98-6ba6-804a-96cc-d5812ea964c8"
+  },
+  {
+    "archive": "Computation and Language",
+    "archiveNameCode": "Computation and Language - CL",
+    "code": "CS - CL",
+    "group": "Computer Science - CS",
+    "pageId": "37cb1a98-6ba6-80ab-8d44-e2afdbb54c41"
+  },
+  {
+    "archive": "Cryptography and Security",
+    "archiveNameCode": "Cryptography and Security - CR",
+    "code": "CS - CR",
+    "group": "Computer Science - CS",
+    "pageId": "37cb1a98-6ba6-80f3-9e49-dd8fd69b166d"
+  },
+  {
+    "archive": "Computer Vision and Pattern Recognition",
+    "archiveNameCode": "Computer Vision and Pattern Recognition - CV",
+    "code": "CS - CV",
+    "group": "Computer Science - CS",
+    "pageId": "37cb1a98-6ba6-8095-bf2a-da221426ce55"
+  },
+  {
+    "archive": "Computers and Society",
+    "archiveNameCode": "Computers and Society - CY",
+    "code": "CS - CY",
+    "group": "Computer Science - CS",
+    "pageId": "37cb1a98-6ba6-80c8-ada4-ccda951f7abc"
+  },
+  {
+    "archive": "Databases",
+    "archiveNameCode": "Databases - DB",
+    "code": "CS - DB",
+    "group": "Computer Science - CS",
+    "pageId": "37cb1a98-6ba6-80ff-8f64-cf18ee43e2b5"
+  },
+  {
+    "archive": "Distributed, Parallel, and Cluster Computing",
+    "archiveNameCode": "Distributed",
+    "code": "CS - DC",
+    "group": "Computer Science - CS",
+    "pageId": "37cb1a98-6ba6-80fc-962f-ce34729f3f06"
+  },
+  {
+    "archive": "Digital Libraries",
+    "archiveNameCode": "Digital Libraries - DL",
+    "code": "CS - DL",
+    "group": "Computer Science - CS",
+    "pageId": "37cb1a98-6ba6-801e-8bd0-cb5d1dc850e7"
+  },
+  {
+    "archive": "Discrete Mathematics",
+    "archiveNameCode": "Discrete Mathematics - DM",
+    "code": "CS - DM",
+    "group": "Computer Science - CS",
+    "pageId": "37cb1a98-6ba6-802c-986f-ca4a6b300fee"
+  },
+  {
+    "archive": "Data Structures and Algorithms",
+    "archiveNameCode": "Data Structures and Algorithms - DS",
+    "code": "CS - DS",
+    "group": "Computer Science - CS",
+    "pageId": "37cb1a98-6ba6-8004-93c0-d96f7de9ddb8"
+  },
+  {
+    "archive": "Emerging Technologies",
+    "archiveNameCode": "Emerging Technologies - ET",
+    "code": "CS - ET",
+    "group": "Computer Science - CS",
+    "pageId": "37cb1a98-6ba6-809f-b6c9-ecf8ca56c077"
+  },
+  {
+    "archive": "Formal Languages and Automata Theory",
+    "archiveNameCode": "Formal Languages and Automata Theory - FL",
+    "code": "CS - FL",
+    "group": "Computer Science - CS",
+    "pageId": "37cb1a98-6ba6-80b5-8cef-e32df4a0f0a0"
+  },
+  {
+    "archive": "General Literature",
+    "archiveNameCode": "General Literature - GL",
+    "code": "CS - GL",
+    "group": "Computer Science - CS",
+    "pageId": "37cb1a98-6ba6-80cb-9319-ce9d96f2fa0e"
+  },
+  {
+    "archive": "Graphics",
+    "archiveNameCode": "Graphics - GR",
+    "code": "CS - GR",
+    "group": "Computer Science - CS",
+    "pageId": "37cb1a98-6ba6-802d-92cb-d2b05b89752a"
+  },
+  {
+    "archive": "Computer Science and Game Theory",
+    "archiveNameCode": "Computer Science and Game Theory - GT",
+    "code": "CS - GT",
+    "group": "Computer Science - CS",
+    "pageId": "37cb1a98-6ba6-803c-acea-c8095d30661f"
+  },
+  {
+    "archive": "Human-Computer Interaction",
+    "archiveNameCode": "Human-Computer Interaction - HC",
+    "code": "CS - HC",
+    "group": "Computer Science - CS",
+    "pageId": "37cb1a98-6ba6-8086-9017-edbf4aa9c876"
+  },
+  {
+    "archive": "Information Retrieval",
+    "archiveNameCode": "Information Retrieval - IR",
+    "code": "CS - IR",
+    "group": "Computer Science - CS",
+    "pageId": "37cb1a98-6ba6-8029-af82-f294e32a766b"
+  },
+  {
+    "archive": "Information Theory",
+    "archiveNameCode": "Information Theory - IT",
+    "code": "CS - IT",
+    "group": "Computer Science - CS",
+    "pageId": "37cb1a98-6ba6-80e1-a0f5-d052fb853ec1"
+  },
+  {
+    "archive": "Machine Learning",
+    "archiveNameCode": "Machine Learning - LG",
+    "code": "CS - LG",
+    "group": "Computer Science - CS",
+    "pageId": "37cb1a98-6ba6-8087-a258-c3ab45b63f04"
+  },
+  {
+    "archive": "Logic in Computer Science",
+    "archiveNameCode": "Logic in Computer Science - LO",
+    "code": "CS - LO",
+    "group": "Computer Science - CS",
+    "pageId": "37cb1a98-6ba6-807e-aa59-eb2e6c2b6d6e"
+  },
+  {
+    "archive": "Multiagent Systems",
+    "archiveNameCode": "Multiagent Systems - MA",
+    "code": "CS - MA",
+    "group": "Computer Science - CS",
+    "pageId": "37cb1a98-6ba6-80d6-90a8-c16d8c0b4143"
+  },
+  {
+    "archive": "Multimedia",
+    "archiveNameCode": "Multimedia - MM",
+    "code": "CS - MM",
+    "group": "Computer Science - CS",
+    "pageId": "37cb1a98-6ba6-8027-878b-f3343371c634"
+  },
+  {
+    "archive": "Mathematical Software",
+    "archiveNameCode": "Mathematical Software - MS",
+    "code": "CS - MS",
+    "group": "Computer Science - CS",
+    "pageId": "37cb1a98-6ba6-807e-a167-d194f08f0579"
+  },
+  {
+    "archive": "Numerical Analysis",
+    "archiveNameCode": "Numerical Analysis - NA",
+    "code": "CS - NA",
+    "group": "Computer Science - CS",
+    "pageId": "37cb1a98-6ba6-809c-8401-d9ba1cccb0c0"
+  },
+  {
+    "archive": "Neural and Evolutionary Computing",
+    "archiveNameCode": "Neural and Evolutionary Computing - NE",
+    "code": "CS - NE",
+    "group": "Computer Science - CS",
+    "pageId": "37cb1a98-6ba6-80ba-aa6d-c66715fd3535"
+  },
+  {
+    "archive": "Networking and Internet Architecture",
+    "archiveNameCode": "Networking and Internet Architecture - NI",
+    "code": "CS - NI",
+    "group": "Computer Science - CS",
+    "pageId": "37cb1a98-6ba6-802d-90e7-da3b75f7187c"
+  },
+  {
+    "archive": "Other Computer Science",
+    "archiveNameCode": "Other Computer Science - OH",
+    "code": "CS - OH",
+    "group": "Computer Science - CS",
+    "pageId": "37cb1a98-6ba6-8050-a47e-c8b51d03045f"
+  },
+  {
+    "archive": "Operating Systems",
+    "archiveNameCode": "Operating Systems - OS",
+    "code": "CS - OS",
+    "group": "Computer Science - CS",
+    "pageId": "37cb1a98-6ba6-80a8-81c1-e35f16ddb498"
+  },
+  {
+    "archive": "Performance",
+    "archiveNameCode": "Performance - PF",
+    "code": "CS - PF",
+    "group": "Computer Science - CS",
+    "pageId": "37cb1a98-6ba6-80f8-9507-e462b4cd5e72"
+  },
+  {
+    "archive": "Programming Languages",
+    "archiveNameCode": "Programming Languages - PL",
+    "code": "CS - PL",
+    "group": "Computer Science - CS",
+    "pageId": "37cb1a98-6ba6-8052-83fe-eb222d246f82"
+  },
+  {
+    "archive": "Robotics",
+    "archiveNameCode": "Robotics - RO",
+    "code": "CS - RO",
+    "group": "Computer Science - CS",
+    "pageId": "37cb1a98-6ba6-80f4-9a8f-f070ecf51b26"
+  },
+  {
+    "archive": "Symbolic Computation",
+    "archiveNameCode": "Symbolic Computation - SC",
+    "code": "CS - SC",
+    "group": "Computer Science - CS",
+    "pageId": "37cb1a98-6ba6-803f-97ab-fa083f35e6d6"
+  },
+  {
+    "archive": "Sound",
+    "archiveNameCode": "Sound - SD",
+    "code": "CS - SD",
+    "group": "Computer Science - CS",
+    "pageId": "37cb1a98-6ba6-8006-be9e-f40a53676d27"
+  },
+  {
+    "archive": "Software Engineering",
+    "archiveNameCode": "Software Engineering - SE",
+    "code": "CS - SE",
+    "group": "Computer Science - CS",
+    "pageId": "37cb1a98-6ba6-8005-b7e0-cf0bd6c9bc56"
+  },
+  {
+    "archive": "Social and Information Networks",
+    "archiveNameCode": "Social and Information Networks - SI",
+    "code": "CS - SI",
+    "group": "Computer Science - CS",
+    "pageId": "37cb1a98-6ba6-803c-abf0-ec5417a826a8"
+  },
+  {
+    "archive": "Systems and Control",
+    "archiveNameCode": "Systems and Control - SY",
+    "code": "CS - SY",
+    "group": "Computer Science - CS",
+    "pageId": "37cb1a98-6ba6-80ff-94e9-f79104247fdc"
+  },
+  {
+    "archive": "Econometrics",
+    "archiveNameCode": "Econometrics - EM",
+    "code": "ECON - EM",
+    "group": "Economics - ECON",
+    "pageId": "37cb1a98-6ba6-804a-84f4-d4e3ba4a1982"
+  },
+  {
+    "archive": "General Economics",
+    "archiveNameCode": "General Economics - GN",
+    "code": "ECON - GN",
+    "group": "Economics - ECON",
+    "pageId": "37cb1a98-6ba6-80d5-b777-cdd992a8ff02"
+  },
+  {
+    "archive": "Theoretical Economics",
+    "archiveNameCode": "Theoretical Economics - TH",
+    "code": "ECON - TH",
+    "group": "Economics - ECON",
+    "pageId": "37cb1a98-6ba6-802e-a452-fdb188955ab3"
+  },
+  {
+    "archive": "Audio and Speech Processing",
+    "archiveNameCode": "Audio and Speech Processing - AS",
+    "code": "EESS - AS",
+    "group": "Electrical Engineering and Systems Science - EESS",
+    "pageId": "37cb1a98-6ba6-80dc-b937-f7886304e4db"
+  },
+  {
+    "archive": "Image and Video Processing",
+    "archiveNameCode": "Image and Video Processing - IV",
+    "code": "EESS - IV",
+    "group": "Electrical Engineering and Systems Science - EESS",
+    "pageId": "37cb1a98-6ba6-8035-a260-f1a075141c46"
+  },
+  {
+    "archive": "Signal Processing",
+    "archiveNameCode": "Signal Processing - SP",
+    "code": "EESS - SP",
+    "group": "Electrical Engineering and Systems Science - EESS",
+    "pageId": "37cb1a98-6ba6-80fd-a29f-e0616967052d"
+  },
+  {
+    "archive": "Systems and Control",
+    "archiveNameCode": "Systems and Control - SY",
+    "code": "EESS - SY",
+    "group": "Electrical Engineering and Systems Science - EESS",
+    "pageId": "37cb1a98-6ba6-8058-b7c3-c3f0305a3935"
+  },
+  {
+    "archive": "Commutative Algebra",
+    "archiveNameCode": "Commutative Algebra - AC",
+    "code": "MATH - AC",
+    "group": "Mathematics - MATH",
+    "pageId": "37cb1a98-6ba6-80a2-9d95-c0a183298650"
+  },
+  {
+    "archive": "Algebraic Geometry",
+    "archiveNameCode": "Algebraic Geometry - AG",
+    "code": "MATH - AG",
+    "group": "Mathematics - MATH",
+    "pageId": "37cb1a98-6ba6-80fd-9383-d15cb0d9f89c"
+  },
+  {
+    "archive": "Analysis of PDEs",
+    "archiveNameCode": "Analysis of PDEs - AP",
+    "code": "MATH - AP",
+    "group": "Mathematics - MATH",
+    "pageId": "37cb1a98-6ba6-8038-b22f-d3eebb49ca5e"
+  },
+  {
+    "archive": "Algebraic Topology",
+    "archiveNameCode": "Algebraic Topology - AT",
+    "code": "MATH - AT",
+    "group": "Mathematics - MATH",
+    "pageId": "37cb1a98-6ba6-80e8-a747-d01104cbc645"
+  },
+  {
+    "archive": "Classical Analysis and ODEs",
+    "archiveNameCode": "Classical Analysis and ODEs - CA",
+    "code": "MATH - CA",
+    "group": "Mathematics - MATH",
+    "pageId": "37cb1a98-6ba6-806c-9fc0-d453f289fcb1"
+  },
+  {
+    "archive": "Combinatorics",
+    "archiveNameCode": "Combinatorics - CO",
+    "code": "MATH - CO",
+    "group": "Mathematics - MATH",
+    "pageId": "37cb1a98-6ba6-809f-8e94-c1359e1bab53"
+  },
+  {
+    "archive": "Category Theory",
+    "archiveNameCode": "Category Theory - CT",
+    "code": "MATH - CT",
+    "group": "Mathematics - MATH",
+    "pageId": "37cb1a98-6ba6-8058-bb40-ec2817c7b86c"
+  },
+  {
+    "archive": "Complex Variables",
+    "archiveNameCode": "Complex Variables - CV",
+    "code": "MATH - CV",
+    "group": "Mathematics - MATH",
+    "pageId": "37cb1a98-6ba6-8042-839b-e3af51b0ae72"
+  },
+  {
+    "archive": "Differential Geometry",
+    "archiveNameCode": "Differential Geometry - DG",
+    "code": "MATH - DG",
+    "group": "Mathematics - MATH",
+    "pageId": "37cb1a98-6ba6-80c7-abb3-f7b98a905ccc"
+  },
+  {
+    "archive": "Dynamical Systems",
+    "archiveNameCode": "Dynamical Systems - DS",
+    "code": "MATH - DS",
+    "group": "Mathematics - MATH",
+    "pageId": "37cb1a98-6ba6-8092-9b85-ecfdc17d723d"
+  },
+  {
+    "archive": "Functional Analysis",
+    "archiveNameCode": "Functional Analysis - FA",
+    "code": "MATH - FA",
+    "group": "Mathematics - MATH",
+    "pageId": "37cb1a98-6ba6-805f-b604-d471ed9d440c"
+  },
+  {
+    "archive": "General Mathematics",
+    "archiveNameCode": "General Mathematics - GM",
+    "code": "MATH - GM",
+    "group": "Mathematics - MATH",
+    "pageId": "37cb1a98-6ba6-8065-ac15-fe7ddb9fbc16"
+  },
+  {
+    "archive": "General Topology",
+    "archiveNameCode": "General Topology - GN",
+    "code": "MATH - GN",
+    "group": "Mathematics - MATH",
+    "pageId": "37cb1a98-6ba6-8061-891b-e6b6dcfafdb0"
+  },
+  {
+    "archive": "Group Theory",
+    "archiveNameCode": "Group Theory - GR",
+    "code": "MATH - GR",
+    "group": "Mathematics - MATH",
+    "pageId": "37cb1a98-6ba6-80a5-b2da-ec50b0d99807"
+  },
+  {
+    "archive": "Geometric Topology",
+    "archiveNameCode": "Geometric Topology - GT",
+    "code": "MATH - GT",
+    "group": "Mathematics - MATH",
+    "pageId": "37cb1a98-6ba6-8001-8d9f-e02ccf25a997"
+  },
+  {
+    "archive": "History and Overview",
+    "archiveNameCode": "History and Overview - HO",
+    "code": "MATH - HO",
+    "group": "Mathematics - MATH",
+    "pageId": "37cb1a98-6ba6-80f6-87a6-cced94f4d97c"
+  },
+  {
+    "archive": "Information Theory",
+    "archiveNameCode": "Information Theory - IT",
+    "code": "MATH - IT",
+    "group": "Mathematics - MATH",
+    "pageId": "37cb1a98-6ba6-80b4-9420-d872195cb553"
+  },
+  {
+    "archive": "K-Theory and Homology",
+    "archiveNameCode": "K-Theory and Homology - KT",
+    "code": "MATH - KT",
+    "group": "Mathematics - MATH",
+    "pageId": "37cb1a98-6ba6-8048-81bb-ea6d9cf7c418"
+  },
+  {
+    "archive": "Logic",
+    "archiveNameCode": "Logic - LO",
+    "code": "MATH - LO",
+    "group": "Mathematics - MATH",
+    "pageId": "37cb1a98-6ba6-8062-899f-d490cff7d7fb"
+  },
+  {
+    "archive": "Metric Geometry",
+    "archiveNameCode": "Metric Geometry - MG",
+    "code": "MATH - MG",
+    "group": "Mathematics - MATH",
+    "pageId": "37cb1a98-6ba6-8030-8bf4-fb9d37391151"
+  },
+  {
+    "archive": "Mathematical Physics",
+    "archiveNameCode": "Mathematical Physics - MP",
+    "code": "MATH - MP",
+    "group": "Mathematics - MATH",
+    "pageId": "37cb1a98-6ba6-80f7-a5b6-c3b9892013fa"
+  },
+  {
+    "archive": "Numerical Analysis",
+    "archiveNameCode": "Numerical Analysis - NA",
+    "code": "MATH - NA",
+    "group": "Mathematics - MATH",
+    "pageId": "37cb1a98-6ba6-80e2-a2bd-ffdffc294676"
+  },
+  {
+    "archive": "Number Theory",
+    "archiveNameCode": "Number Theory - NT",
+    "code": "MATH - NT",
+    "group": "Mathematics - MATH",
+    "pageId": "37cb1a98-6ba6-806c-9096-dfe16fb90213"
+  },
+  {
+    "archive": "Operator Algebras",
+    "archiveNameCode": "Operator Algebras - OA",
+    "code": "MATH - OA",
+    "group": "Mathematics - MATH",
+    "pageId": "37cb1a98-6ba6-80a4-bf70-fa599e602a8f"
+  },
+  {
+    "archive": "Optimization and Control",
+    "archiveNameCode": "Optimization and Control - OC",
+    "code": "MATH - OC",
+    "group": "Mathematics - MATH",
+    "pageId": "37cb1a98-6ba6-80bc-9d91-ca490d97c624"
+  },
+  {
+    "archive": "Probability",
+    "archiveNameCode": "Probability - PR",
+    "code": "MATH - PR",
+    "group": "Mathematics - MATH",
+    "pageId": "37cb1a98-6ba6-80f9-a896-ceef1ccdd226"
+  },
+  {
+    "archive": "Quantum Algebra",
+    "archiveNameCode": "Quantum Algebra - QA",
+    "code": "MATH - QA",
+    "group": "Mathematics - MATH",
+    "pageId": "37cb1a98-6ba6-8012-8ef9-d017f2bfbe77"
+  },
+  {
+    "archive": "Rings and Algebras",
+    "archiveNameCode": "Rings and Algebras - RA",
+    "code": "MATH - RA",
+    "group": "Mathematics - MATH",
+    "pageId": "37cb1a98-6ba6-809e-90ce-d7f7d0b086c3"
+  },
+  {
+    "archive": "Representation Theory",
+    "archiveNameCode": "Representation Theory - RT",
+    "code": "MATH - RT",
+    "group": "Mathematics - MATH",
+    "pageId": "37cb1a98-6ba6-8048-8de6-fa1605844295"
+  },
+  {
+    "archive": "Symplectic Geometry",
+    "archiveNameCode": "Symplectic Geometry - SG",
+    "code": "MATH - SG",
+    "group": "Mathematics - MATH",
+    "pageId": "37cb1a98-6ba6-803c-8a06-ce93c0448686"
+  },
+  {
+    "archive": "Spectral Theory",
+    "archiveNameCode": "Spectral Theory - SP",
+    "code": "MATH - SP",
+    "group": "Mathematics - MATH",
+    "pageId": "37cb1a98-6ba6-8086-a390-e99c79780f89"
+  },
+  {
+    "archive": "Statistics Theory",
+    "archiveNameCode": "Statistics Theory - ST",
+    "code": "MATH - ST",
+    "group": "Mathematics - MATH",
+    "pageId": "37cb1a98-6ba6-8061-8a50-d6f91c07ab22"
+  },
+  {
+    "archive": "Accelerator Physics",
+    "archiveNameCode": "Accelerator Physics - acc-ph",
+    "code": "PHYS - acc-ph",
+    "group": "Physics - PHYS",
+    "pageId": "37cb1a98-6ba6-8090-8092-f59b212abf65"
+  },
+  {
+    "archive": "Adaptation and Self-Organizing Systems",
+    "archiveNameCode": "Adaptation and Self-Organizing Systems - AO",
+    "code": "PHYS - AO",
+    "group": "Physics - PHYS",
+    "pageId": "37cb1a98-6ba6-8033-890c-fad9454f61b5"
+  },
+  {
+    "archive": "Atmospheric and Oceanic Physics",
+    "archiveNameCode": "Atmospheric and Oceanic Physics - ao-ph",
+    "code": "PHYS - ao-ph",
+    "group": "Physics - PHYS",
+    "pageId": "37cb1a98-6ba6-807c-8d75-d9739fb5cc2a"
+  },
+  {
+    "archive": "Applied Physics",
+    "archiveNameCode": "Applied Physics - app-ph",
+    "code": "PHYS - app-ph",
+    "group": "Physics - PHYS",
+    "pageId": "37cb1a98-6ba6-809d-b265-c35d8de5a2a4"
+  },
+  {
+    "archive": "Atomic and Molecular Clusters",
+    "archiveNameCode": "Atomic and Molecular Clusters - atm-clus",
+    "code": "PHYS - atm-clus",
+    "group": "Physics - PHYS",
+    "pageId": "37cb1a98-6ba6-806d-bf01-ff6bdb8498f5"
+  },
+  {
+    "archive": "Atomic Physics",
+    "archiveNameCode": "Atomic Physics - atom-ph",
+    "code": "PHYS - atom-ph",
+    "group": "Physics - PHYS",
+    "pageId": "37cb1a98-6ba6-8046-9561-f552a82cf577"
+  },
+  {
+    "archive": "Biological Physics",
+    "archiveNameCode": "Biological Physics - bio-ph",
+    "code": "PHYS - bio-ph",
+    "group": "Physics - PHYS",
+    "pageId": "37cb1a98-6ba6-80f7-9ff4-e7b261c21ad6"
+  },
+  {
+    "archive": "Chaotic Dynamics",
+    "archiveNameCode": "Chaotic Dynamics - CD",
+    "code": "PHYS - CD",
+    "group": "Physics - PHYS",
+    "pageId": "37cb1a98-6ba6-806d-981a-f4d014006f6e"
+  },
+  {
+    "archive": "Cellular Automata and Lattice Gases",
+    "archiveNameCode": "Cellular Automata and Lattice Gases - CG",
+    "code": "PHYS - CG",
+    "group": "Physics - PHYS",
+    "pageId": "37cb1a98-6ba6-80c9-88ae-e6e1589d75dc"
+  },
+  {
+    "archive": "Chemical Physics",
+    "archiveNameCode": "Chemical Physics - chem-ph",
+    "code": "PHYS - chem-ph",
+    "group": "Physics - PHYS",
+    "pageId": "37cb1a98-6ba6-805b-b664-dbf47ed0ff83"
+  },
+  {
+    "archive": "Classical Physics",
+    "archiveNameCode": "Classical Physics - class-ph",
+    "code": "PHYS - class-ph",
+    "group": "Physics - PHYS",
+    "pageId": "37cb1a98-6ba6-806f-80ce-d6789510e34c"
+  },
+  {
+    "archive": "Cosmology and Nongalactic Astrophysics",
+    "archiveNameCode": "Cosmology and Nongalactic Astrophysics - CO",
+    "code": "PHYS - CO",
+    "group": "Physics - PHYS",
+    "pageId": "37cb1a98-6ba6-801e-b95a-e401fbe9fc7d"
+  },
+  {
+    "archive": "Computational Physics",
+    "archiveNameCode": "Computational Physics - comp-ph",
+    "code": "PHYS - comp-ph",
+    "group": "Physics - PHYS",
+    "pageId": "37cb1a98-6ba6-80f7-abde-e8324707adeb"
+  },
+  {
+    "archive": "Data Analysis, Statistics and Probability",
+    "archiveNameCode": "Data Analysis",
+    "code": "PHYS - data-an",
+    "group": "Physics - PHYS",
+    "pageId": "37cb1a98-6ba6-8034-93b3-c04db4a99690"
+  },
+  {
+    "archive": "Disordered Systems and Neural Networks",
+    "archiveNameCode": "Disordered Systems and Neural Networks - dis-nn",
+    "code": "PHYS - dis-nn",
+    "group": "Physics - PHYS",
+    "pageId": "37cb1a98-6ba6-8001-9c27-fb63d54fb4df"
+  },
+  {
+    "archive": "Physics Education",
+    "archiveNameCode": "Physics Education - ed-ph",
+    "code": "PHYS - ed-ph",
+    "group": "Physics - PHYS",
+    "pageId": "37cb1a98-6ba6-8022-9432-d0a89832fc68"
+  },
+  {
+    "archive": "Earth and Planetary Astrophysics",
+    "archiveNameCode": "Earth and Planetary Astrophysics - EP",
+    "code": "PHYS - EP",
+    "group": "Physics - PHYS",
+    "pageId": "37cb1a98-6ba6-8056-a8f4-d1256d98c6c9"
+  },
+  {
+    "archive": "Fluid Dynamics",
+    "archiveNameCode": "Fluid Dynamics - flu-dyn",
+    "code": "PHYS - flu-dyn",
+    "group": "Physics - PHYS",
+    "pageId": "37cb1a98-6ba6-8063-ad97-efa8d595788a"
+  },
+  {
+    "archive": "Astrophysics of Galaxies",
+    "archiveNameCode": "Astrophysics of Galaxies - GA",
+    "code": "PHYS - GA",
+    "group": "Physics - PHYS",
+    "pageId": "37cb1a98-6ba6-806b-b1c5-f082c4eac98f"
+  },
+  {
+    "archive": "General Physics",
+    "archiveNameCode": "General Physics - gen-ph",
+    "code": "PHYS - gen-ph",
+    "group": "Physics - PHYS",
+    "pageId": "37cb1a98-6ba6-805e-8458-e70bf5692fce"
+  },
+  {
+    "archive": "Geophysics",
+    "archiveNameCode": "Geophysics - geo-ph",
+    "code": "PHYS - geo-ph",
+    "group": "Physics - PHYS",
+    "pageId": "37cb1a98-6ba6-801a-ba91-f8320420d2a8"
+  },
+  {
+    "archive": "General Relativity and Quantum Cosmology",
+    "archiveNameCode": "General Relativity and Quantum Cosmology - gr-qc",
+    "code": "PHYS - gr-qc",
+    "group": "Physics - PHYS",
+    "pageId": "37cb1a98-6ba6-8008-98e6-dd70c3ab7aad"
+  },
+  {
+    "archive": "High Energy Astrophysical Phenomena",
+    "archiveNameCode": "High Energy Astrophysical Phenomena - HE",
+    "code": "PHYS - HE",
+    "group": "Physics - PHYS",
+    "pageId": "37cb1a98-6ba6-8019-ad4f-f6fda0744c9e"
+  },
+  {
+    "archive": "High Energy Physics - Experiment",
+    "archiveNameCode": "High Energy Physics - Experiment - hep-ex",
+    "code": "PHYS - hep-ex",
+    "group": "Physics - PHYS",
+    "pageId": "37cb1a98-6ba6-8045-9b18-e2a6776adbbe"
+  },
+  {
+    "archive": "High Energy Physics - Lattice",
+    "archiveNameCode": "High Energy Physics - Lattice - hep-lat",
+    "code": "PHYS - hep-lat",
+    "group": "Physics - PHYS",
+    "pageId": "37cb1a98-6ba6-8082-88c0-d935c919bee5"
+  },
+  {
+    "archive": "High Energy Physics - Phenomenology",
+    "archiveNameCode": "High Energy Physics - Phenomenology - hep-ph",
+    "code": "PHYS - hep-ph",
+    "group": "Physics - PHYS",
+    "pageId": "37cb1a98-6ba6-80ae-a098-c41753cb3362"
+  },
+  {
+    "archive": "High Energy Physics - Theory",
+    "archiveNameCode": "High Energy Physics - Theory - hep-th",
+    "code": "PHYS - hep-th",
+    "group": "Physics - PHYS",
+    "pageId": "37cb1a98-6ba6-8022-b481-e6c15f372e51"
+  },
+  {
+    "archive": "History and Philosophy of Physics",
+    "archiveNameCode": "History and Philosophy of Physics - hist-ph",
+    "code": "PHYS - hist-ph",
+    "group": "Physics - PHYS",
+    "pageId": "37cb1a98-6ba6-8097-8c94-cce9f1f8c2c6"
+  },
+  {
+    "archive": "Instrumentation and Methods for Astrophysics",
+    "archiveNameCode": "Instrumentation and Methods for Astrophysics - IM",
+    "code": "PHYS - IM",
+    "group": "Physics - PHYS",
+    "pageId": "37cb1a98-6ba6-80eb-ab1b-e45553c9ef5d"
+  },
+  {
+    "archive": "Instrumentation and Detectors",
+    "archiveNameCode": "Instrumentation and Detectors - ins-det",
+    "code": "PHYS - ins-det",
+    "group": "Physics - PHYS",
+    "pageId": "37cb1a98-6ba6-80b4-a267-cdda5ff8d1ef"
+  },
+  {
+    "archive": "Mathematical Physics",
+    "archiveNameCode": "Mathematical Physics - math-ph",
+    "code": "PHYS - math-ph",
+    "group": "Physics - PHYS",
+    "pageId": "37cb1a98-6ba6-804f-ae0c-d73d01a53bbd"
+  },
+  {
+    "archive": "Medical Physics",
+    "archiveNameCode": "Medical Physics - med-ph",
+    "code": "PHYS - med-ph",
+    "group": "Physics - PHYS",
+    "pageId": "37cb1a98-6ba6-80cd-bc11-fa78f5fe2d67"
+  },
+  {
+    "archive": "Mesoscale and Nanoscale Physics",
+    "archiveNameCode": "Mesoscale and Nanoscale Physics - mes-hall",
+    "code": "PHYS - mes-hall",
+    "group": "Physics - PHYS",
+    "pageId": "37cb1a98-6ba6-805b-afb9-e872012cbaae"
+  },
+  {
+    "archive": "Materials Science",
+    "archiveNameCode": "Materials Science - mtrl-sci",
+    "code": "PHYS - mtrl-sci",
+    "group": "Physics - PHYS",
+    "pageId": "37cb1a98-6ba6-808f-8016-dea94e64fa47"
+  },
+  {
+    "archive": "Nuclear Experiment",
+    "archiveNameCode": "Nuclear Experiment - nucl-ex",
+    "code": "PHYS - nucl-ex",
+    "group": "Physics - PHYS",
+    "pageId": "37cb1a98-6ba6-8095-8ab5-ee4fa91c0752"
+  },
+  {
+    "archive": "Nuclear Theory",
+    "archiveNameCode": "Nuclear Theory - nucl-th",
+    "code": "PHYS - nucl-th",
+    "group": "Physics - PHYS",
+    "pageId": "37cb1a98-6ba6-803c-a0bd-c4e55e227582"
+  },
+  {
+    "archive": "Optics",
+    "archiveNameCode": "Optics - optics",
+    "code": "PHYS - optics",
+    "group": "Physics - PHYS",
+    "pageId": "37cb1a98-6ba6-8078-a290-f52bcdf15e97"
+  },
+  {
+    "archive": "Other Condensed Matter",
+    "archiveNameCode": "Other Condensed Matter - other",
+    "code": "PHYS - other",
+    "group": "Physics - PHYS",
+    "pageId": "37cb1a98-6ba6-8094-b33e-efb4a4258a05"
+  },
+  {
+    "archive": "Plasma Physics",
+    "archiveNameCode": "Plasma Physics - plasm-ph",
+    "code": "PHYS - plasm-ph",
+    "group": "Physics - PHYS",
+    "pageId": "37cb1a98-6ba6-8057-a371-dfae288253fe"
+  },
+  {
+    "archive": "Popular Physics",
+    "archiveNameCode": "Popular Physics - pop-ph",
+    "code": "PHYS - pop-ph",
+    "group": "Physics - PHYS",
+    "pageId": "37cb1a98-6ba6-8030-b97b-c4c66403369e"
+  },
+  {
+    "archive": "Pattern Formation and Solitons",
+    "archiveNameCode": "Pattern Formation and Solitons - PS",
+    "code": "PHYS - PS",
+    "group": "Physics - PHYS",
+    "pageId": "37cb1a98-6ba6-8073-b700-df64d262fc45"
+  },
+  {
+    "archive": "Quantum Gases",
+    "archiveNameCode": "Quantum Gases - quant-gas",
+    "code": "PHYS - quant-gas",
+    "group": "Physics - PHYS",
+    "pageId": "37cb1a98-6ba6-80f8-9172-e0facc1050ae"
+  },
+  {
+    "archive": "Quantum Physics",
+    "archiveNameCode": "Quantum Physics - quant-ph",
+    "code": "PHYS - quant-ph",
+    "group": "Physics - PHYS",
+    "pageId": "37cb1a98-6ba6-8073-a738-e8d1ca54814c"
+  },
+  {
+    "archive": "Exactly Solvable and Integrable Systems",
+    "archiveNameCode": "Exactly Solvable and Integrable Systems - SI",
+    "code": "PHYS - SI",
+    "group": "Physics - PHYS",
+    "pageId": "37cb1a98-6ba6-80be-add6-ec40b0ca783d"
+  },
+  {
+    "archive": "Physics and Society",
+    "archiveNameCode": "Physics and Society - soc-ph",
+    "code": "PHYS - soc-ph",
+    "group": "Physics - PHYS",
+    "pageId": "37cb1a98-6ba6-80ca-ba62-da0ac9512d00"
+  },
+  {
+    "archive": "Soft Condensed Matter",
+    "archiveNameCode": "Soft Condensed Matter - soft",
+    "code": "PHYS - soft",
+    "group": "Physics - PHYS",
+    "pageId": "37cb1a98-6ba6-80a4-9de5-c3a87cec5a27"
+  },
+  {
+    "archive": "Space Physics",
+    "archiveNameCode": "Space Physics - space-ph",
+    "code": "PHYS - space-ph",
+    "group": "Physics - PHYS",
+    "pageId": "37cb1a98-6ba6-809d-a41d-e92ff1d24a6d"
+  },
+  {
+    "archive": "Solar and Stellar Astrophysics",
+    "archiveNameCode": "Solar and Stellar Astrophysics - SR",
+    "code": "PHYS - SR",
+    "group": "Physics - PHYS",
+    "pageId": "37cb1a98-6ba6-800f-a567-eaf45b024704"
+  },
+  {
+    "archive": "Statistical Mechanics",
+    "archiveNameCode": "Statistical Mechanics - stat-mech",
+    "code": "PHYS - stat-mech",
+    "group": "Physics - PHYS",
+    "pageId": "37cb1a98-6ba6-8078-a29d-d60a8c4789e6"
+  },
+  {
+    "archive": "Strongly Correlated Electrons",
+    "archiveNameCode": "Strongly Correlated Electrons - str-el",
+    "code": "PHYS - str-el",
+    "group": "Physics - PHYS",
+    "pageId": "37cb1a98-6ba6-8050-9688-fdd35422c92c"
+  },
+  {
+    "archive": "Superconductivity",
+    "archiveNameCode": "Superconductivity - supr-con",
+    "code": "PHYS - supr-con",
+    "group": "Physics - PHYS",
+    "pageId": "37cb1a98-6ba6-808e-a4ac-db250afed3ea"
+  },
+  {
+    "archive": "Biomolecules",
+    "archiveNameCode": "Biomolecules - BM",
+    "code": "Q-BIO - BM",
+    "group": "Quantitative Biology - Q-BIO",
+    "pageId": "37cb1a98-6ba6-802b-9e1c-db058178fab8"
+  },
+  {
+    "archive": "Cell Behavior",
+    "archiveNameCode": "Cell Behavior - CB",
+    "code": "Q-BIO - CB",
+    "group": "Quantitative Biology - Q-BIO",
+    "pageId": "37cb1a98-6ba6-8086-9923-e66ffdb15094"
+  },
+  {
+    "archive": "Genomics",
+    "archiveNameCode": "Genomics - GN",
+    "code": "Q-BIO - GN",
+    "group": "Quantitative Biology - Q-BIO",
+    "pageId": "37cb1a98-6ba6-8040-bae2-cccc2b3596b2"
+  },
+  {
+    "archive": "Molecular Networks",
+    "archiveNameCode": "Molecular Networks - MN",
+    "code": "Q-BIO - MN",
+    "group": "Quantitative Biology - Q-BIO",
+    "pageId": "37cb1a98-6ba6-80a8-8132-d340737a8f56"
+  },
+  {
+    "archive": "Neurons and Cognition",
+    "archiveNameCode": "Neurons and Cognition - NC",
+    "code": "Q-BIO - NC",
+    "group": "Quantitative Biology - Q-BIO",
+    "pageId": "37cb1a98-6ba6-805b-813e-e6b41656d996"
+  },
+  {
+    "archive": "Other Quantitative Biology",
+    "archiveNameCode": "Other Quantitative Biology - OT",
+    "code": "Q-BIO - OT",
+    "group": "Quantitative Biology - Q-BIO",
+    "pageId": "37cb1a98-6ba6-8086-be93-ca333a6e2440"
+  },
+  {
+    "archive": "Populations and Evolution",
+    "archiveNameCode": "Populations and Evolution - PE",
+    "code": "Q-BIO - PE",
+    "group": "Quantitative Biology - Q-BIO",
+    "pageId": "37cb1a98-6ba6-8009-a207-c88cc7fc8de6"
+  },
+  {
+    "archive": "Quantitative Methods",
+    "archiveNameCode": "Quantitative Methods - QM",
+    "code": "Q-BIO - QM",
+    "group": "Quantitative Biology - Q-BIO",
+    "pageId": "37cb1a98-6ba6-803e-9523-f81b8312ab24"
+  },
+  {
+    "archive": "Subcellular Processes",
+    "archiveNameCode": "Subcellular Processes - SC",
+    "code": "Q-BIO - SC",
+    "group": "Quantitative Biology - Q-BIO",
+    "pageId": "37cb1a98-6ba6-80e0-b63a-d75b58419062"
+  },
+  {
+    "archive": "Tissues and Organs",
+    "archiveNameCode": "Tissues and Organs - TO",
+    "code": "Q-BIO - TO",
+    "group": "Quantitative Biology - Q-BIO",
+    "pageId": "37cb1a98-6ba6-80f4-ab12-f1d1ce02b63b"
+  },
+  {
+    "archive": "Computational Finance",
+    "archiveNameCode": "Computational Finance - CP",
+    "code": "Q-FIN - CP",
+    "group": "Quantitative Finance - Q-FIN",
+    "pageId": "37cb1a98-6ba6-805d-bbb2-ffec09400835"
+  },
+  {
+    "archive": "Economics",
+    "archiveNameCode": "Economics - EC",
+    "code": "Q-FIN - EC",
+    "group": "Quantitative Finance - Q-FIN",
+    "pageId": "37cb1a98-6ba6-80f3-95f1-d355b93f0670"
+  },
+  {
+    "archive": "General Finance",
+    "archiveNameCode": "General Finance - GN",
+    "code": "Q-FIN - GN",
+    "group": "Quantitative Finance - Q-FIN",
+    "pageId": "37cb1a98-6ba6-80d0-bd62-d58268da8b3c"
+  },
+  {
+    "archive": "Mathematical Finance",
+    "archiveNameCode": "Mathematical Finance - MF",
+    "code": "Q-FIN - MF",
+    "group": "Quantitative Finance - Q-FIN",
+    "pageId": "37cb1a98-6ba6-80d4-a384-f8f6a70b2545"
+  },
+  {
+    "archive": "Portfolio Management",
+    "archiveNameCode": "Portfolio Management - PM",
+    "code": "Q-FIN - PM",
+    "group": "Quantitative Finance - Q-FIN",
+    "pageId": "37cb1a98-6ba6-80c9-a718-db038b7a3766"
+  },
+  {
+    "archive": "Pricing of Securities",
+    "archiveNameCode": "Pricing of Securities - PR",
+    "code": "Q-FIN - PR",
+    "group": "Quantitative Finance - Q-FIN",
+    "pageId": "37cb1a98-6ba6-8064-b4b1-fe6a90381143"
+  },
+  {
+    "archive": "Risk Management",
+    "archiveNameCode": "Risk Management - RM",
+    "code": "Q-FIN - RM",
+    "group": "Quantitative Finance - Q-FIN",
+    "pageId": "37cb1a98-6ba6-8066-a2eb-e0c9d2b07a3d"
+  },
+  {
+    "archive": "Statistical Finance",
+    "archiveNameCode": "Statistical Finance - ST",
+    "code": "Q-FIN - ST",
+    "group": "Quantitative Finance - Q-FIN",
+    "pageId": "37cb1a98-6ba6-8014-8f2e-d086ce3932a8"
+  },
+  {
+    "archive": "Trading and Market Microstructure",
+    "archiveNameCode": "Trading and Market Microstructure - TR",
+    "code": "Q-FIN - TR",
+    "group": "Quantitative Finance - Q-FIN",
+    "pageId": "37cb1a98-6ba6-80d0-bd49-c49e51c98d27"
+  },
+  {
+    "archive": "Applications",
+    "archiveNameCode": "Applications - AP",
+    "code": "STAT - AP",
+    "group": "Statistics - STAT",
+    "pageId": "37cb1a98-6ba6-80ec-8b0f-fe082b1a9799"
+  },
+  {
+    "archive": "Computation",
+    "archiveNameCode": "Computation - CO",
+    "code": "STAT - CO",
+    "group": "Statistics - STAT",
+    "pageId": "37cb1a98-6ba6-80bd-8f01-db5e057bcdd1"
+  },
+  {
+    "archive": "Methodology",
+    "archiveNameCode": "Methodology - ME",
+    "code": "STAT - ME",
+    "group": "Statistics - STAT",
+    "pageId": "37cb1a98-6ba6-8097-a561-c9204a820331"
+  },
+  {
+    "archive": "Machine Learning",
+    "archiveNameCode": "Machine Learning - ML",
+    "code": "STAT - ML",
+    "group": "Statistics - STAT",
+    "pageId": "37cb1a98-6ba6-80f7-980d-fb7f6e8a7aac"
+  },
+  {
+    "archive": "Other Statistics",
+    "archiveNameCode": "Other Statistics - OT",
+    "code": "STAT - OT",
+    "group": "Statistics - STAT",
+    "pageId": "37cb1a98-6ba6-800e-911f-de253a85d3ca"
+  },
+  {
+    "archive": "Statistics Theory",
+    "archiveNameCode": "Statistics Theory - TH",
+    "code": "STAT - TH",
+    "group": "Statistics - STAT",
+    "pageId": "37cb1a98-6ba6-80f3-a261-d2817a0854b3"
+  }
+]
