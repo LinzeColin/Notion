@@ -10,7 +10,19 @@
   "duration_days": 28,
   "start_date": "2026-06-18",
   "end_date": "2026-07-15",
-  "current_day": 0,
+  "current_day": null,
+  "current_day_status": "not_started",
+  "next_session": {
+    "date": "2026-06-18",
+    "day": 1,
+    "progress_label": "第1/28天",
+    "topic": "D01 start after Industrial AI SaaS RAG foundation"
+  },
+  "acceleration_policy": {
+    "no_d000": true,
+    "if_started_early_use_next_real_day": true,
+    "never_skip_required_workflow_steps": true
+  },
   "absorbed_sources": [
     "business strategy",
     "business analysis",
