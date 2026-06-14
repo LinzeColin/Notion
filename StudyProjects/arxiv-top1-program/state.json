@@ -4,22 +4,99 @@
   "timezone": "Australia/Sydney",
   "program_start_date": "2026-06-13",
   "program_mode": "rolling_parallel_groups",
-  "current_global_day": 1,
+  "current_global_day": 2,
   "active_track_limit": 2,
   "archive_cycle_days": 30,
   "hard_rule": "One archive/category is always a 30-day cycle. A group is not 30 days; group route duration equals archive_count * 30 days.",
   "date_rule_for_notion_timeline": "Only currently active groups default to the program start date. Queued group dates must be computed from active-slot promotion rules or explicit project state; never default every queued group to today.",
   "learning_note_language_rule": "Learning notes, daily logs, reviews, and Notion note content must be Chinese by default. Keep English only for unavoidable professional terms, API names, paper/category codes, exact source titles, and tool names.",
-  "group_order": ["Q-FIN", "PHYS", "MATH", "STAT", "CS", "ECON", "EE/EESS", "Q-BIO"],
+  "daily_session_header_rule": "Every arXiv daily session must first state Global Day, both active Groups, current Archive codes/names, and Archive Day out of 30.",
+  "group_order": [
+    "Q-FIN",
+    "PHYS",
+    "MATH",
+    "STAT",
+    "CS",
+    "ECON",
+    "EE/EESS",
+    "Q-BIO"
+  ],
   "group_route_windows": [
-    {"group_code": "Q-FIN", "group_name": "Quantitative Finance", "archive_count": 9, "route_start_date": "2026-06-13", "route_end_date": "2027-03-09", "route_file": "10_PROGRAM_STATE/group_routes/Q-FIN.csv", "status": "active", "slot": 1},
-    {"group_code": "PHYS", "group_name": "Physics", "archive_count": 51, "route_start_date": "2026-06-13", "route_end_date": "2030-08-20", "route_file": "10_PROGRAM_STATE/group_routes/PHYS.csv", "status": "active", "slot": 2},
-    {"group_code": "MATH", "group_name": "Mathematics", "archive_count": 32, "route_start_date": "2027-03-10", "route_end_date": "2029-10-24", "status": "queued", "slot_after": "Q-FIN"},
-    {"group_code": "STAT", "group_name": "Statistics", "archive_count": 6, "route_start_date": "2029-10-25", "route_end_date": "2030-04-22", "status": "queued", "slot_after": "MATH"},
-    {"group_code": "CS", "group_name": "Computer Science", "archive_count": 40, "route_start_date": "2030-04-23", "route_end_date": "2033-08-04", "route_file": "10_PROGRAM_STATE/group_routes/CS.csv", "status": "queued", "slot_after": "STAT"},
-    {"group_code": "ECON", "group_name": "Economics", "archive_count": 3, "route_start_date": "2030-08-21", "route_end_date": "2030-11-18", "status": "queued", "slot_after": "PHYS"},
-    {"group_code": "EE/EESS", "group_name": "Electrical Engineering and Systems Science", "archive_count": 4, "route_start_date": "2030-11-19", "route_end_date": "2031-03-18", "status": "queued", "slot_after": "ECON"},
-    {"group_code": "Q-BIO", "group_name": "Quantitative Biology", "archive_count": 10, "route_start_date": "2031-03-19", "route_end_date": "2032-01-12", "status": "queued", "slot_after": "EE/EESS"}
+    {
+      "group_code": "Q-FIN",
+      "group_name": "Quantitative Finance",
+      "archive_count": 9,
+      "route_start_date": "2026-06-13",
+      "route_end_date": "2027-03-09",
+      "route_file": "10_PROGRAM_STATE/group_routes/Q-FIN.csv",
+      "status": "active",
+      "slot": 1
+    },
+    {
+      "group_code": "PHYS",
+      "group_name": "Physics",
+      "archive_count": 51,
+      "route_start_date": "2026-06-13",
+      "route_end_date": "2030-08-20",
+      "route_file": "10_PROGRAM_STATE/group_routes/PHYS.csv",
+      "status": "active",
+      "slot": 2
+    },
+    {
+      "group_code": "MATH",
+      "group_name": "Mathematics",
+      "archive_count": 32,
+      "route_start_date": "2027-03-10",
+      "route_end_date": "2029-10-24",
+      "status": "queued",
+      "slot_after": "Q-FIN"
+    },
+    {
+      "group_code": "STAT",
+      "group_name": "Statistics",
+      "archive_count": 6,
+      "route_start_date": "2029-10-25",
+      "route_end_date": "2030-04-22",
+      "status": "queued",
+      "slot_after": "MATH"
+    },
+    {
+      "group_code": "CS",
+      "group_name": "Computer Science",
+      "archive_count": 40,
+      "route_start_date": "2030-04-23",
+      "route_end_date": "2033-08-04",
+      "route_file": "10_PROGRAM_STATE/group_routes/CS.csv",
+      "status": "queued",
+      "slot_after": "STAT"
+    },
+    {
+      "group_code": "ECON",
+      "group_name": "Economics",
+      "archive_count": 3,
+      "route_start_date": "2030-08-21",
+      "route_end_date": "2030-11-18",
+      "status": "queued",
+      "slot_after": "PHYS"
+    },
+    {
+      "group_code": "EE/EESS",
+      "group_name": "Electrical Engineering and Systems Science",
+      "archive_count": 4,
+      "route_start_date": "2030-11-19",
+      "route_end_date": "2031-03-18",
+      "status": "queued",
+      "slot_after": "ECON"
+    },
+    {
+      "group_code": "Q-BIO",
+      "group_name": "Quantitative Biology",
+      "archive_count": 10,
+      "route_start_date": "2031-03-19",
+      "route_end_date": "2032-01-12",
+      "status": "queued",
+      "slot_after": "EE/EESS"
+    }
   ],
   "active_tracks": [
     {
@@ -33,10 +110,11 @@
       "archive_count_in_group": 9,
       "start_date": "2026-06-13",
       "end_date": "2026-07-12",
-      "archive_day": 1,
+      "archive_day": 2,
       "archive_cycle_days": 30,
-      "mastery_pct": 0,
-      "status": "active"
+      "mastery_pct": 2,
+      "status": "active",
+      "last_lesson_status": "D001 taught as catch-up on 2026-06-14; not validated by user self-recall"
     },
     {
       "track_id": 2,
@@ -49,14 +127,22 @@
       "archive_count_in_group": 51,
       "start_date": "2026-06-13",
       "end_date": "2026-07-12",
-      "archive_day": 1,
+      "archive_day": 2,
       "archive_cycle_days": 30,
-      "mastery_pct": 0,
-      "status": "active"
+      "mastery_pct": 1,
+      "status": "active",
+      "last_lesson_status": "D001 standard answer provided on 2026-06-14; not validated by user self-recall"
     }
   ],
   "promotion_rule": "Two active slots are maintained. When an active group completes, the next queued group in group_order starts the next calendar day in the freed slot. Do not assign queued group start dates before promotion unless the queue simulation already determines them.",
-  "queued_groups": ["MATH", "STAT", "CS", "ECON", "EE/EESS", "Q-BIO"],
+  "queued_groups": [
+    "MATH",
+    "STAT",
+    "CS",
+    "ECON",
+    "EE/EESS",
+    "Q-BIO"
+  ],
   "notion_sources": {
     "arxiv_taxonomy_database_id": "37cb1a986ba680838ccddc8c0931281b",
     "arxiv_taxonomy_data_source": "collection://37cb1a98-6ba6-80a3-ae9e-000b6b455c93",
@@ -67,7 +153,15 @@
       "CS": "37eb1a98-6ba6-800a-8e95-f17a784cf2a8"
     }
   },
-  "last_sync_date": "2026-06-13",
-  "next_action": "Run D001 concept-first lesson in Chinese: Q-FIN q-fin.TR and PHYS quant-ph.",
+  "last_sync_date": "2026-06-14",
+  "last_learning_session": {
+    "date": "2026-06-14",
+    "calendar_global_day": 2,
+    "lesson_covered": "D001 catch-up",
+    "daily_log": "04_DAILY_LOGS/2026-06-14.md",
+    "status": "taught_not_validated",
+    "reason": "User requested direct standard answers because template was not yet understandable."
+  },
+  "next_action": "Run D002 only after active recall of D001: executable price vs last price, signal edge vs trading-system profitability, quantum physics as state/measurement/uncertainty rather than mysticism.",
   "status": "active"
 }
