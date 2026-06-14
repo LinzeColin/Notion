@@ -12,13 +12,14 @@
   "current_week": 1,
   "current_day": 1,
   "current_progress_label": "第1/34天",
-  "current_day_status": "recall_attempt_01_not_passed",
-  "current_lesson_status": "D01_assets_complete_but_core_concept_recall_not_passed",
+  "current_day_status": "completed_after_recall_attempt_02",
+  "current_lesson_status": "D01_complete_D02_gate_open",
   "required_outputs_status": {
     "RAG opportunity scorecard": "complete",
     "RAG vs model memory vs fine-tuning vs workflow automation vs agent decision matrix": "complete",
     "RAG core concept remediation note": "complete",
-    "D01 recall attempt 01": "complete_not_passed"
+    "D01 recall attempt 01": "complete_not_passed",
+    "D01 recall attempt 02": "complete_passed"
   },
   "recall_attempts": [
     {
@@ -32,20 +33,28 @@
       },
       "passed": false,
       "diagnosis": "Q1 blank; Q2 direction correct but source scope too narrow; Q3 overgeneralizes RAG into history/pattern/prediction instead of evidence-grounded industrial lookup."
+    },
+    {
+      "date": "2026-06-14",
+      "attempt": 2,
+      "path": "StudyProjects/industrial-ai-saas-builder/04_DAILY_LOGS/2026-06-14_D01_RECALL_ATTEMPT_02.md",
+      "scores": {
+        "RAG_vs_model_memory": 5,
+        "evidence_value": 5,
+        "industrial_RAG_case": 5,
+        "non_RAG_first_case": 5
+      },
+      "passed": true,
+      "diagnosis": "User now distinguishes model memory from RAG, understands RAG as evidence/checkability rather than model intelligence, and can separate industrial evidence lookup from real-time data query."
     }
   ],
   "promotion_gate_to_D02": {
-    "active_recall_recorded": "attempt_01_recorded_not_passed",
+    "active_recall_recorded": "attempt_02_passed",
     "concept_teaching_complete": true,
     "required_outputs_complete": true,
     "remediation_delivered": true,
     "independent_recall_required": true,
-    "independent_recall_questions": [
-      "Model memory 是什么；RAG 是什么？",
-      "为什么 RAG 的价值是可检查证据，而不是模型更聪明？",
-      "举一个具体工业强 RAG 场景。",
-      "举一个具体工业非 RAG-first 场景，并说明更好的工具。"
-    ],
+    "independent_recall_passed": true,
     "metrics_updated": true,
     "github_log_updated": true,
     "notion_synced": true,
@@ -54,8 +63,8 @@
     "personalization_updated": true,
     "handoff_updated": true,
     "project_index_updated": true,
-    "allowed_to_promote": false,
-    "D02_start_requirement": "User must pass micro-recall: model memory vs RAG, evidence/checkability value, one specific industrial strong RAG case, one specific industrial non-RAG-first case with better tool."
+    "allowed_to_promote": true,
+    "D02_start_requirement": "Start D02 with pipeline failure-surface teaching: parsing, chunking, embedding, retrieval, reranking, generation, citation, eval."
   },
   "external_review_status": {
     "route_review": "completed",
@@ -63,7 +72,7 @@
     "d01_completion_review": "blocked_logged_not_claimed",
     "latest_packet": "StudyProjects/industrial-ai-saas-builder/05_REVIEWS/external_ai_reviews/2026-06-14_D01_completion_packet.md",
     "latest_result": "StudyProjects/industrial-ai-saas-builder/05_REVIEWS/external_ai_reviews/2026-06-14_D01_completion_results.md",
-    "blocker_reason": "Current side conversation did not include explicit post-boundary authorization to spawn a subagent; separate ChatGPT/Claude/Perplexity connectors unavailable."
+    "blocker_reason": "Separate ChatGPT/Claude/Perplexity connectors unavailable; multi-agent review only runs when explicitly authorized."
   },
   "missed_study_today": false,
   "acceleration_policy": {
@@ -87,30 +96,23 @@
     "date": "2026-06-14",
     "day": 1,
     "progress_label": "第1/34天",
-    "type": "D01_recall_attempt_01_not_passed",
+    "type": "D01_recall_attempt_02_passed",
     "topic": "RAG vs model memory and RAG scenario judgment",
     "actual_minutes": null,
     "github_log": "StudyProjects/industrial-ai-saas-builder/04_DAILY_LOGS/2026-06-14_D01.md",
     "remediation_note": "StudyProjects/industrial-ai-saas-builder/04_DAILY_LOGS/2026-06-14_D01_RAG_CORE_EXPLANATION.md",
-    "recall_attempt_note": "StudyProjects/industrial-ai-saas-builder/04_DAILY_LOGS/2026-06-14_D01_RECALL_ATTEMPT_01.md",
+    "recall_attempt_note": "StudyProjects/industrial-ai-saas-builder/04_DAILY_LOGS/2026-06-14_D01_RECALL_ATTEMPT_02.md",
     "notion_synced": true,
     "notion_page_id": "37fb1a98-6ba6-81d2-9a22-d08f109448d5",
     "external_review_or_blocker_logged": true,
-    "outcome": "Recall attempt did not pass. D02 remains blocked. User needs one micro-recall pass after corrected explanation."
+    "outcome": "Recall attempt 02 passed. D01 is complete and D02 gate is open."
   },
   "next_session": {
-    "date": "2026-06-14",
-    "day": 1,
-    "progress_label": "第1/34天",
-    "topic": "D01 micro-recall attempt 02 before D02",
-    "core_question": "Explain model memory vs RAG and identify specific industrial RAG/non-RAG-first cases.",
-    "required_output": "Four blanks: Model memory is; RAG is; RAG value is not but; strong RAG case; non-RAG-first case and better tool."
-  },
-  "next_scheduled_lesson_after_gate": {
     "date": "2026-06-15",
     "day": 2,
     "progress_label": "第2/34天",
     "topic": "RAG pipeline as failure surface",
+    "core_question": "Where can a RAG system fail before the answer is generated?",
     "required_output": "RAG pipeline architecture diagram + component failure-mode table"
   },
   "week_1_policy": {
