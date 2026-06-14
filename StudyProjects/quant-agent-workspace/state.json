@@ -37,6 +37,6 @@
     "daily_sync_id": "study-project-daily-sync",
     "daily_sync_role": "detached local cron; reads project index and checks missed study"
   },
-  "lesson_status": "D01 recall passed; D02 opened early; Data Source Matrix v1 created; D02 practice classification pending",
+  "lesson_status": "D01 recall passed; D02 opened early; reviewer completed; Data Source Matrix rubric patched; D02 practice classification pending",
   "status": "active"
 }

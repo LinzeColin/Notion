@@ -19,6 +19,7 @@ D01 completed and D02 opened early on 2026-06-14:
 - Q2/Q3 were retested and passed. D01 gate is closed as complete.
 - User strongly wants time-loss reduction in real trading. Safe translation recorded as `supervised live execution workflow`: Agent monitors, validates, risk-checks, generates `OrderIntent`, and alerts; human confirms execution.
 - D02 created `09_FRONTIER/data_source_matrix.md`; user practice is pending: classify three sources by grade, `OrderIntent` eligibility, and fail-closed action.
+- D02 was reviewed by Codex reviewer sub-agent `Nietzsche` (`019ec431-be0c-7f40-9696-9648356de974`). Fixes adopted: Case 1 is `OrderIntent=conditional`, matrix now includes trade-use fields, three-part grading, reconciliation rules, and `OrderIntent` non-executable safety flags.
 
 ## Key Decisions
 
@@ -35,6 +36,7 @@ D01 completed and D02 opened early on 2026-06-14:
 - `03_WEEKLY_PLANS/W01.md`
 - `09_FRONTIER/source_log.csv`
 - `09_FRONTIER/data_source_matrix.md`
+- `05_REVIEWS/external_ai_reviews/2026-06-14_D02_review_results.md`
 
 ## Next Step
 
