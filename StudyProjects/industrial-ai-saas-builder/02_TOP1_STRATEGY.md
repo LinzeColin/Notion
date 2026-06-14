@@ -6,6 +6,22 @@ The target is not absolute mastery of every field. The target is Top 1% cross-do
 
 > Turning an industrial problem into an AI SaaS opportunity, architecture, execution plan, and validated decision memo.
 
+## 2026-06-14 Scope Integration Boundary
+
+User authorized integrating new AI infrastructure topics into existing Study Projects rather than creating a new project by default.
+
+For this project, the new topics are not taught as infrastructure implementation. They enter only as product, ROI, workflow, and architecture judgment:
+
+| Topic | Industrial AI SaaS treatment |
+|---|---|
+| Large document RAG / embedding / knowledge base | Judge when a knowledge product has workflow ROI, audit need, source governance, eval coverage, and buyer value. |
+| Multimodal / vision / image generation | Judge industrial/commercial use cases, not model catalogs: visual inspection, document/image QA, report generation, training materials, demo assets. |
+| Local vs API vs remote GPU | Treat as deployment/cost/privacy/reliability decision, not as hardware tutorial. |
+| 32B/70B quantized models | Consider only when model quality, privacy, cost, or latency changes SaaS feasibility. |
+| Training large models | Defer as heavy model training unless validated by product/data need. Future standalone project only if explicitly selected. |
+
+Current D01-D07 remains unchanged: RAG judgment and Industrial SaaS ROI come before building any local RAG or GPU stack.
+
 ## Ability Definition
 
 | Ability | Top 1% behavior |
@@ -42,6 +58,16 @@ The target is not absolute mastery of every field. The target is Top 1% cross-do
 | 19 | Deployment tradeoff | Balances cost, latency, privacy, reliability, and maintainability. |
 | 20 | Go/no-go gate | Forces decision discipline before overbuilding. |
 
+## Added Judgment Concepts
+
+| Concept | Why it matters |
+|---|---|
+| Knowledge-base source governance | Prevents building RAG over stale, duplicate, unauthorized, or low-quality documents. |
+| Multimodal ROI boundary | Prevents image/vision demos from distracting from real industrial workflow value. |
+| Model-size ROI | Prevents assuming 70B is better when API, 32B, RAG, or rules may be cheaper and more reliable. |
+| Infrastructure as product constraint | Connects GPU/local model choices to customer privacy, latency, cost, and support burden. |
+| Training as last resort | Keeps heavy training behind evidence that prompting/RAG/fine-tuning cannot solve the workflow. |
+
 ## Defer List
 
 | Defer | Reason |
@@ -51,6 +77,8 @@ The target is not absolute mastery of every field. The target is Top 1% cross-do
 | Complex Notion dashboard | Notion should remain clean; GitHub holds structured state. |
 | Multi-agent autonomy | Premature before evals, tool contracts, and boundaries exist. |
 | Generic AI news chasing | Useful only if mapped to product or architecture decisions. |
+| GPU infrastructure implementation | Belongs to `local-ai-infrastructure`; this project only decides whether it matters for SaaS value. |
+| Multimodal model catalog learning | Learn use-case judgment first; implementation belongs to Local AI Infrastructure. |
 
 ## Weekly Outputs
 
