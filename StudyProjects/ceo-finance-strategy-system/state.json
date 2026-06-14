@@ -10,5 +10,14 @@
   "absorbed_sources": ["business strategy", "business analysis", "business acumen", "startup CEO legal basics", "web-wide arbitrage opportunities", "investment", "finance", "trading", "stocks", "futures"],
   "next_action": "Start after Local AI Infrastructure unless user explicitly chooses parallel mode.",
   "education_boundary": "This project is education and decision-framework building, not legal, financial, or trading advice.",
+  "notion_status": "synced",
+  "notion_sources": {
+    "codex_study_timeline_database_id": "37eb1a986ba680bdb5f9ea2367b08991",
+    "codex_study_timeline_data_source": "collection://37eb1a98-6ba6-80ad-94e0-000bbda7ab85",
+    "timeline_page_id": "37fb1a98-6ba6-815a-b6c7-df67a5656fd4",
+    "timeline_page_url": "https://app.notion.com/p/37fb1a986ba6815ab6c7df67a5656fd4",
+    "timeline_project_select": "CEO Finance Strategy System"
+  },
+  "education_boundary": "This project is education and decision-framework building, not legal, financial, or trading advice.",
   "last_updated": "2026-06-14"
 }
