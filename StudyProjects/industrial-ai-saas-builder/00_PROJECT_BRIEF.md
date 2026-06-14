@@ -2,10 +2,10 @@
 
 Project slug: `industrial-ai-saas-builder`
 Timezone: Australia/Sydney
-Start date: 2026-06-15
-Planned end date: 2026-07-18
+Start date: 2026-06-14
+Planned end date: 2026-07-17
 Duration: 34 days
-Status: active from 2026-06-15
+Status: active from 2026-06-14
 
 ## Core Goal
 
@@ -16,6 +16,10 @@ The working product context is:
 > Industrial / rotary kiln intelligent decision SaaS.
 
 This project does not aim to make the user a general expert in every subfield. The realistic Top 1% target is a cross-domain advantage: better than most operators at translating an industrial problem into an AI product, business case, system architecture, implementation plan, and validation loop.
+
+## Acceleration Rule
+
+There is no artificial `D000` or `Day 0`. If the user starts before a planned Day 1, the project starts early and the next real lesson becomes `D01`. If a lesson is completed and the user continues, the next lesson can be pulled forward. Acceleration never skips active recall, teaching, output, GitHub sync, Notion sync, verification, external review handshake, state update, personalization update, or next-plan update.
 
 ## Absorbed Scope
 
@@ -53,8 +57,8 @@ Prompt/loop-specific material is moved primarily to `ai-workflow-operating-syste
 
 ## Day 1
 
-Tomorrow, 2026-06-15, is `Day 1/34`.
+2026-06-14 is `Day 1/34`, started early.
 
-Day 1 topic: local vectorized RAG mental model.
+Day 1 topic: RAG judgment + Industrial SaaS ROI.
 
-Minimum output: `RAG 概念卡 + RAG 失败模式表`.
+Minimum output: `RAG opportunity scorecard + RAG vs model memory vs fine-tuning vs workflow automation vs agent decision matrix`.
