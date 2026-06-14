@@ -1,0 +1,78 @@
+{
+  "project_slug": "gpu-ml-systems-model-training",
+  "project_name": "GPU ML Systems & Model Training",
+  "timezone": "Australia/Sydney",
+  "status": "scheduled_from_2026-06-30",
+  "duration_days": 90,
+  "start_date": "2026-06-30",
+  "end_date": "2026-09-27",
+  "current_day": null,
+  "current_day_status": "not_started",
+  "current_progress_label": null,
+  "created_from_user_request": {
+    "date": "2026-06-14",
+    "request": "按6月30日的时间开 60-90 天 GPU ML Systems & Model Training",
+    "duration_assumption": "90 days selected by Codex because Top1% GPU ML systems and distributed training requires depth; user can shorten later after W01 calibration."
+  },
+  "hardware_policy": {
+    "new_machine_expected_date": "2026-06-30",
+    "hardware_assumptions_verified": false,
+    "d01_required_profile": [
+      "GPU model and VRAM",
+      "CPU model and cores",
+      "RAM",
+      "storage type and free space",
+      "OS and driver",
+      "CUDA toolkit/runtime",
+      "PyTorch version and CUDA availability",
+      "remote GPU option and budget cap"
+    ]
+  },
+  "scope": {
+    "included": [
+      "GPU memory math",
+      "CUDA mental model",
+      "PyTorch training loop",
+      "profiling",
+      "DDP",
+      "FSDP",
+      "ZeRO",
+      "NCCL",
+      "tensor parallelism",
+      "pipeline parallelism",
+      "LLM data/model training design",
+      "LoRA and fine-tuning",
+      "experiment tracking",
+      "remote GPU operations",
+      "training cost governance"
+    ],
+    "excluded_until_explicit_run_contract": [
+      "expensive large-scale pretraining",
+      "unbounded remote GPU runs",
+      "production cluster buildout",
+      "custom CUDA kernel engineering beyond conceptual/profiling level"
+    ]
+  },
+  "notion_sources": {
+    "codex_study_timeline_database_id": "37eb1a986ba680bdb5f9ea2367b08991",
+    "codex_study_timeline_data_source": "collection://37eb1a98-6ba6-80ad-94e0-000bbda7ab85",
+    "timeline_page_id": "37fb1a98-6ba6-81f1-929a-fd4290f4be04",
+    "timeline_page_url": "https://app.notion.com/p/37fb1a986ba681f1929afd4290f4be04",
+    "timeline_project_select": "GPU ML Systems & Model Training"
+  },
+  "next_session": {
+    "date": "2026-06-30",
+    "day": 1,
+    "progress_label": "第1/90天",
+    "topic": "Hardware and environment profile",
+    "required_output": "GPU/CPU/RAM/storage/CUDA/PyTorch profile table"
+  },
+  "acceleration_policy": {
+    "no_d000": true,
+    "if_started_early_use_next_real_day": true,
+    "never_skip_required_workflow_steps": true
+  },
+  "notion_status": "created_2026-06-14",
+  "github_status": "created_2026-06-14",
+  "last_updated": "2026-06-14"
+}

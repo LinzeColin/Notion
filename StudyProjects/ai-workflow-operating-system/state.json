@@ -44,7 +44,13 @@
     "local data-analysis tool workflow"
   ],
   "next_action": "Start D01 on 2026-07-19 unless user explicitly pulls this project earlier; if pulled earlier, use D01 immediately, not D000. Keep local/remote model and RAG capabilities as bounded tools, not vague agent magic.",
-  "notion_status": "synced_scope_summary_2026-06-14",
+  "notion_status": "synced_and_format_aligned_2026-06-14",
+  "notion_format_cleanup_2026_06_14": {
+    "completed": true,
+    "backup_path": "NotionBackup/20260614/ai_workflow_operating_system_before_cleanup.md",
+    "change": "Replaced outdated 2026-06-13 to 2026-06-19 7-day body with current 2026-07-19 to 2026-08-15 28-day structure while preserving useful hard-constraint notes under history.",
+    "notion_page_id": "37fb1a98-6ba6-8146-a1ac-f721aa2aff8f"
+  },
   "notion_sources": {
     "codex_study_timeline_database_id": "37eb1a986ba680bdb5f9ea2367b08991",
     "codex_study_timeline_data_source": "collection://37eb1a98-6ba6-80ad-94e0-000bbda7ab85",
