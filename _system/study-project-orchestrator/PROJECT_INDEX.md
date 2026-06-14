@@ -10,13 +10,23 @@ This file is the routing index for all concurrent Study Projects under `LinzeCol
 
 Default execution is sequential unless the user explicitly chooses parallel mode. This reduces context pollution and improves Top 1% compression.
 
-| Order | Project | Slug | Status | Domain | Planned window | Current progress | Last sync | Next action |
-|---:|---|---|---|---|---|---|---|---|
-| 1 | Industrial AI SaaS Builder | `industrial-ai-saas-builder` | active from 2026-06-15 | Industrial AI / RAG / SaaS / business strategy / architecture / PM / Codex / AI SWE | 2026-06-15 to 2026-07-18 | D000; tomorrow is 第1/34天 | 2026-06-14 | Start D01: local vectorized RAG mental model; output `RAG 概念卡 + RAG 失败模式表` |
-| 2 | AI Workflow Operating System | `ai-workflow-operating-system` | queued | Prompt / Loop / AI Agent / Codex / Notion OS / Mermaid / software workflow | 2026-07-19 to 2026-08-15 | D000 / 第0/28天 | 2026-06-14 | Start after Project 1 unless explicitly parallelized |
-| 3 | Local AI Infrastructure | `local-ai-infrastructure` | queued | Local LLM / NPU / local RAG / CNN / local big-data strategy simulator | 2026-08-16 to 2026-09-12 | D000 / 第0/28天 | 2026-06-14 | Start after Project 2 unless explicitly parallelized |
-| 4 | CEO Finance Strategy System | `ceo-finance-strategy-system` | queued | Business strategy / CEO legal basics / finance / trading / arbitrage | 2026-09-13 to 2026-10-10 | D000 / 第0/28天 | 2026-06-14 | Start after Project 3 unless explicitly parallelized |
-| 5 | arXiv Top1 Program | `arxiv-top1-program` | active rolling program | arXiv / Q-FIN, PHYS, MATH, STAT, CS, ECON, EE/EESS, Q-BIO | rolling archive schedule | D001 active archives `Q-FIN - q-fin.TR` and `PHYS - quant-ph`; archive=30d, group=archive_count*30d | 2026-06-13 | Continue only when user explicitly starts arXiv session |
+| Order | Project | Slug | Status | Domain | Planned window | Current progress | Notion Timeline | Last sync | Next action |
+|---:|---|---|---|---|---|---|---|---|---|
+| 1 | Industrial AI SaaS Builder | `industrial-ai-saas-builder` | active from 2026-06-15 | Industrial AI / RAG / SaaS / business strategy / architecture / PM / Codex / AI SWE | 2026-06-15 to 2026-07-18 | D000; tomorrow is 第1/34天 | `37fb1a98-6ba6-81d2-9a22-d08f109448d5` | 2026-06-14 | Start D01: local vectorized RAG mental model; output `RAG 概念卡 + RAG 失败模式表` |
+| 2 | AI Workflow Operating System | `ai-workflow-operating-system` | queued | Prompt / Loop / AI Agent / Codex / Notion OS / Mermaid / software workflow | 2026-07-19 to 2026-08-15 | D000 / 第0/28天 | `37fb1a98-6ba6-8146-a1ac-f721aa2aff8f` | 2026-06-14 | Start after Project 1 unless explicitly parallelized |
+| 3 | Local AI Infrastructure | `local-ai-infrastructure` | queued | Local LLM / NPU / local RAG / CNN / local big-data strategy simulator | 2026-08-16 to 2026-09-12 | D000 / 第0/28天 | `37fb1a98-6ba6-815b-b096-c70b9183d79f` | 2026-06-14 | Start after Project 2 unless explicitly parallelized |
+| 4 | CEO Finance Strategy System | `ceo-finance-strategy-system` | queued | Business strategy / CEO legal basics / finance / trading / arbitrage | 2026-09-13 to 2026-10-10 | D000 / 第0/28天 | `37fb1a98-6ba6-815a-b6c7-df67a5656fd4` | 2026-06-14 | Start after Project 3 unless explicitly parallelized |
+| 5 | arXiv Top1 Program | `arxiv-top1-program` | active rolling program | arXiv / Q-FIN, PHYS, MATH, STAT, CS, ECON, EE/EESS, Q-BIO | rolling archive schedule | D001 active archives `Q-FIN - q-fin.TR` and `PHYS - quant-ph`; archive=30d, group=archive_count*30d | existing arXiv timeline pages | 2026-06-13 | Continue only when user explicitly starts arXiv session |
+
+## Notion Sync
+
+`Codex Study Timeline` database:
+
+- Database ID: `37eb1a986ba680bdb5f9ea2367b08991`
+- Data source: `collection://37eb1a98-6ba6-80ad-94e0-000bbda7ab85`
+- Backup before mutation: `NotionBackup/20260614/codex_study_timeline_before_project_sync.md`
+- Schema change: `Project` select options now include all four consolidated project names.
+- Created timeline rows use the exact project name as `Project` value.
 
 ## Merged / Superseded Standalone Projects
 
@@ -46,6 +56,7 @@ Before reading or writing any project state:
 8. Do not route new AI/Agent/LLM lessons to the old `ai` folder unless explicitly reactivated.
 9. Do not route new Prompt/Loop lessons to the old `prompt-engineering-loop-engineering` folder unless explicitly reactivated.
 10. Do not mutate Notion until the target database/page schema, visible properties, and current formatting have been fetched.
+11. For consolidated projects, use the exact project name in the Notion `Project` select property.
 
 ## New Project Minimum Fields
 
