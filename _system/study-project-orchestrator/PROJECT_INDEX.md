@@ -1,18 +1,36 @@
 # Study Project Index
 
-Generated: 2026-06-13
+Generated: 2026-06-14
 Timezone: Australia/Sydney
 Status: active
 
 This file is the routing index for all concurrent Study Projects under `LinzeColin/Notion/StudyProjects/<project-slug>/`.
 
-## Active Projects
+## Current Consolidated Route
 
-| Project | Slug | Status | Domain | Notion source | Current week/day | Last sync | Next action |
-|---|---|---|---|---|---|---|---|
-| AI | ai | active | AI / Large Models / Agents / Automation | Codex Study Timeline `37eb1a986ba680bdb5f9ea2367b08991`; D01 page `37eb1a986ba681098a14d2c8c71f3715` | W01D01 / 第1/28天 | 2026-06-13 | Continue D02 in Chinese: zero-human-interference boundaries and automation boundary map |
-| Prompt Engineering and Loop Engineering | prompt-engineering-loop-engineering | active | AI / Agent / LLM / Automation | Codex Study Timeline `37eb1a986ba680bdb5f9ea2367b08991`; page `37eb1a986ba6815594dfc76d517bfcbb`; automations `study-project-daily-sync`, `prompt-loop-study-daily-reminder` | W01D01 / 第1/21天, B阶段第1/7天; Phase C scheduled 2026-06-21 to 2026-07-04 after W01 review | 2026-06-13 | Start D01 on 2026-06-14: active recall, Prompt Contract v1, Notion sync |
-| arXiv Top1 Program | arxiv-top1-program | active | arXiv / Q-FIN, PHYS, MATH, STAT, CS, ECON, EE/EESS, Q-BIO | Codex Study Timeline `37eb1a986ba680bdb5f9ea2367b08991`; Q-FIN page `37eb1a986ba68133a01be6fbff80849b`; PHYS page `37eb1a986ba681a9a1a3e42720e82960`; CS page `37eb1a986ba6800a8e95f17a784cf2a8`; arXiv Taxonomy database `37cb1a986ba680838ccddc8c0931281b` | D001 / active archives `Q-FIN - q-fin.TR` and `PHYS - quant-ph`; rule: archive=30d, group=archive_count*30d, queued dates from active-slot promotion | 2026-06-13 | Teach D001 concept-first in Chinese: Q-FIN market microstructure and PHYS quantum physics |
+Default execution is sequential unless the user explicitly chooses parallel mode. This reduces context pollution and improves Top 1% compression.
+
+| Order | Project | Slug | Status | Domain | Planned window | Current progress | Last sync | Next action |
+|---:|---|---|---|---|---|---|---|---|
+| 1 | Industrial AI SaaS Builder | `industrial-ai-saas-builder` | active from 2026-06-15 | Industrial AI / RAG / SaaS / business strategy / architecture / PM / Codex / AI SWE | 2026-06-15 to 2026-07-18 | D000; tomorrow is 第1/34天 | 2026-06-14 | Start D01: local vectorized RAG mental model; output `RAG 概念卡 + RAG 失败模式表` |
+| 2 | AI Workflow Operating System | `ai-workflow-operating-system` | queued | Prompt / Loop / AI Agent / Codex / Notion OS / Mermaid / software workflow | 2026-07-19 to 2026-08-15 | D000 / 第0/28天 | 2026-06-14 | Start after Project 1 unless explicitly parallelized |
+| 3 | Local AI Infrastructure | `local-ai-infrastructure` | queued | Local LLM / NPU / local RAG / CNN / local big-data strategy simulator | 2026-08-16 to 2026-09-12 | D000 / 第0/28天 | 2026-06-14 | Start after Project 2 unless explicitly parallelized |
+| 4 | CEO Finance Strategy System | `ceo-finance-strategy-system` | queued | Business strategy / CEO legal basics / finance / trading / arbitrage | 2026-09-13 to 2026-10-10 | D000 / 第0/28天 | 2026-06-14 | Start after Project 3 unless explicitly parallelized |
+| 5 | arXiv Top1 Program | `arxiv-top1-program` | active rolling program | arXiv / Q-FIN, PHYS, MATH, STAT, CS, ECON, EE/EESS, Q-BIO | rolling archive schedule | D001 active archives `Q-FIN - q-fin.TR` and `PHYS - quant-ph`; archive=30d, group=archive_count*30d | 2026-06-13 | Continue only when user explicitly starts arXiv session |
+
+## Merged / Superseded Standalone Projects
+
+These folders remain as historical evidence and should not be used as active standalone plans unless the user explicitly reactivates them.
+
+| Old project | Old slug | Status | Merged into | Notes |
+|---|---|---|---|---|
+| AI | `ai` | merged/superseded | `industrial-ai-saas-builder`, `ai-workflow-operating-system`, `local-ai-infrastructure`, `ceo-finance-strategy-system` | See `StudyProjects/ai/MERGED_INTO_20260614.md` |
+| Prompt Engineering and Loop Engineering | `prompt-engineering-loop-engineering` | merged/superseded | `ai-workflow-operating-system` | See `StudyProjects/prompt-engineering-loop-engineering/MERGED_INTO_20260614.md` |
+| Levnovo/Lenovo Notion | not confirmed as a folder in this run | conceptually merged | `ai-workflow-operating-system` | Treated as Notion workspace OS scope; do not modify Notion without reading current format first |
+
+## Consolidation Record
+
+See `_system/study-project-orchestrator/STUDY_PROJECT_CONSOLIDATION_20260614.md`.
 
 ## Routing Rules
 
@@ -25,6 +43,9 @@ Before reading or writing any project state:
 5. Write only to the selected project folder under `StudyProjects/<project-slug>/`.
 6. Learning notes, daily logs, reviews, and Notion note content must be Chinese by default. Keep English only for professional terms, archive codes, exact source titles, API names, and tool names.
 7. `study-project-daily-sync` is a detached local cron sync. It must read GitHub/Notion directly and must not rely on the current chat thread.
+8. Do not route new AI/Agent/LLM lessons to the old `ai` folder unless explicitly reactivated.
+9. Do not route new Prompt/Loop lessons to the old `prompt-engineering-loop-engineering` folder unless explicitly reactivated.
+10. Do not mutate Notion until the target database/page schema, visible properties, and current formatting have been fetched.
 
 ## New Project Minimum Fields
 
