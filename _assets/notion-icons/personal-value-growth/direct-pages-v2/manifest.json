@@ -7,7 +7,7 @@
     "data_source_id": "1b3b1a98-6ba6-8015-8857-000b3b9feec4",
     "file": "00-personal-value-growth-database.png",
     "raw_url": "https://raw.githubusercontent.com/LinzeColin/Notion/main/_assets/notion-icons/personal-value-growth/direct-pages-v2/00-personal-value-growth-database.png",
-    "api_status": "blocked: 2026-06-14 update_page and update_data_source returned success, but fetch still reports /icons/document_red.svg for database and data source icon"
+    "api_status": "verified: 2026-06-14 set through Notion UI upload-link flow; fetch reports database and data source icon as this raw_url"
   },
   "direct_page_count": 38,
   "pages": [
