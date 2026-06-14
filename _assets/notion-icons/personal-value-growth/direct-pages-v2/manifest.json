@@ -407,7 +407,7 @@
       "ancestor": "通识 / FIFA / 术语词典",
       "file": "37-terms-database.png",
       "raw_url": "https://raw.githubusercontent.com/LinzeColin/Notion/main/_assets/notion-icons/personal-value-growth/direct-pages-v2/37-terms-database.png",
-      "api_status": "update_attempted; fetch output for inline database does not expose icon field, so visual verification is required"
+      "api_status": "verified: 2026-06-14 set through Notion UI upload-link flow; fetch reports database and data source icon as this raw_url"
     }
   ],
   "scope_notes": [
