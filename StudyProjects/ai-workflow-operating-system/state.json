@@ -44,7 +44,7 @@
     "local data-analysis tool workflow"
   ],
   "next_action": "Start D01 on 2026-07-19 unless user explicitly pulls this project earlier; if pulled earlier, use D01 immediately, not D000. Keep local/remote model and RAG capabilities as bounded tools, not vague agent magic.",
-  "notion_status": "synced_scope_summary_pending_verification",
+  "notion_status": "synced_scope_summary_2026-06-14",
   "notion_sources": {
     "codex_study_timeline_database_id": "37eb1a986ba680bdb5f9ea2367b08991",
     "codex_study_timeline_data_source": "collection://37eb1a98-6ba6-80ad-94e0-000bbda7ab85",
