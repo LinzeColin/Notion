@@ -22,6 +22,7 @@ Updated: 2026-06-14
 - Strongest mode: concrete explanation plus table, failure mode, decision rule, and a small output artifact.
 - Weakest mode: abstract prompt-only assignments without a worked answer.
 - Best practice format: active recall -> diagnosis/worked answer if needed -> concept teaching -> usage rules -> artifact -> sync -> external review or blocker log -> next lessons.
+- Effective recall pattern: after remediation, use a short fill-in template plus one concrete industrial example and one boundary/counterexample.
 
 ## Current Weak Areas
 
@@ -42,3 +43,4 @@ Updated: 2026-06-14
 | 2026-06-14 | If today's lesson is completed and user continues, advance to next lesson early | User wants faster overall completion when possible | Added to skill, reference, state, and handoff. |
 | 2026-06-14 | Use worked-answer mode when user asks Codex to complete learning instead of waiting for quiz answers | User wants concept teaching and usable answers, not empty templates | D01 completed with standard answers, scorecard, and decision matrix; D02 starts with quick independent recall. |
 | 2026-06-14 | When the user says a core problem has no answer/unclear, stop lesson progression and deliver deep concept remediation first | The user needs concept mastery before practice; D01 RAG core sentence was not yet internalized | Added D01 RAG core explanation note, Notion supplement, state recall gate, and project index block before D02. |
+| 2026-06-14 | Use fill-in recall template after corrective teaching | User passed D01 recall attempt 02 after using structured blanks and concrete industrial examples | D02 should use component -> failure mode -> industrial consequence -> detection method. |
