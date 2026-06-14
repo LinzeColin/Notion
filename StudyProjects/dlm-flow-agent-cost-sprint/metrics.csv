@@ -1,0 +1,2 @@
+date,day,planned_minutes,actual_minutes,recall_score,concept_score,output_done,notion_synced,github_synced,next_action
+2026-06-14,D01,90,,0,0,no,yes,yes,Start D01 AR vs Diffusion LM + KV cache

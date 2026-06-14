@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="58" y1="42" x2="454" y2="472" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FBFF"/>
+      <stop offset="1" stop-color="#E8F2FF"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="126" y1="112" x2="394" y2="398" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#1D4ED8"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="184" y1="142" x2="360" y2="368" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FDE68A"/>
+      <stop offset="1" stop-color="#D97706"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="512" height="512" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#1D4ED8" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+  <rect x="38" y="38" width="436" height="436" rx="112" fill="url(#bg)" filter="url(#shadow)"/>
+  <rect x="62" y="62" width="388" height="388" rx="92" stroke="#2563EB" stroke-opacity="0.16" stroke-width="4"/>
+  <path d="M120 258C152 206 204 178 256 178C308 178 360 206 392 258C360 310 308 338 256 338C204 338 152 310 120 258Z" stroke="url(#blue)" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M152 258H360" stroke="#93C5FD" stroke-width="12" stroke-linecap="round" stroke-dasharray="18 22"/>
+  <circle cx="256" cy="258" r="54" fill="#EFF6FF" stroke="#2563EB" stroke-width="16"/>
+  <path d="M256 212V304" stroke="url(#gold)" stroke-width="18" stroke-linecap="round"/>
+  <path d="M210 258H302" stroke="url(#gold)" stroke-width="18" stroke-linecap="round"/>
+  <path d="M142 372C184 334 226 376 268 338C310 300 340 324 388 282" stroke="url(#blue)" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="388" cy="282" r="16" fill="#FFFFFF" stroke="#2563EB" stroke-width="9"/>
+</svg>

@@ -1,0 +1,48 @@
+{
+  "project_slug": "dlm-flow-agent-cost-sprint",
+  "project_name": "DLM Flow Agent Cost Sprint",
+  "timezone": "Australia/Sydney",
+  "status": "setup_created",
+  "duration_days": 7,
+  "start_date": "2026-06-14",
+  "end_date": "2026-06-20",
+  "current_day": 1,
+  "current_day_label": "第1/7天",
+  "current_focus": "D01 - AR vs Diffusion LM + KV cache",
+  "source_pack": "/Users/linzezhang/Downloads/dlm_learning_pack_zh.zip",
+  "github_source": {
+    "repository": "LinzeColin/Notion",
+    "path": "StudyProjects/dlm-flow-agent-cost-sprint"
+  },
+  "notion_source": {
+    "database_name": "Codex Study Timeline",
+    "database_id": "37eb1a986ba680bdb5f9ea2367b08991",
+    "data_source_id": "37eb1a98-6ba6-80ad-94e0-000bbda7ab85",
+    "timeline_page_id": "37fb1a98-6ba6-81f8-b100-c0e2aa67a3f2",
+    "timeline_page_url": "https://app.notion.com/p/37fb1a986ba681f8b100c0e2aa67a3f2",
+    "project_select": "AI/Agent/LLM"
+  },
+  "icon_assets": {
+    "project_icon": "_assets/notion-icons/study-timeline-pages/dlm-flow-agent-cost-b-tech-v1.svg",
+    "gpu_icon": "_assets/notion-icons/study-timeline-pages/gpu-ml-systems-b-tech-v1.svg",
+    "arxiv_roadmap_icon": "_assets/notion-icons/arxiv-taxonomy/pw-taxonomy-map-20260614.svg"
+  },
+  "next_session": {
+    "date": "2026-06-14",
+    "day": 1,
+    "progress_label": "第1/7天",
+    "topic": "AR vs Diffusion LM + KV cache",
+    "required_output": "AR cost model diagram"
+  },
+  "setup_sync": {
+    "date": "2026-06-14",
+    "github_project_folder_created": true,
+    "notion_timeline_page_created": true,
+    "notion_icon_applied": true,
+    "empty_timeline_icons_filled": [
+      "GPU ML Systems & Model Training",
+      "arXiv Roadmap"
+    ]
+  },
+  "last_updated": "2026-06-14"
+}
