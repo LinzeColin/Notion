@@ -1,0 +1,7 @@
+date,review_type,reviewer,reviewer_type,status,reason,artifact
+2026-06-15,roadmap,Configured Agent reviewer,agent,blocked_pending_explicit_delegation_or_connector,"Current side conversation tool policy requires explicit user request for sub-agent delegation before spawning.",05_REVIEWS/external_ai_reviews/2026-06-15_roadmap_review_packet.md
+2026-06-15,roadmap,ChatGPT,external_ai,blocked_unavailable,"No active ChatGPT connector exposed in this turn.",05_REVIEWS/external_ai_reviews/2026-06-15_roadmap_review_packet.md
+2026-06-15,roadmap,Claude,external_ai,blocked_unavailable,"No active Claude connector exposed in this turn.",05_REVIEWS/external_ai_reviews/2026-06-15_roadmap_review_packet.md
+2026-06-15,roadmap,Perplexity,external_ai,blocked_unavailable,"No active Perplexity connector exposed in this turn.",05_REVIEWS/external_ai_reviews/2026-06-15_roadmap_review_packet.md
+2026-06-15,roadmap,Additional reviewer 1,external_ai,blocked_unavailable,"No configured replacement reviewer confirmed.",05_REVIEWS/external_ai_reviews/2026-06-15_roadmap_review_packet.md
+2026-06-15,roadmap,Additional reviewer 2,external_ai,blocked_unavailable,"No configured replacement reviewer confirmed.",05_REVIEWS/external_ai_reviews/2026-06-15_roadmap_review_packet.md

@@ -1,0 +1,5 @@
+date,source_name,source_type,status,use_case,notes
+2026-06-15,GB/T 4754-2017,official_standard,to_verify,taxonomy,"Verify industrial small-class code/name/category list before ranking."
+2026-06-15,National Bureau of Statistics,official,to_verify,industrial data,"Verify current statistical wording and data definitions."
+2026-06-15,产业结构调整指导目录 2024,policy,to_verify,policy mapping,"Use only after checking official source."
+2026-06-15,MIIT future industry and manufacturing policies,policy,to_verify,trend mapping,"Use for trend context, not as proof of commercial viability."

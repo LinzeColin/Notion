@@ -1,0 +1,6 @@
+date,object,status,mode,reason
+2026-06-15,Linz Dashboard / Codex Study Timeline,blocked_reauth_required,pre_create_backup_and_schema_fetch,"Notion connector requires reauthentication; no Notion mutation performed."
+2026-06-15,Codex Study Timeline,blocked_reauth_required,create_project_page_and_bulk_icon_sync,"Notion connector still requires reauthentication during fetch/search; project page and all child page icons were not mutated."
+2026-06-15,Codex Study Timeline,blocked_reauth_required,retry_after_user_relinked,"User reported Notion linked and requested continuation, but Notion fetch/search still returned reauthentication requirement; no local Notion API environment variable names were present; no Notion mutation performed."
+2026-06-15,Codex Study Timeline,blocked_reauth_required,second_retry_after_user_relinked,"User invoked Notion connector again and provided Codex Study Timeline URL; fetch and get-users both still returned reauthentication requirement; no backup, page creation, or icon mutation performed."
+2026-06-16,Codex Study Timeline,partial_chrome_fallback_synced,row_level_create_update,"User authorized Chrome fallback. Verified row Industrial 666 ROI Map with Project=Industrial 666 ROI Map, Date=June 15 2026 -> September 12 2026, Tags=industrial taxonomy. Page body and icon sync remain incomplete."

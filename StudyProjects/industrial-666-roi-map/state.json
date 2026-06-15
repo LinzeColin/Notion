@@ -1,0 +1,59 @@
+{
+  "project_slug": "industrial-666-roi-map",
+  "project_name": "全工业体系 666 小类 ROI 学习计划",
+  "domain": "Industrial taxonomy, manufacturing strategy, industry research, ROI opportunity mapping",
+  "timezone": "Australia/Sydney",
+  "start_date": "2026-06-15",
+  "planned_end_date": "2026-09-12",
+  "duration_days": 90,
+  "current_week": 1,
+  "current_day": 1,
+  "current_focus": "Verify industrial small-class taxonomy and build scoring schema v0.1",
+  "last_session_date": "",
+  "streak": 0,
+  "missed_study_today": false,
+  "last_reminder_at": "",
+  "next_action": "Begin D01: teach why industrial small class is the minimum unit, verify taxonomy sources, and create scoring schema v0.1.",
+  "source_prompt": {
+    "path": "/Users/linzezhang/Downloads/industrial_666_small_classes_roi_learning_prompt_v2.md",
+    "summary_path": "11_SOURCE_PROMPTS/industrial_666_prompt_summary.md"
+  },
+  "notion_source": {
+    "page_url": "notion://Codex Study Timeline/Industrial 666 ROI Map",
+    "database_url": "https://www.notion.so/37eb1a986ba680bdb5f9ea2367b08991?v=37eb1a986ba68040b4f4000cc8b21956",
+    "sync_mode": "summary_structured_links_plus_optional_full_body",
+    "status": "partial_chrome_fallback_synced",
+    "connector_status": "blocked_reauth_required",
+    "blocker": "Notion connector returned reauthentication requirement during search/fetch on 2026-06-15, including retry after user reported relinking. Chrome fallback was authorized and used for verified row-level edits only.",
+    "chrome_fallback_result": {
+      "database": "Codex Study Timeline",
+      "row_title": "Industrial 666 ROI Map",
+      "project_select": "Industrial 666 ROI Map",
+      "date_range": "June 15, 2026 -> September 12, 2026",
+      "tags": [
+        "industrial taxonomy"
+      ],
+      "verified_at": "2026-06-16 01:04 Australia/Sydney",
+      "backup_snapshot": "NotionBackup/20260615/codex_study_timeline_chrome_visible_snapshot.md"
+    },
+    "pending_actions": [
+      "Fetch Linz Dashboard and Codex Study Timeline schema/style after connector reauthentication.",
+      "Back up relevant Notion content through the connector before any bulk icon changes.",
+      "Open Industrial 666 ROI Map page safely and sync the lightweight Chinese notebook body.",
+      "Set Industrial 666 ROI Map page icon to _assets/notion-icons/study-timeline-pages/industrial-666-roi-map-b-tech-v1.svg or an equivalent hosted external image URL after explicit file-upload confirmation if using Chrome UI.",
+      "Audit all Codex Study Timeline child page icons and align them to the blue/white B-tech style after connector access or a safer bulk-edit channel is available."
+    ],
+    "prepared_icon_asset": "_assets/notion-icons/study-timeline-pages/industrial-666-roi-map-b-tech-v1.svg"
+  },
+  "github_source": {
+    "repo": "LinzeColin/Notion",
+    "path": "StudyProjects/industrial-666-roi-map/",
+    "status": "local_files_created_pending_push"
+  },
+  "reminder_mode": "return_to_codex_manual_until_verified",
+  "external_review": {
+    "roadmap_packet": "05_REVIEWS/external_ai_reviews/2026-06-15_roadmap_review_packet.md",
+    "status": "blocked_pending_explicit_delegation_or_connector"
+  },
+  "status": "active"
+}
