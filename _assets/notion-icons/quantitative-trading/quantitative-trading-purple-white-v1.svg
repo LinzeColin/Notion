@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Quantitative Trading purple white order book icon">
+  <defs>
+    <linearGradient id="bg" x1="30" y1="24" x2="226" y2="232">
+      <stop stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f1e8ff"/>
+    </linearGradient>
+    <linearGradient id="p" x1="42" y1="42" x2="214" y2="214">
+      <stop stop-color="#c084fc"/>
+      <stop offset="1" stop-color="#5b21b6"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="80" y1="74" x2="180" y2="190">
+      <stop stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#2563eb"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#4c1d95" flood-opacity="0.20"/>
+    </filter>
+  </defs>
+  <rect width="256" height="256" rx="56" fill="url(#bg)"/>
+  <circle cx="45" cy="203" r="28" fill="#ddd6fe" opacity="0.48"/>
+  <circle cx="207" cy="57" r="25" fill="#ffffff" opacity="0.76"/>
+  <g filter="url(#shadow)">
+    <rect x="42" y="42" width="172" height="172" rx="42" fill="#ffffff"/>
+    <rect x="62" y="65" width="132" height="94" rx="24" fill="#fbf7ff" stroke="url(#p)" stroke-width="9"/>
+    <path d="M83 93h42M83 119h30M83 145h58" stroke="#5b21b6" stroke-width="8" stroke-linecap="round"/>
+    <path d="M153 145h21M153 119h30M153 93h14" stroke="#38bdf8" stroke-width="8" stroke-linecap="round"/>
+    <path d="M81 184c23-28 42-13 58-35 14-19 27-11 43-35" fill="none" stroke="url(#blue)" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="182" cy="114" r="10" fill="#ffffff" stroke="#2563eb" stroke-width="6"/>
+    <rect x="76" y="177" width="104" height="29" rx="14.5" fill="#f5efff" stroke="#e9d5ff" stroke-width="2"/>
+    <text x="128" y="197" text-anchor="middle" font-family="Avenir Next, Montserrat, Arial, sans-serif" font-size="14" font-weight="800" fill="#5b21b6">QTR</text>
+  </g>
+  <path d="M55 62h22M66 51v22" stroke="#d8b4fe" stroke-width="7" stroke-linecap="round" opacity="0.86"/>
+  <circle cx="199" cy="198" r="7" fill="#8b5cf6" opacity="0.58"/>
+</svg>

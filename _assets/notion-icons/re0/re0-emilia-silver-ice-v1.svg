@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Re Zero Emilia silver ice violet icon">
+  <defs>
+    <linearGradient id="bg" x1="30" y1="24" x2="226" y2="232">
+      <stop stop-color="#ffffff"/>
+      <stop offset="0.48" stop-color="#eef7ff"/>
+      <stop offset="1" stop-color="#efe7ff"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="74" y1="45" x2="184" y2="197">
+      <stop stop-color="#ffffff"/>
+      <stop offset="0.56" stop-color="#dbeafe"/>
+      <stop offset="1" stop-color="#c7d2fe"/>
+    </linearGradient>
+    <linearGradient id="violet" x1="78" y1="82" x2="183" y2="185">
+      <stop stop-color="#c084fc"/>
+      <stop offset="1" stop-color="#6d28d9"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="12" stdDeviation="13" flood-color="#7c3aed" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect width="256" height="256" rx="58" fill="url(#bg)"/>
+  <circle cx="51" cy="204" r="28" fill="#bfdbfe" opacity="0.46"/>
+  <circle cx="208" cy="55" r="25" fill="#f5f3ff" opacity="0.84"/>
+  <path d="M52 72h24M64 60v24M190 188h24M202 176v24" stroke="#a78bfa" stroke-width="7" stroke-linecap="round" opacity="0.7"/>
+  <g filter="url(#shadow)">
+    <rect x="44" y="36" width="168" height="184" rx="52" fill="#ffffff"/>
+    <path d="M128 48c-36 0-64 25-64 64 0 24 8 49 22 67 11 15 27 24 42 24s31-9 42-24c14-18 22-43 22-67 0-39-28-64-64-64z" fill="#f8fbff"/>
+    <path d="M76 119c0-42 22-73 52-73s52 31 52 73c0 24-7 49-19 66-9 13-21 20-33 20s-24-7-33-20c-12-17-19-42-19-66z" fill="#fff7ed"/>
+    <path d="M128 43c-45 0-72 31-72 80 0 24 7 50 19 69 4-33 13-60 31-86 18 17 42 28 76 32 2-6 3-12 3-19 0-46-22-76-57-76z" fill="url(#hair)"/>
+    <path d="M70 111c8-34 29-61 58-61 27 0 48 21 56 55-21-8-45-22-62-43-18 22-34 36-52 49z" fill="#ffffff" opacity="0.72"/>
+    <path d="M94 137c12 7 21 7 33 0M129 137c12 7 21 7 33 0" stroke="#6d28d9" stroke-width="7" stroke-linecap="round"/>
+    <path d="M112 167c9 8 23 8 32 0" stroke="#c084fc" stroke-width="7" stroke-linecap="round"/>
+    <path d="M80 190c21 24 75 24 96 0" fill="none" stroke="#93c5fd" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="88" cy="92" r="8" fill="#dbeafe"/>
+    <circle cx="174" cy="92" r="8" fill="#dbeafe"/>
+  </g>
+  <g transform="translate(184 150)" opacity="0.92">
+    <circle cx="22" cy="22" r="18" fill="#ffffff" stroke="#93c5fd" stroke-width="5"/>
+    <path d="M22 6v32M6 22h32M11 11l22 22M33 11 11 33" stroke="url(#violet)" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>
