@@ -18,7 +18,8 @@ Default execution through 2026-08-15 is controlled parallel mode for the existin
 | 4 | GPU ML Systems & Model Training | `gpu-ml-systems-model-training` | scheduled from 2026-06-30 | GPU ML systems / CUDA / PyTorch / distributed training / FSDP / ZeRO / NCCL / Megatron-LM / DeepSpeed / model training operations | 2026-06-30 to 2026-09-27 | not_started; next is D01 / 第1/90天 | `37fb1a98-6ba6-81f1-929a-fd4290f4be04` | 2026-06-14 | Start D01 on 2026-06-30 with actual hardware/environment profile; do not plan expensive training before hardware and budget are verified. |
 | 5 | AI Workflow Operating System | `ai-workflow-operating-system` | queued | Prompt / Loop / AI Agent / Codex / Notion OS / Mermaid / software workflow / local-remote model tool routing / RAG as tool / multimodal tool workflow | 2026-07-19 to 2026-08-15 | not_started; next is D01 / 第1/28天 | `37fb1a98-6ba6-8146-a1ac-f721aa2aff8f` | 2026-06-14 | Start D01 on 2026-07-19 unless explicitly pulled earlier; runs in parallel with Local AI Infrastructure; keep model/RAG/multimodal capabilities as bounded tools. |
 | 6 | Local AI Infrastructure | `local-ai-infrastructure` | scheduled parallel from 2026-07-19 | Remote GPU / Local LLM / 32B-70B quantized models / local RAG / large document knowledge base / multimodal / NPU / CNN / local big-data strategy simulator / training decision literacy | 2026-07-19 to 2026-08-15 | not_started; next is D01 / 第1/28天 | `37fb1a98-6ba6-815b-b096-c70b9183d79f` | 2026-06-14 | Start D01 on 2026-07-19 in controlled parallel with AI Workflow Operating System; verify actual new machine specs after 2026-06-30 before changing hardware assumptions. |
-| 7 | arXiv Top1 Program | `arxiv-top1-program` | active rolling program | arXiv / Q-FIN, PHYS, MATH, STAT, CS, ECON, EE/EESS, Q-BIO | rolling archive schedule | D002 validated; Roadmap page created; CS route date repaired | Roadmap `37fb1a98-6ba6-8113-98bc-e669dcb55d3e`; existing group pages; MATH page not yet linked | 2026-06-14 | Next arXiv session must include Q-FIN D003, PHYS D003, MATH D001; CS.csv and Notion CS dates are aligned. |
+| 7 | arXiv Top1 Program | `arxiv-top1-program` | active rolling program | arXiv / Q-FIN, PHYS, MATH, STAT, CS, ECON, EE/EESS, Q-BIO | rolling archive schedule | Q-FIN `q-fin.TR` D003 validated; PHYS `quant-ph` D003 validated; MATH `math.PR` D001 validated on 2026-06-21; Roadmap page created; CS route date repaired | Roadmap `37fb1a98-6ba6-8113-98bc-e669dcb55d3e`; MATH `386b1a98-6ba6-81a7-a8ce-f76d95e6f511`; existing group pages | 2026-06-21 | Next arXiv teaching must cover one exact archive only and use balanced catch-up. Default next: MATH `math.PR` D002; PHYS `quant-ph` D004 and Q-FIN `q-fin.TR` D004 wait. |
+| 8 | 全工业体系 666 小类 ROI 学习计划 | `industrial-666-roi-map` | active from 2026-06-15 | Industrial taxonomy / manufacturing strategy / GB/T 4754-2017 small-class ranking / industry research / ROI opportunity mapping | 2026-06-15 to 2026-09-12 | D01 open / 第1/90天; project scaffold created; Notion row-level sync complete via Chrome fallback; page body/icon incomplete | `Codex Study Timeline` row verified via Chrome fallback; connector still blocked; page body/icon pending | 2026-06-16 | Start D01: verify taxonomy/source strategy, teach why industrial small class is the minimum unit, and explain scoring schema v0.1. |
 
 ## Archived / Superseded Projects
 
@@ -54,6 +55,30 @@ Routing:
 
 System record: `_system/study-project-orchestrator/2026-06-14_SCOPE_UPDATE_GPU_RAG_MULTIMODAL.md`.
 
+## 2026-06-15 Industrial 666 ROI Map
+
+User authorized a new Study Project from `/Users/linzezhang/Downloads/industrial_666_small_classes_roi_learning_prompt_v2.md`.
+
+| Decision | Value |
+|---|---|
+| Project | 全工业体系 666 小类 ROI 学习计划 |
+| Slug | `industrial-666-roi-map` |
+| Duration | 90 days first phase |
+| Window | 2026-06-15 to 2026-09-12 |
+| Strategy | Build verified taxonomy + top-100 ranking + top-30 deep memos instead of shallow 666-day checklist. |
+| Notion status | partial_chrome_fallback_synced; row-level timeline entry verified, but page body and icons not complete. |
+| Backup status | Blocker manifest saved to `NotionBackup/20260615/industrial-666-roi-map_backup_manifest.md`. |
+
+Chrome fallback verified on 2026-06-16:
+
+| Field | Value |
+|---|---|
+| Timeline row | `Industrial 666 ROI Map` |
+| Project | `Industrial 666 ROI Map` |
+| Date | 2026-06-15 to 2026-09-12 |
+| Tags | `industrial taxonomy` |
+| Remaining Notion blockers | Connector reauthentication, page body sync, icon upload, bulk child-page icon alignment |
+
 ## Non-arXiv End-Date Cap
 
 Existing non-arXiv Study Projects remain capped at 2026-08-15. The newly authorized `GPU ML Systems & Model Training` project is an explicit exception because the user opened a 60-90 day route starting 2026-06-30.
@@ -73,11 +98,11 @@ arXiv now runs three active groups daily:
 
 | Slot | Group | Current archive | Start | Archive day |
 |---:|---|---|---|---:|
-| 1 | Q-FIN | `q-fin.TR` Trading and Market Microstructure | 2026-06-13 | 2/30 validated |
-| 2 | PHYS | `quant-ph` Quantum Physics | 2026-06-13 | 2/30 |
-| 3 | MATH | `math.PR` Probability | 2026-06-15 | not_started until first lesson |
+| 1 | Q-FIN | `q-fin.TR` Trading and Market Microstructure | 2026-06-13 | 3/30 validated |
+| 2 | PHYS | `quant-ph` Quantum Physics | 2026-06-13 | 3/30 validated |
+| 3 | MATH | `math.PR` Probability | 2026-06-15 | D001 validated on 2026-06-21; next D002 |
 
-Do not retroactively mark MATH as studied on 2026-06-14. Start it in the next arXiv daily session.
+Do not retroactively mark MATH as studied on 2026-06-14. MATH D001 was validated on 2026-06-21; continue balanced catch-up with MATH D002 before PHYS/Q-FIN D004 unless the user requests focus mode.
 
 ## Routing Rules
 
@@ -112,3 +137,15 @@ New Study Project databases/pages should be created under `Linz Dashboard` as pe
 - `Codex Study Timeline`
 
 Existing workspaces are read-only by default.
+
+## Notion Icon Style Rule
+
+When creating or updating Study Project pages in Notion:
+
+1. Fetch and inspect the target page/database plus relevant sibling page style before writing.
+2. Configure the page icon to match the existing icon system.
+3. Prefer existing SVG assets under `_assets/notion-icons/`.
+4. Use `_assets/notion-icons/study-timeline-pages/` for Codex Study Timeline project pages.
+5. Use `_assets/notion-icons/arxiv-taxonomy/` for arXiv taxonomy/group/archive pages.
+6. Do not use random emoji, generic icons, or mismatched visual styles.
+7. If icon read/write is unavailable, record the blocker in GitHub and do not mark icon sync complete.

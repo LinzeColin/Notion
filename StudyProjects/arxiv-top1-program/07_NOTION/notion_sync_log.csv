@@ -5,3 +5,12 @@ date,calendar_global_day,session,notion_page,page_id,archive_code,sync_scope,res
 2026-06-14,2,D002_VALIDATION,PHYS,37eb1a98-6ba6-81a9-a1a3-e42720e82960,quant-ph,state_validation_external_review_adoption,success
 2026-06-14,2,ROADMAP,arXiv Roadmap,37fb1a98-6ba6-8113-98bc-e669dcb55d3e,all,project_group_archive_roadmap,success_with_display_note
 2026-06-14,2,CS_DATE_FIX,arXiv Computer Science,37eb1a98-6ba6-800a-8e95-f17a784cf2a8,CS,route_date_property_and_content_fix,success
+2026-06-14,2,PHYS_quant-ph_D003,arXiv Physics,37eb1a98-6ba6-81a9-a1a3-e42720e82960,quant-ph,learning_notes_archive_day_and_progress_text,success
+2026-06-14,2,PHYS_quant-ph_D003_REVIEW,arXiv Physics,37eb1a98-6ba6-81a9-a1a3-e42720e82960,quant-ph,external_reviewer_guardrail_and_next_lesson,success
+2026-06-14,2,ARXIV_BALANCED_CATCHUP_CORRECTION,arXiv Physics,37eb1a98-6ba6-81a9-a1a3-e42720e82960,quant-ph,scheduler_correction_no_d004_completion,success
+2026-06-14,2,QFIN_q-fin.TR_D003,arXiv Quantitative Finance,37eb1a98-6ba6-8133-a01b-e6fbff80849b,q-fin.TR,learning_notes_archive_day_and_price_formation,success
+2026-06-14,2,QFIN_q-fin.TR_D003_REVIEW,arXiv Quantitative Finance,37eb1a98-6ba6-8133-a01b-e6fbff80849b,q-fin.TR,external_reviewer_lob_walk_gate,success
+2026-06-21,9,MATH_math.PR_D001,MATH,null,math.PR,learning_notes_not_synced_no_linked_page,blocked_no_linked_notion_page
+2026-06-21,9,MATH_PAGE_CREATE,arXiv Mathematics,386b1a98-6ba6-81a7-a8ce-f76d95e6f511,math.PR,group_page_created_from_existing_arxiv_format,success
+2026-06-21,9,MATH_math.PR_D001,arXiv Mathematics,386b1a98-6ba6-81a7-a8ce-f76d95e6f511,math.PR,learning_notes_archive_day_and_probability_d001,success
+2026-06-21,9,MATH_math.PR_D001_REVIEW,arXiv Mathematics,386b1a98-6ba6-81a7-a8ce-f76d95e6f511,math.PR,external_review_adoption_and_d002_gate,success

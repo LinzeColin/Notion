@@ -3,27 +3,34 @@
 Updated: 2026-06-14
 Timezone: Australia/Sydney
 
-## Daily arXiv Session Header
+## Daily arXiv Session Header And Single-Archive Teaching Rule
 
-每次 arXiv 日课开头必须先明确显示当前学习位置，避免用户不知道今天到底在学哪个 archive。
+每次 arXiv 日课开头必须先明确显示当前学习位置，避免用户不知道今天到底在学哪个 archive。不要只说 group，必须说 group 里的哪一个 archive。
 
 固定格式：
 
 | Field | Value |
 |---|---|
 | Global Day | Dxxx |
-| Track 1 | Group / Archive / Archive day out of 30 |
-| Track 2 | Group / Archive / Archive day out of 30 |
-| Today focus | 本节核心概念 |
+| Current Archive | Group / archive_code archive_name / Archive day out of 30 |
+| Today focus | 本 archive 的一个核心概念 |
+| Queue | 其他 active archive 只列为下一步排队，不展开讲解 |
 
 示例：
 
 | Field | Value |
 |---|---|
-| Global Day | D002 |
-| Track 1 | Q-FIN / q-fin.TR Trading and Market Microstructure / Day 1 of 30 |
-| Track 2 | PHYS / quant-ph Quantum Physics / Day 1 of 30 |
-| Today focus | Limit Order Book、Bid-Ask Spread、Liquidity、Slippage；State、Measurement、Uncertainty |
+| Global Day | D003 |
+| Current Archive | PHYS / quant-ph Quantum Physics / 第3/30天 |
+| Today focus | Amplitude vs Probability |
+| Queue | Q-FIN q-fin.TR D003、MATH math.PR D001 排队，不在本次正文展开 |
+
+强制规则：
+
+- 一次输出只讲一个 archive。
+- 本文教学、例子、主动回忆、练习任务必须围绕同一个 archive。
+- 其他 archive 只能出现在 `Next Queue` / `Upcoming Lessons` 表格里。
+- 讲解必须详细、专业、全面、深度，不能只给一句定义或让用户自己猜模板。
 
 ## Notion Sync Rule
 
@@ -46,3 +53,4 @@ Timezone: Australia/Sydney
 - 当用户说“模板不知道怎么填”时，不继续要求用户填模板；先给标准答案、反例、类比和可复制表达，再让用户用自己的话复述。
 - 对金融市场概念，优先用真实交易流程讲解：报价、下单、撮合、成交、滑点、费用、风控、仓位、退出。
 - 每个概念都必须回答“这个概念我应该怎么用”，不能只给定义。
+- 2026-06-21 MATH / `math.PR` D001：用户能抓住长期频率、Expected Value、Payoff 的主线，但 `random variable` 容易说成“观测对象”。后续数学课必须固定使用“现实对象 -> 可计算数字 -> distribution -> decision”的链条，并把有限样本波动、variance、tail risk 加进交易/agent 例子。

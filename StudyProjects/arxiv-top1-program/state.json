@@ -4,13 +4,13 @@
   "timezone": "Australia/Sydney",
   "program_start_date": "2026-06-13",
   "program_mode": "rolling_parallel_groups",
-  "current_global_day": 2,
+  "current_global_day": 9,
   "active_track_limit": 3,
   "archive_cycle_days": 30,
   "hard_rule": "One archive/category is always a 30-day cycle. A group is not 30 days; group route duration equals archive_count * 30 days.",
   "date_rule_for_notion_timeline": "Only currently active groups default to their real active-slot start date. Queued group dates must be computed from active-slot promotion rules or explicit project state; never default every queued group to today.",
   "learning_note_language_rule": "Learning notes, daily logs, reviews, and Notion note content must be Chinese by default. Keep English only for unavoidable professional terms, API names, paper/category codes, exact source titles, and tool names.",
-  "daily_session_header_rule": "Every arXiv daily session must first state Global Day, all three active Groups, current Archive codes/names, and Archive Day out of 30.",
+  "daily_session_header_rule": "Every arXiv daily teaching output must first state Global Day and the exact current archive code/name/day, for example PHYS / quant-ph Quantum Physics / 第3/30天. Do not identify lessons only by group. Teach one archive per output; other active archives may appear only as queued next actions.",
   "daily_judgment_question": "如果我是交易系统/研究系统/agent 系统，今天这个概念会让我避免哪一种亏钱、误判或伪知识错觉？",
   "group_order": [
     "Q-FIN",
@@ -112,11 +112,11 @@
       "archive_count_in_group": 9,
       "start_date": "2026-06-13",
       "end_date": "2026-07-12",
-      "archive_day": 2,
+      "archive_day": 3,
       "archive_cycle_days": 30,
-      "mastery_pct": 12,
+      "mastery_pct": 18,
       "status": "active",
-      "last_lesson_status": "D002 validated on 2026-06-14. User understands market order, limit order, and stop order. Stop order recall passed: it controls when an action starts, not guaranteed execution price."
+      "last_lesson_status": "D003 price formation concept validated on 2026-06-14. User understands price as order-book formation through executable liquidity, not merely a quoted point or last price. External reviewer requires one order-book walk calculation gate before Q-FIN D004."
     },
     {
       "track_id": 2,
@@ -129,11 +129,11 @@
       "archive_count_in_group": 51,
       "start_date": "2026-06-13",
       "end_date": "2026-07-12",
-      "archive_day": 2,
+      "archive_day": 3,
       "archive_cycle_days": 30,
-      "mastery_pct": 8,
+      "mastery_pct": 14,
       "status": "active",
-      "last_lesson_status": "D002 state recall validated on 2026-06-14. User understands state as computable/quantified compression that preserves some information and omits other information."
+      "last_lesson_status": "D003 amplitude vs probability validated on 2026-06-14. User understands model confidence/signal/score as an intermediate quantity that must not be treated as real-world validated probability or executable result."
     },
     {
       "track_id": 3,
@@ -146,11 +146,11 @@
       "archive_count_in_group": 32,
       "start_date": "2026-06-15",
       "end_date": "2026-07-14",
-      "archive_day": 0,
+      "archive_day": 1,
       "archive_cycle_days": 30,
-      "mastery_pct": 0,
-      "status": "active_from_2026-06-15",
-      "last_lesson_status": "Not started yet. Start D001 math.PR Probability in the next arXiv daily session; do not mark 2026-06-14 as studied."
+      "mastery_pct": 5,
+      "status": "active",
+      "last_lesson_status": "D001 probability as uncertainty compression validated on 2026-06-21 with finite-sample correction. User understands long-run frequency direction and expected value/payoff, but random variable needs reinforcement as mapping from observable outcome to computable value."
     }
   ],
   "promotion_rule": "Three active slots are maintained. From 2026-06-15 the active groups are Q-FIN, PHYS, and MATH. When an active group completes, the next queued group in group_order starts the next calendar day in the freed slot. Do not assign queued group start dates before promotion unless the queue simulation already determines them.",
@@ -169,7 +169,7 @@
       "ROADMAP": "37fb1a98-6ba6-8113-98bc-e669dcb55d3e",
       "Q-FIN": "37eb1a98-6ba6-8133-a01b-e6fbff80849b",
       "PHYS": "37eb1a98-6ba6-81a9-a1a3-e42720e82960",
-      "MATH": null,
+      "MATH": "386b1a98-6ba6-81a7-a8ce-f76d95e6f511",
       "CS": "37eb1a98-6ba6-800a-8e95-f17a784cf2a8"
     }
   },
@@ -199,16 +199,44 @@
       "Notion auto-linked some archive codes that look like URLs; GitHub roadmap remains clean"
     ]
   },
-  "last_sync_date": "2026-06-14",
-  "last_learning_session": {
-    "date": "2026-06-14",
-    "calendar_global_day": 2,
-    "lesson_covered": "D002 validation",
-    "daily_log": "04_DAILY_LOGS/2026-06-14_D002_VALIDATION.md",
-    "status": "validated",
-    "external_review_result": "05_REVIEWS/external_ai_reviews/2026-06-14_review_results.md",
-    "reason": "User recalled market/limit/state and then passed stop order recall. External reviewer recommended spread/depth bridge before D003."
+  "last_sync_date": "2026-06-21",
+  "daily_sync": {
+    "date": "2026-06-21",
+    "ran_at": "2026-06-21T21:40:13+10:00",
+    "mode": "chat_session_local_sync",
+    "status": "math_d001_validated_github_and_notion_synced",
+    "completed_actions": [
+      "Validated MATH math.PR D001 probability as uncertainty compression.",
+      "Recorded user recall: long-run frequency, random variable as observed object, and Expected Value/Payoff.",
+      "Applied correction: finite samples fluctuate; probability is distribution constraint, not one-trial certainty.",
+      "Updated GitHub daily log, metrics, progression log, active track state, personalization, and handoff.",
+      "Created Notion page arXiv Mathematics under Codex Study Timeline with matching arXiv page format and B-tech icon URL.",
+      "Synced MATH math.PR D001 learning notes to the new Notion page.",
+      "Completed external AI review handshake with blockers: Pauli, Chandrasekhar, and Socrates completed; ChatGPT, Claude, and Perplexity unavailable.",
+      "Adopted reviewer gate for MATH D002: finite-sample fluctuation, random variable as mapping/function, EV/tail risk, and agent confidence calibration.",
+      "Kept Q-FIN and PHYS at D003; MATH is now D001, so balanced catch-up next remains MATH D002."
+    ],
+    "skipped_actions": [
+      "Did not backfill 2026-06-15 to 2026-06-20 as completed study days because no GitHub learning logs exist for those dates."
+    ],
+    "connector_failures": [
+      "MCP docs resource notion://docs/enhanced-markdown-spec was unavailable, so page content used only syntax already verified in existing arXiv pages.",
+      "ChatGPT connector unavailable for 2026-06-21 external review.",
+      "Claude connector/API/browser unavailable for 2026-06-21 external review.",
+      "Perplexity connector/API/browser unavailable for 2026-06-21 external review."
+    ],
+    "next_required_teaching_action": "Teach one archive only: MATH math.PR archive day 2 Conditional Probability and Bayesian Update. Start with the D001 correction gate: finite-sample fluctuation; random variable as mapping/function; EV/payoff/tail risk; agent confidence calibration. Continue MATH catch-up until D003 before PHYS quant-ph D004 or Q-FIN q-fin.TR D004 unless user requests focus mode. Before Q-FIN D004, require the order-book walk calculation gate.",
+    "operator_note": "Current date is 2026-06-21 Australia/Sydney. Project global day is D009, but archive progression is based on validated lessons; MATH is D001 validated, not D009."
   },
-  "next_action": "D003 must include three groups: Q-FIN q-fin.TR archive day 3 starts with price formation and a 10-minute bid/ask spread + order book depth bridge; PHYS quant-ph archive day 3 starts with state recall then amplitude vs probability; MATH math.PR archive day 1 starts with probability as uncertainty compression and stochastic-process bridge. Include daily judgment question: 如果我是交易系统/研究系统/agent 系统，今天这个概念会让我避免哪一种亏钱、误判或伪知识错觉？ Preserve the newly created roadmap page. CS.csv and Notion CS dates were repaired on 2026-06-14.",
+  "last_learning_session": {
+    "date": "2026-06-21",
+    "calendar_global_day": 9,
+    "lesson_covered": "MATH math.PR D001",
+    "daily_log": "04_DAILY_LOGS/2026-06-21_MATH_math.PR_D001.md",
+    "status": "validated",
+    "external_review_result": "05_REVIEWS/external_ai_reviews/2026-06-21_review_results.md",
+    "reason": "User validated probability as long-run/distributional framing and identified Expected Value/Payoff as required checks; corrected finite-sample and random-variable precision."
+  },
+  "next_action": "Teach one archive per output. Default next: MATH math.PR archive day 2 Conditional Probability and Bayesian Update because balanced catch-up has MATH at D001 while Q-FIN and PHYS are at D003. D002 must start with a 5-minute gate: finite-sample fluctuation; random variable = mapping/function from real outcome to computable value; EV/payoff/tail risk; agent confidence calibration. After MATH D002, continue MATH D003 unless user explicitly requests focus mode. Before Q-FIN q-fin.TR D004, run the Q-FIN D003 LOB walk calculation gate: fill levels, last price, VWAP, and slippage/cost. PHYS quant-ph D004 remains pending after MATH catches up. Include daily judgment question: 如果我是交易系统/研究系统/agent 系统，今天这个概念会让我避免哪一种亏钱、误判或伪知识错觉？ Preserve the roadmap page and do not mark unrelated archives complete.",
   "status": "active"
 }

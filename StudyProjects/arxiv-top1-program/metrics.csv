@@ -6,3 +6,6 @@ date,calendar_global_day,lesson_covered,track_id,group_code,archive_code,display
 2026-06-14,2,D002_validation,1,Q-FIN,TR,Q-FIN - TR,2,false,4,4,4,10,d002_self_recall_partial_validated_stop_order_taught
 2026-06-14,2,D002_validation,2,PHYS,quant-ph,PHYS - quant-ph,2,false,4,4,4,8,d002_state_recall_validated
 2026-06-14,2,D002_stop_order_recall,1,Q-FIN,TR,Q-FIN - TR,2,false,5,4,5,12,d002_stop_order_recall_validated
+2026-06-14,2,D003,2,PHYS,quant-ph,PHYS - quant-ph,3,false,4,4,4,14,d003_amplitude_probability_validated
+2026-06-14,2,D003,1,Q-FIN,TR,Q-FIN - TR,3,false,4,4,4,18,d003_price_formation_validated
+2026-06-21,9,D001,3,MATH,PR,MATH - PR,1,false,3,4,3,5,d001_probability_uncertainty_compression_validated_with_finite_sample_correction

@@ -90,3 +90,79 @@ Ask external AI reviewers, when available, to challenge the learning route and t
 ## Current Availability
 
 No separate ChatGPT, Claude, or Perplexity connector/API/browser session was available in this turn. This packet is saved for future review and the blocker is recorded in `external_review_log.csv`.
+
+## PHYS quant-ph D003 Addendum
+
+Added at 2026-06-14T20:32:02+10:00 after the user completed the single-archive D003 lesson.
+
+### Exact Archive
+
+| Field | Value |
+|---|---|
+| Archive | PHYS / `quant-ph` Quantum Physics |
+| Archive Day | 3/30 |
+| Daily Log | `04_DAILY_LOGS/2026-06-14_PHYS_quant-ph_D003.md` |
+| Notion Page | `arXiv Physics` / `37eb1a98-6ba6-81a9-a1a3-e42720e82960` |
+| Notion Sync | Appended D003 Chinese note and updated current active archive text to 第 3/30 天 |
+
+### User Recall
+
+Prompt:
+
+> 如果一个 agent 说“我有 92% confidence，所以可以自动执行交易”，你应该用今天的概念怎么反驳它？
+
+User answer:
+
+> 这只是中间量，模型预测结果，还不是真实实际结果，没有经过真实行为验证。
+
+Codex score: 4/5.
+
+### Codex Assessment
+
+User has usable understanding that model confidence / signal / score is an intermediate quantity and cannot be treated as a real-world validated probability or executable result. The next teaching risk is that the user may say "middle quantity" correctly without consistently asking what validation layer converts it into an actionable result.
+
+### Review Questions For D003
+
+1. Is the amplitude-like vs probability-like analogy accurate enough for early `quant-ph` learning without overclaiming that AI scores are literally quantum amplitudes?
+2. What one example should be used next to make calibration / external validation concrete for the user?
+3. Should PHYS D004 Observable come immediately next, or should the queue first return to Q-FIN D003 to maintain trading/agent ROI?
+4. What phrase should be adopted as the user's stable decision rule?
+
+## Q-FIN q-fin.TR D003 Addendum
+
+Added after the user completed the balanced catch-up Q-FIN D003 lesson.
+
+### Exact Archive
+
+| Field | Value |
+|---|---|
+| Archive | Q-FIN / `q-fin.TR` Trading and Market Microstructure |
+| Archive Day | 3/30 |
+| Daily Log | `04_DAILY_LOGS/2026-06-14_QFIN_q-fin.TR_D003.md` |
+| Notion Page | `arXiv Quantitative Finance` / `37eb1a98-6ba6-8133-a01b-e6fbff80849b` |
+| Notion Sync | Appended D003 Chinese note and updated current active archive text to 第 3/30 天 |
+
+### User Recall
+
+Prompt:
+
+1. 为什么 `last price = 100` 不代表你现在能用 100 买到？
+2. 如果一个大 market buy order 进入很薄的 order book，会发生什么？
+3. 为什么 price formation 对 trading agent 比“预测涨跌”更底层？
+
+User answer:
+
+> 真实订单进入 order book，被撮合、吃掉、排队、撤单、冲击之后，最后成交出来一个 last price。中间有车损耗和摩擦成本。会发生市场冲击，瞬间吃掉大量流动性，造成 slippage。先有价格形成，才有预测涨跌。
+
+Codex score: 4/5.
+
+### Codex Assessment
+
+User has usable understanding that price is formed through order-book execution and executable liquidity, not merely a quoted point. The main correction is terminology: replace “车损耗” with trading friction / execution cost / spread / slippage / market impact.
+
+### Review Questions For D003
+
+1. Does the price formation explanation sufficiently distinguish last price, quoted price, executable price, and execution cost?
+2. What example should be used next before Q-FIN D004 adverse selection?
+3. What one sentence should become the user's stable trading-agent decision rule?
+4. What should be deferred to avoid overloading the early market microstructure sequence?

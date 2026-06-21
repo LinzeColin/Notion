@@ -9,3 +9,6 @@ date,global_day,track_id,group_code,archive_code,display_code,archive_day,master
 2026-06-14,2,2,PHYS,quant-ph,PHYS - quant-ph,2,5,d002_state_model_taught_not_validated,D003 starts with practice check on state not equal reality
 2026-06-14,2,1,Q-FIN,TR,Q-FIN - TR,2,10,d002_self_recall_partial_validated,D003 starts with 10-minute bid/ask spread + depth bridge before price formation
 2026-06-14,2,2,PHYS,quant-ph,PHYS - quant-ph,2,8,d002_state_recall_validated,D003 can proceed to amplitude vs probability after quick state recall
+2026-06-14,2,2,PHYS,quant-ph,PHYS - quant-ph,3,14,d003_amplitude_probability_validated,D004 should teach Observable and keep AI score vs verified result analogy active
+2026-06-14,2,1,Q-FIN,TR,Q-FIN - TR,3,18,d003_price_formation_validated,Next balanced catch-up is MATH math.PR D001; Q-FIN D004 waits after lower-day active archive starts
+2026-06-21,9,3,MATH,PR,MATH - PR,1,5,d001_probability_uncertainty_compression_validated,Next balanced catch-up remains MATH math.PR D002; reinforce random variable as mapping from observable outcome to computable value

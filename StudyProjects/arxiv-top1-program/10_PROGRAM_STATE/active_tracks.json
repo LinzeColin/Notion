@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-06-14",
-  "rule": "Active track limit is now 3. Q-FIN and PHYS remain active from 2026-06-13. MATH enters the third active slot from the next daily arXiv session on 2026-06-15; do not retroactively mark MATH as studied on 2026-06-14.",
+  "as_of": "2026-06-21",
+  "rule": "Active track limit is 3. Q-FIN and PHYS remain active from 2026-06-13. MATH is active and has validated math.PR D001 on 2026-06-21. Use balanced catch-up: continue MATH D002/D003 before moving PHYS/Q-FIN to D004 unless user requests focus mode.",
   "active_track_limit": 3,
   "active_tracks": [
     {
@@ -12,11 +12,11 @@
       "archive_name": "Trading and Market Microstructure",
       "archive_route_order": 1,
       "archive_count_in_group": 9,
-      "archive_day": 2,
+      "archive_day": 3,
       "archive_cycle_days": 30,
       "planned_start": "2026-06-13",
       "planned_end": "2026-07-12",
-      "mastery_pct": 10,
+      "mastery_pct": 18,
       "status": "active",
       "route_file": "10_PROGRAM_STATE/group_routes/Q-FIN.csv"
     },
@@ -29,11 +29,11 @@
       "archive_name": "Quantum Physics",
       "archive_route_order": 1,
       "archive_count_in_group": 51,
-      "archive_day": 2,
+      "archive_day": 3,
       "archive_cycle_days": 30,
       "planned_start": "2026-06-13",
       "planned_end": "2026-07-12",
-      "mastery_pct": 8,
+      "mastery_pct": 14,
       "status": "active",
       "route_file": "10_PROGRAM_STATE/group_routes/PHYS.csv"
     },
@@ -46,12 +46,12 @@
       "archive_name": "Probability",
       "archive_route_order": 1,
       "archive_count_in_group": 32,
-      "archive_day": 0,
+      "archive_day": 1,
       "archive_cycle_days": 30,
       "planned_start": "2026-06-15",
       "planned_end": "2026-07-14",
-      "mastery_pct": 0,
-      "status": "active_from_2026-06-15",
+      "mastery_pct": 5,
+      "status": "active",
       "route_file": "10_PROGRAM_STATE/group_routes/MATH.csv"
     }
   ]
