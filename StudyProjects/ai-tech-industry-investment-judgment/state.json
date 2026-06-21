@@ -28,15 +28,15 @@
     "no financial advice",
     "facts inference opinion unknown must be separated"
   ],
-  "notion_status": "pending_create",
+  "notion_status": "synced_created_2026-06-21",
   "notion_sources": {
     "codex_study_timeline_database_id": "37eb1a98-6ba6-80bd-b5f9-ea2367b08991",
     "codex_study_timeline_data_source": "collection://37eb1a98-6ba6-80ad-94e0-000bbda7ab85",
-    "timeline_page_id": null,
-    "timeline_page_url": null,
+    "timeline_page_id": "386b1a98-6ba6-8120-86dc-c28e53ce3809",
+    "timeline_page_url": "https://app.notion.com/p/386b1a986ba6812086dcc28e53ce3809",
     "timeline_project_select": "AI Tech Industry Investment Judgment"
   },
-  "github_status": "local_files_created",
+  "github_status": "pushed_commit_21ad19a_then_updated_after_notion_create",
   "external_review_status": {
     "roadmap_packet": "StudyProjects/ai-tech-industry-investment-judgment/05_REVIEWS/roadmap_generation_packet.md",
     "status": "blocked_unavailable",

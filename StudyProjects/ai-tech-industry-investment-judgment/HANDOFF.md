@@ -13,7 +13,7 @@ Build a 90-day Study Project for AI-era technology, industry and investment judg
 |---|---|
 | GitHub local project folder | created |
 | Notion backup | created under `NotionBackup/20260621/` |
-| Notion project page | pending until Notion create result is written back |
+| Notion project page | created and verified |
 | External review handshake | blocked_unavailable in this side conversation |
 | Day 1 lesson | not started |
 
@@ -27,6 +27,17 @@ Build a 90-day Study Project for AI-era technology, industry and investment judg
 | Learning boundary | Research and simulated decision system only, no real-money trading or options/leverage tasks |
 | Notion role | Clean notebook in `Codex Study Timeline` |
 | GitHub role | Source of truth under `StudyProjects/ai-tech-industry-investment-judgment/` |
+
+## Notion
+
+| Field | Value |
+|---|---|
+| Database | `Codex Study Timeline` |
+| Data source | `collection://37eb1a98-6ba6-80ad-94e0-000bbda7ab85` |
+| Page ID | `386b1a98-6ba6-8120-86dc-c28e53ce3809` |
+| Page URL | `https://app.notion.com/p/386b1a986ba6812086dcc28e53ce3809` |
+| Project select | `AI Tech Industry Investment Judgment` |
+| Date | 2026-06-21 to 2026-09-18 |
 
 ## Next Step
 
