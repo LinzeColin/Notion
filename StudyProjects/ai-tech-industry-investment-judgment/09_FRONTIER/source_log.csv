@@ -1,0 +1,6 @@
+date,source_name,source_type,url,relevance,verification_status
+2026-06-21,User RTF source,user_input,/Users/linzezhang/Downloads/投资逻辑分析.rtf,Primary project prompt and route,loaded_locally
+2026-06-21,Epoch AI Trends,official_research,https://epoch.ai/trends,Training compute and software progress trends,checked_2026-06-21
+2026-06-21,IEA Energy demand from AI,official_report,https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai,Data centre electricity demand and AI energy context,checked_2026-06-21
+2026-06-21,METR Task-Completion Time Horizons,official_research,https://metr.org/time-horizons/,AI long-task capability measurement,checked_2026-06-21
+2026-06-21,METR Measuring AI Ability to Complete Long Tasks,official_research,https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/,Methodology and caution for task horizon interpretation,checked_2026-06-21

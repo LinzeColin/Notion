@@ -1,0 +1,34 @@
+# Roadmap Generation Packet
+
+Project: `ai-tech-industry-investment-judgment`
+Created: 2026-06-21
+Purpose: Prepare external review for the 90-day route.
+
+## Review Questions
+
+1. 90 天路线是否过宽，哪些模块应压缩或延后？
+2. 是否有更高 ROI 的 AI 基础设施/投资判断学习顺序？
+3. 哪些主题容易制造虚假理解或伪进度？
+4. W01 的研究操作系统是否足够支撑后续公司研究和估值？
+5. 最终 Memo 验收标准是否足够可验证？
+
+## Scope For Review
+
+- AI capability measurement.
+- AI infrastructure supply chain.
+- Data center, power, grid and CapEx bottlenecks.
+- Company research, financial statement analysis and valuation.
+- Probability, falsification, simulated portfolio and risk.
+- Codex/Notion research system as durable output.
+
+## Boundaries
+
+- No real-money trading plan.
+- No options/leverage tasks.
+- No copying celebrity investor holdings.
+- No financial advice.
+- Facts, inference, opinion and unknown must remain separate.
+
+## Reviewer Status
+
+This side conversation cannot use sub-agents. ChatGPT, Claude and Perplexity reviewer connectors are not callable from this run. The packet is saved so a later main-thread or automation run can perform the review handshake.

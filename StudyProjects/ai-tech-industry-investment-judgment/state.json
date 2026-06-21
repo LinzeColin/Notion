@@ -1,0 +1,54 @@
+{
+  "project_slug": "ai-tech-industry-investment-judgment",
+  "project_name": "AI时代技术-产业-投资判断力",
+  "timezone": "Australia/Sydney",
+  "status": "active_from_2026-06-21",
+  "duration_days": 90,
+  "start_date": "2026-06-21",
+  "end_date": "2026-09-18",
+  "current_week": 1,
+  "current_day": 1,
+  "current_progress_label": "第1/90天",
+  "current_day_status": "project_created_not_started",
+  "source_file": "/Users/linzezhang/Downloads/投资逻辑分析.rtf",
+  "scope": [
+    "AI capability measurement",
+    "AI infrastructure supply chain",
+    "data center and power bottlenecks",
+    "company research",
+    "financial statements and valuation",
+    "probability and falsification",
+    "memo writing and monitoring dashboard"
+  ],
+  "hard_boundaries": [
+    "no real-money trading task",
+    "no short options",
+    "no leverage",
+    "no copying celebrity investor holdings",
+    "no financial advice",
+    "facts inference opinion unknown must be separated"
+  ],
+  "notion_status": "pending_create",
+  "notion_sources": {
+    "codex_study_timeline_database_id": "37eb1a98-6ba6-80bd-b5f9-ea2367b08991",
+    "codex_study_timeline_data_source": "collection://37eb1a98-6ba6-80ad-94e0-000bbda7ab85",
+    "timeline_page_id": null,
+    "timeline_page_url": null,
+    "timeline_project_select": "AI Tech Industry Investment Judgment"
+  },
+  "github_status": "local_files_created",
+  "external_review_status": {
+    "roadmap_packet": "StudyProjects/ai-tech-industry-investment-judgment/05_REVIEWS/roadmap_generation_packet.md",
+    "status": "blocked_unavailable",
+    "reason": "Side conversation forbids sub-agents and no external reviewer connectors were callable."
+  },
+  "next_session": {
+    "date": "2026-06-21",
+    "day": 1,
+    "progress_label": "第1/90天",
+    "topic": "个人研究章程",
+    "core_question": "为什么我的目标不是复制明星投资人的持仓？",
+    "required_output": "个人研究章程 + 证据等级表 v0.1 + 90天研究系统边界"
+  },
+  "last_updated": "2026-06-21"
+}

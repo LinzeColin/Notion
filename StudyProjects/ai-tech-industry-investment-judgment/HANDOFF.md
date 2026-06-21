@@ -1,0 +1,37 @@
+# HANDOFF
+
+Project: `ai-tech-industry-investment-judgment`
+Updated: 2026-06-21
+
+## Current Goal
+
+Build a 90-day Study Project for AI-era technology, industry and investment judgment from `/Users/linzezhang/Downloads/投资逻辑分析.rtf`.
+
+## Current State
+
+| Item | Status |
+|---|---|
+| GitHub local project folder | created |
+| Notion backup | created under `NotionBackup/20260621/` |
+| Notion project page | pending until Notion create result is written back |
+| External review handshake | blocked_unavailable in this side conversation |
+| Day 1 lesson | not started |
+
+## Key Decisions
+
+| Decision | Value |
+|---|---|
+| Duration | 90 days |
+| Start | 2026-06-21 |
+| End | 2026-09-18 |
+| Learning boundary | Research and simulated decision system only, no real-money trading or options/leverage tasks |
+| Notion role | Clean notebook in `Codex Study Timeline` |
+| GitHub role | Source of truth under `StudyProjects/ai-tech-industry-investment-judgment/` |
+
+## Next Step
+
+Start D01 / 第1/90天:
+
+```plain text
+Continue ai-tech-industry-investment-judgment D01 / 第1/90天。先做主动回忆：为什么我的目标不是复制明星投资人的持仓？然后建立《个人研究章程》。
+```

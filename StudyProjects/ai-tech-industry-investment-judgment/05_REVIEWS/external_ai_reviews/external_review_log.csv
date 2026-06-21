@@ -1,0 +1,7 @@
+date,project_slug,reviewer,reviewer_type,status,artifact,reason
+2026-06-21,ai-tech-industry-investment-judgment,Configured Agent reviewer,agent,blocked_unavailable,05_REVIEWS/roadmap_generation_packet.md,Side conversation rule forbids sub-agent use.
+2026-06-21,ai-tech-industry-investment-judgment,ChatGPT,external_ai,blocked_unavailable,05_REVIEWS/roadmap_generation_packet.md,No callable reviewer connector/API/browser reviewer session in this run.
+2026-06-21,ai-tech-industry-investment-judgment,Claude,external_ai,blocked_unavailable,05_REVIEWS/roadmap_generation_packet.md,No callable reviewer connector/API/browser reviewer session in this run.
+2026-06-21,ai-tech-industry-investment-judgment,Perplexity,external_ai,blocked_unavailable,05_REVIEWS/roadmap_generation_packet.md,No callable reviewer connector/API/browser reviewer session in this run.
+2026-06-21,ai-tech-industry-investment-judgment,Additional external reviewer 1,external_ai,blocked_unavailable,05_REVIEWS/roadmap_generation_packet.md,No configured external reviewer available.
+2026-06-21,ai-tech-industry-investment-judgment,Additional external reviewer 2,external_ai,blocked_unavailable,05_REVIEWS/roadmap_generation_packet.md,No configured external reviewer available.
