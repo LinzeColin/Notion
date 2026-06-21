@@ -146,11 +146,11 @@
       "archive_count_in_group": 32,
       "start_date": "2026-06-15",
       "end_date": "2026-07-14",
-      "archive_day": 1,
+      "archive_day": 2,
       "archive_cycle_days": 30,
-      "mastery_pct": 5,
+      "mastery_pct": 11,
       "status": "active",
-      "last_lesson_status": "D001 probability as uncertainty compression validated on 2026-06-21 with finite-sample correction. User understands long-run frequency direction and expected value/payoff, but random variable needs reinforcement as mapping from observable outcome to computable value."
+      "last_lesson_status": "D002 conditional probability and Bayesian update validated on 2026-06-21. User understands P(A|B) vs P(B|A), posterior vs action gate, and can list prior/evidence/reliability/EV/tail risk checks. Continue reinforcing Bayesian update as probability distribution/belief update, not action permission."
     }
   ],
   "promotion_rule": "Three active slots are maintained. From 2026-06-15 the active groups are Q-FIN, PHYS, and MATH. When an active group completes, the next queued group in group_order starts the next calendar day in the freed slot. Do not assign queued group start dates before promotion unless the queue simulation already determines them.",
@@ -204,7 +204,7 @@
     "date": "2026-06-21",
     "ran_at": "2026-06-21T21:40:13+10:00",
     "mode": "chat_session_local_sync",
-    "status": "math_d001_validated_github_and_notion_synced",
+    "status": "math_d002_validated_github_and_notion_synced_review_completed_with_blockers",
     "completed_actions": [
       "Validated MATH math.PR D001 probability as uncertainty compression.",
       "Recorded user recall: long-run frequency, random variable as observed object, and Expected Value/Payoff.",
@@ -214,7 +214,12 @@
       "Synced MATH math.PR D001 learning notes to the new Notion page.",
       "Completed external AI review handshake with blockers: Pauli, Chandrasekhar, and Socrates completed; ChatGPT, Claude, and Perplexity unavailable.",
       "Adopted reviewer gate for MATH D002: finite-sample fluctuation, random variable as mapping/function, EV/tail risk, and agent confidence calibration.",
-      "Kept Q-FIN and PHYS at D003; MATH is now D001, so balanced catch-up next remains MATH D002."
+      "Validated MATH math.PR D002 conditional probability and Bayesian update.",
+      "Synced MATH math.PR D002 learning notes to Notion arXiv Mathematics page.",
+      "Completed D002 external AI review handshake with blockers: Godel, Mencius, and Carver completed; ChatGPT, Claude, and Perplexity unavailable.",
+      "Adopted reviewer correction: Bayes formula should be P(A|E) proportional to P(E|A) times P(A); evidence quality belongs to reliability/calibration/source-audit layer.",
+      "Adopted D003 opening gate: base rate and false positive example P(A)=1%, P(E|A)=90%, P(E|not A)=9%.",
+      "Kept Q-FIN and PHYS at D003; MATH is now D002, so balanced catch-up next remains MATH D003."
     ],
     "skipped_actions": [
       "Did not backfill 2026-06-15 to 2026-06-20 as completed study days because no GitHub learning logs exist for those dates."
@@ -223,20 +228,23 @@
       "MCP docs resource notion://docs/enhanced-markdown-spec was unavailable, so page content used only syntax already verified in existing arXiv pages.",
       "ChatGPT connector unavailable for 2026-06-21 external review.",
       "Claude connector/API/browser unavailable for 2026-06-21 external review.",
-      "Perplexity connector/API/browser unavailable for 2026-06-21 external review."
+      "Perplexity connector/API/browser unavailable for 2026-06-21 external review.",
+      "ChatGPT connector unavailable for 2026-06-21 D002 external review.",
+      "Claude connector/API/browser unavailable for 2026-06-21 D002 external review.",
+      "Perplexity connector/API/browser unavailable for 2026-06-21 D002 external review."
     ],
-    "next_required_teaching_action": "Teach one archive only: MATH math.PR archive day 2 Conditional Probability and Bayesian Update. Start with the D001 correction gate: finite-sample fluctuation; random variable as mapping/function; EV/payoff/tail risk; agent confidence calibration. Continue MATH catch-up until D003 before PHYS quant-ph D004 or Q-FIN q-fin.TR D004 unless user requests focus mode. Before Q-FIN D004, require the order-book walk calculation gate.",
+    "next_required_teaching_action": "Teach one archive only: MATH math.PR archive day 3 Distribution, variance, and tail risk. Start with Bayes/base-rate gate: P(A)=1%, P(E|A)=90%, P(E|not A)=9%, compute P(A|E) and explain why it is not 90%; then connect posterior to distribution shape, tail risk/drawdown, variance, calibration, and action permission. After MATH D003, balanced catch-up can return to PHYS quant-ph D004 or Q-FIN q-fin.TR D004; before Q-FIN D004, require the order-book walk calculation gate.",
     "operator_note": "Current date is 2026-06-21 Australia/Sydney. Project global day is D009, but archive progression is based on validated lessons; MATH is D001 validated, not D009."
   },
   "last_learning_session": {
     "date": "2026-06-21",
     "calendar_global_day": 9,
-    "lesson_covered": "MATH math.PR D001",
-    "daily_log": "04_DAILY_LOGS/2026-06-21_MATH_math.PR_D001.md",
+    "lesson_covered": "MATH math.PR D002",
+    "daily_log": "04_DAILY_LOGS/2026-06-21_MATH_math.PR_D002.md",
     "status": "validated",
-    "external_review_result": "05_REVIEWS/external_ai_reviews/2026-06-21_review_results.md",
-    "reason": "User validated probability as long-run/distributional framing and identified Expected Value/Payoff as required checks; corrected finite-sample and random-variable precision."
+    "external_review_result": "05_REVIEWS/external_ai_reviews/2026-06-21_D002_review_results.md",
+    "reason": "User accurately distinguished P(A|B) from P(B|A), placed posterior into prior/evidence/reliability/EV/tail-risk/action-gate checks, and understood that probability updates do not directly grant execution permission."
   },
-  "next_action": "Teach one archive per output. Default next: MATH math.PR archive day 2 Conditional Probability and Bayesian Update because balanced catch-up has MATH at D001 while Q-FIN and PHYS are at D003. D002 must start with a 5-minute gate: finite-sample fluctuation; random variable = mapping/function from real outcome to computable value; EV/payoff/tail risk; agent confidence calibration. After MATH D002, continue MATH D003 unless user explicitly requests focus mode. Before Q-FIN q-fin.TR D004, run the Q-FIN D003 LOB walk calculation gate: fill levels, last price, VWAP, and slippage/cost. PHYS quant-ph D004 remains pending after MATH catches up. Include daily judgment question: 如果我是交易系统/研究系统/agent 系统，今天这个概念会让我避免哪一种亏钱、误判或伪知识错觉？ Preserve the roadmap page and do not mark unrelated archives complete.",
+  "next_action": "Teach one archive per output. Default next: MATH math.PR archive day 3 Distribution, variance, and tail risk because balanced catch-up has MATH at D002 while Q-FIN and PHYS are at D003. D003 must start with Bayes/base-rate gate: P(A)=1%, P(E|A)=90%, P(E|not A)=9%, compute P(A|E) and explain why it is not 90%. Then connect distribution shape, expected value, variance, drawdown, and tail loss to agent confidence, trading signals, and industrial alarms. After MATH D003, return to PHYS quant-ph D004 or Q-FIN q-fin.TR D004 by slot/order and gate status. Before Q-FIN q-fin.TR D004, run the Q-FIN D003 LOB walk calculation gate: fill levels, last price, VWAP, and slippage/cost. Include daily judgment question: 如果我是交易系统/研究系统/agent 系统，今天这个概念会让我避免哪一种亏钱、误判或伪知识错觉？ Preserve the roadmap page and do not mark unrelated archives complete.",
   "status": "active"
 }

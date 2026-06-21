@@ -11,7 +11,7 @@ Timezone: Australia/Sydney
 
 - 项目开始日期：2026-06-13。
 - 当前 global day：D009。
-- 当前 active tracks：`Q-FIN - q-fin.TR` D003、`PHYS - quant-ph` D003、`MATH - math.PR` D001。
+- 当前 active tracks：`Q-FIN - q-fin.TR` D003、`PHYS - quant-ph` D003、`MATH - math.PR` D002。
 - 每个 archive/category 固定 30 天。
 - group 总时长 = `archive_count * 30 天`，不能把一个 group 当成一个月。
 - queued group 不能默认从今天开始；必须根据 active slot 释放时间计算。
@@ -20,6 +20,8 @@ Timezone: Australia/Sydney
 - 2026-06-14 PHYS / `quant-ph` D003 已完成：amplitude vs probability validated。用户已掌握 “模型 confidence/signal/score 是中间量，不是经过真实行为验证的结果”。
 - 2026-06-14 Q-FIN / `q-fin.TR` D003 已完成概念验证：用户已掌握 price 是 order book 中可执行流动性形成的结果，不是一个 quoted point；大 market order 会吃穿薄流动性并造成 market impact / slippage。进入 Q-FIN D004 前必须先完成一个 LOB walk 计算门：fill levels、last price、VWAP、slippage/cost。
 - 2026-06-21 MATH / `math.PR` D001 已完成概念验证：用户已掌握概率不是单次保证，而是长期频率/分布约束，并能指出 Expected Value 与 Payoff；需要继续压实 random variable = 把现实不确定结果映射成可计算数字的规则，以及有限样本波动、variance、tail risk。
+- 2026-06-21 MATH / `math.PR` D002 已完成概念验证：用户已掌握 `P(A|B)` 与 `P(B|A)` 的条件过滤差异，并能把 posterior 放入 prior、evidence、evidence reliability、EV、tail risk、action permission 的检查链。继续强化 Bayesian Update 更新的是条件下概率分布/信念强度，不是执行权限。
+- 2026-06-21 D002 外部复审 completed_with_blockers：Godel、Mencius、Carver completed；ChatGPT、Claude、Perplexity unavailable。采纳：D003 开头必须先测 base rate / false positive；Bayes 数学核心写成 `P(A|E) ∝ P(E|A) * P(A)`，evidence quality 放入 reliability/calibration/source audit 层。
 - 2026-06-15 至 2026-06-20 没有 GitHub 学习日志，不回填为完成进度；当前全局日 D009，但 archive day 按验证课次推进。
 - 2026-06-21 已按现有 arXiv group 页面格式新建 Notion `arXiv Mathematics` page：`386b1a98-6ba6-81a7-a8ce-f76d95e6f511`，Date `2026-06-15 -> 2029-01-29`，Project `arXiv`，并同步 `math.PR` D001 学习笔记。
 - 2026-06-21 外部复审 completed_with_blockers：Pauli、Chandrasekhar、Socrates completed；ChatGPT、Claude、Perplexity connector unavailable。采纳：D002 可继续，但必须先做 5 分钟 D001 gate。
@@ -73,7 +75,7 @@ Timezone: Australia/Sydney
 
 不要继续做项目搭建。下一次应继续概念教学，且一次只讲一个 exact archive，用中文讲解：
 
-- 默认下一课：MATH - PR D002：Conditional Probability and Bayesian Update，新信息如何改变概率判断。开头必须先测 finite-sample fluctuation、random variable 映射规则、EV/payoff/tail risk、agent confidence calibration。
+- 默认下一课：MATH - PR D003：Distribution, variance, tail risk，防止只看平均概率、胜率或 posterior，忽略大亏损和极端风险。开头必须先测 `P(A)=1%`、`P(E|A)=90%`、`P(E|not A)=9%` 下的 `P(A|E)`，说明为什么不是 90%。
 - Pending：PHYS - quant-ph D004：measurement、Born rule、repeated shots、observable，等低天数 active archive catch up 后再进入，除非用户明确选择 PHYS focus mode。
 - Pending：Q-FIN - TR D004：adverse selection，为什么你成交可能是坏消息。进入前必须先做 D003 LOB walk 计算门。
 

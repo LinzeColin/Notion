@@ -54,3 +54,5 @@ Timezone: Australia/Sydney
 - 对金融市场概念，优先用真实交易流程讲解：报价、下单、撮合、成交、滑点、费用、风控、仓位、退出。
 - 每个概念都必须回答“这个概念我应该怎么用”，不能只给定义。
 - 2026-06-21 MATH / `math.PR` D001：用户能抓住长期频率、Expected Value、Payoff 的主线，但 `random variable` 容易说成“观测对象”。后续数学课必须固定使用“现实对象 -> 可计算数字 -> distribution -> decision”的链条，并把有限样本波动、variance、tail risk 加进交易/agent 例子。
+- 2026-06-21 MATH / `math.PR` D002：用户对 `P(A|B)` vs `P(B|A)` 和 posterior/action gate 理解较快。后续应继续用 agent confidence、trading signal、industrial alarm 三类例子，避免纯数学抽象；D003 必须压实 distribution、variance、tail risk，防止只看 posterior mean 或 win rate。
+- D002 reviewer correction：Bayes 公式要先给数学精确形式 `P(A|E) proportional to P(E|A) * P(A)`；evidence quality 放在 reliability/calibration/source audit 层。D003 开头必须测试 base rate 和 false positive，防止用户把 `P(E|A)` 误当 `P(A|E)`。

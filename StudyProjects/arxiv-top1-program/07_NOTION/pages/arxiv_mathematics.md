@@ -67,3 +67,41 @@
 - D002 开头必须做 5 分钟补测：finite-sample fluctuation、random variable 映射规则、EV/payoff/tail risk、agent confidence 校准。
 - D002 例子顺序：agent confidence -> trading signal -> industrial alarm。
 - 路线保持：`MATH D002 -> MATH D003 -> PHYS/Q-FIN D004`，除非用户明确要求 focus mode。
+
+### 2026-06-21 · D002 · `math.PR` Conditional Probability and Bayesian Update
+
+#### 当前进度
+
+- Calendar Day：D009
+- Archive Day：2/30
+- 状态：D002 validated
+- GitHub log：`StudyProjects/arxiv-top1-program/04_DAILY_LOGS/2026-06-21_MATH_math.PR_D002.md`
+
+#### D002 核心
+
+- `P(A|B)` 是在 B 条件过滤后的世界里，A 占多少比例。
+- `P(B|A)` 是在 A 条件过滤后的世界里，B 占多少比例。
+- Bayesian Update 更新的是“在新证据条件下，对目标事件概率分布/信念强度的估计”，不是直接更新执行权限。
+
+#### 用户复述评分
+
+- `P(A|B)` vs `P(B|A)`：5/5。用户准确区分了两个条件过滤世界。
+- posterior vs action gate：5/5。用户能列出 prior、evidence、evidence reliability、`P(A|Evidence)`、EV、tail risk、posterior 只够提醒还是执行。
+- Bayesian Update 标准句：4/5。用户掌握组件，但后续需要继续强化“更新概率分布/信念强度，不更新执行许可”。
+
+#### ROI 用法
+
+当 agent 把成功概率从 70% 更新到 85%，不能直接自动执行。必须继续检查：prior、evidence quality、likelihood、posterior、EV、tail risk、成本、权限边界、回滚和审计。
+
+#### 下次进入
+
+下一课按 balanced catch-up 进入 `MATH / math.PR` D003：Distribution, variance, tail risk。目标是防止只看平均值、胜率或 posterior，忽略大亏损和极端风险。
+
+### 2026-06-21 · D002 外部复审采纳
+
+- 复审状态：completed_with_blockers。3 个 Codex reviewer completed；ChatGPT、Claude、Perplexity connector 不可用，已记录 blocked_unavailable。
+- D002 可以进入 D003，不需要单独返工。
+- 纠偏：Bayes 数学核心应写成 `P(A|E) ∝ P(E|A) * P(A)`；evidence quality 属于 reliability / calibration / source audit 层，不是公式本体。
+- D003 开头必须先测 base rate / false positive：`P(A)=1%`，`P(E|A)=90%`，`P(E|not A)=9%` 时，`P(A|E)` 约为 9.2%，不是 90%。
+- D003 重点顺序：distribution shape -> tail risk / drawdown -> variance -> calibration。
+- 路线保持：MATH D003 先于 PHYS/Q-FIN D004；Q-FIN D004 仍需 LOB walk gate。

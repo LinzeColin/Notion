@@ -14,3 +14,5 @@ date,calendar_global_day,session,notion_page,page_id,archive_code,sync_scope,res
 2026-06-21,9,MATH_PAGE_CREATE,arXiv Mathematics,386b1a98-6ba6-81a7-a8ce-f76d95e6f511,math.PR,group_page_created_from_existing_arxiv_format,success
 2026-06-21,9,MATH_math.PR_D001,arXiv Mathematics,386b1a98-6ba6-81a7-a8ce-f76d95e6f511,math.PR,learning_notes_archive_day_and_probability_d001,success
 2026-06-21,9,MATH_math.PR_D001_REVIEW,arXiv Mathematics,386b1a98-6ba6-81a7-a8ce-f76d95e6f511,math.PR,external_review_adoption_and_d002_gate,success
+2026-06-21,9,MATH_math.PR_D002,arXiv Mathematics,386b1a98-6ba6-81a7-a8ce-f76d95e6f511,math.PR,learning_notes_conditional_probability_bayesian_update,success
+2026-06-21,9,MATH_math.PR_D002_REVIEW,arXiv Mathematics,386b1a98-6ba6-81a7-a8ce-f76d95e6f511,math.PR,external_review_adoption_and_d003_gate,success
