@@ -5,17 +5,17 @@
   "status": "active",
   "duration_days": 28,
   "start_date": "2026-06-22",
-  "end_date": "2026-07-19",
-  "current_day": 1,
+  "end_date": "2026-07-18",
+  "current_day": 2,
   "current_day_status": "completed",
   "last_session_date": "2026-06-22",
   "next_session": {
     "date": "2026-06-23",
-    "day": 2,
-    "progress_label": "第2/28天",
-    "theme": "Context contract and context budget"
+    "day": 3,
+    "progress_label": "第3/28天",
+    "theme": "Output contracts and schemas"
   },
-  "current_focus": "Prompt Contract + Loop Failure Detection",
+  "current_focus": "Context Contract and Context Budget",
   "scope_integration_2026_06_14": {
     "authorized": true,
     "integration_mode": "existing_projects_first_no_new_project_by_default",
@@ -33,7 +33,7 @@
     "no_d000": true,
     "if_started_early_use_next_real_day": true,
     "never_skip_required_workflow_steps": true,
-    "applied_on_2026_06_22": "User explicitly pulled prompt/loop learning earlier; recorded as D01, not D000."
+    "applied_on_2026_06_22": "User explicitly pulled prompt/loop learning earlier; D01 and D02 were both completed on 2026-06-22 as accelerated real day numbers."
   },
   "absorbed_sources": [
     "ai",
@@ -49,19 +49,19 @@
   ],
   "latest_learning_summary": {
     "date": "2026-06-22",
-    "day": 1,
-    "progress_label": "第1/28天",
-    "theme": "Prompt Contract + Loop Failure Detection",
-    "core_conclusion": "Prompt Engineering should not transfer long-template cost to the user. Loop Engineering treats agents as fallible and relies on low-cost detection, stop, correction, and evidence loops.",
-    "user_feedback": "User strongly rejected manual long prompts and low-quality teaching that shifts control burden to the user. Future teaching must be proactive, low-token, concrete, and self-running.",
-    "artifact": "StudyProjects/ai-workflow-operating-system/04_DAILY_LOGS/2026-06-22.md"
+    "day": 2,
+    "progress_label": "第2/28天",
+    "theme": "Context Contract and Context Budget",
+    "core_conclusion": "Context Contract is not more background. It is a minimal authority-ranked context budget with mandatory context, excluded context, conflict stop rules, and context_used evidence.",
+    "user_feedback": "User expects Codex to proactively continue the Study Project workflow, including day numbering, GitHub sync, Notion sync, and next-step routing.",
+    "artifact": "StudyProjects/ai-workflow-operating-system/04_DAILY_LOGS/2026-06-22-D02.md"
   },
-  "next_action": "Continue D02 on 2026-06-23 unless the user asks to continue earlier. D02 should focus on Context Contract and context-budget control, starting with active recall from D01 failures and the low-cost loop model.",
-  "notion_status": "synced_2026-06-22",
+  "next_action": "Continue D03 on 2026-06-23 unless the user asks to continue earlier. D03 should focus on Output Contracts and Schemas, starting with active recall of context_used and context authority ranking.",
+  "notion_status": "pending_sync_2026-06-22_D02",
   "notion_format_cleanup_2026_06_14": {
     "completed": true,
     "backup_path": "NotionBackup/20260614/ai_workflow_operating_system_before_cleanup.md",
-    "change": "Replaced outdated 2026-06-13 to 2026-06-19 7-day body with current 2026-07-19 to 2026-08-15 28-day structure while preserving useful hard-constraint notes under history.",
+    "change": "Replaced outdated 2026-06-13 to 2026-06-19 7-day body with current project structure while preserving useful hard-constraint notes under history.",
     "notion_page_id": "37fb1a98-6ba6-8146-a1ac-f721aa2aff8f"
   },
   "notion_sources": {
