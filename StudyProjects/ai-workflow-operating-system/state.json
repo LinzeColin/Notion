@@ -2,17 +2,20 @@
   "project_slug": "ai-workflow-operating-system",
   "project_name": "AI Workflow Operating System",
   "timezone": "Australia/Sydney",
-  "status": "queued",
+  "status": "active",
   "duration_days": 28,
-  "start_date": "2026-07-19",
-  "end_date": "2026-08-15",
-  "current_day": null,
-  "current_day_status": "not_started",
+  "start_date": "2026-06-22",
+  "end_date": "2026-07-19",
+  "current_day": 1,
+  "current_day_status": "completed",
+  "last_session_date": "2026-06-22",
   "next_session": {
-    "date": "2026-07-19",
-    "day": 1,
-    "progress_label": "第1/28天"
+    "date": "2026-06-23",
+    "day": 2,
+    "progress_label": "第2/28天",
+    "theme": "Context contract and context budget"
   },
+  "current_focus": "Prompt Contract + Loop Failure Detection",
   "scope_integration_2026_06_14": {
     "authorized": true,
     "integration_mode": "existing_projects_first_no_new_project_by_default",
@@ -29,7 +32,8 @@
   "acceleration_policy": {
     "no_d000": true,
     "if_started_early_use_next_real_day": true,
-    "never_skip_required_workflow_steps": true
+    "never_skip_required_workflow_steps": true,
+    "applied_on_2026_06_22": "User explicitly pulled prompt/loop learning earlier; recorded as D01, not D000."
   },
   "absorbed_sources": [
     "ai",
@@ -43,8 +47,17 @@
     "multimodal tool workflow",
     "local data-analysis tool workflow"
   ],
-  "next_action": "Start D01 on 2026-07-19 unless user explicitly pulls this project earlier; if pulled earlier, use D01 immediately, not D000. Keep local/remote model and RAG capabilities as bounded tools, not vague agent magic.",
-  "notion_status": "synced_and_format_aligned_2026-06-14",
+  "latest_learning_summary": {
+    "date": "2026-06-22",
+    "day": 1,
+    "progress_label": "第1/28天",
+    "theme": "Prompt Contract + Loop Failure Detection",
+    "core_conclusion": "Prompt Engineering should not transfer long-template cost to the user. Loop Engineering treats agents as fallible and relies on low-cost detection, stop, correction, and evidence loops.",
+    "user_feedback": "User strongly rejected manual long prompts and low-quality teaching that shifts control burden to the user. Future teaching must be proactive, low-token, concrete, and self-running.",
+    "artifact": "StudyProjects/ai-workflow-operating-system/04_DAILY_LOGS/2026-06-22.md"
+  },
+  "next_action": "Continue D02 on 2026-06-23 unless the user asks to continue earlier. D02 should focus on Context Contract and context-budget control, starting with active recall from D01 failures and the low-cost loop model.",
+  "notion_status": "pending_sync_2026-06-22",
   "notion_format_cleanup_2026_06_14": {
     "completed": true,
     "backup_path": "NotionBackup/20260614/ai_workflow_operating_system_before_cleanup.md",
@@ -58,5 +71,5 @@
     "timeline_page_url": "https://app.notion.com/p/37fb1a986ba68146a1acf721aa2aff8f",
     "timeline_project_select": "AI Workflow Operating System"
   },
-  "last_updated": "2026-06-14"
+  "last_updated": "2026-06-22"
 }
