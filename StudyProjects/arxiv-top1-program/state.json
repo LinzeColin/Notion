@@ -112,11 +112,11 @@
       "archive_count_in_group": 9,
       "start_date": "2026-06-13",
       "end_date": "2026-07-12",
-      "archive_day": 3,
+      "archive_day": 4,
       "archive_cycle_days": 30,
-      "mastery_pct": 18,
+      "mastery_pct": 25,
       "status": "active",
-      "last_lesson_status": "D003 price formation concept validated on 2026-06-14. D004 LOB walk calculation gate validated on 2026-06-22: market buy 100 against asks 100.00 x50, 100.10 x30, 100.30 x40 fills 50/30/20, last price 100.30, VWAP 100.09. Q-FIN D004 adverse selection can start next."
+      "last_lesson_status": "D004 adverse selection validated on 2026-06-22. User understands fill success is not trade quality; post-fill adverse mid/mark movement can indicate toxic flow or informed counterparty. Independent transfer passed in limit sell 100 then mid 100.70 scenario, with correction that price moved up, not down."
     },
     {
       "track_id": 2,
@@ -202,46 +202,46 @@
   "last_sync_date": "2026-06-22",
   "daily_sync": {
     "date": "2026-06-22",
-    "ran_at": "2026-06-22T00:00:00+10:00",
-    "mode": "chat_session_github_notion_sync",
-    "status": "math_d003_validated_qfin_lob_gate_validated_github_and_notion_synced_review_packet_created_with_blockers",
+    "ran_at": "2026-06-22T20:46:00+10:00",
+    "mode": "chat_session_github_notion_sync_end_day",
+    "status": "qfin_d004_adverse_selection_validated_github_and_notion_synced_review_packet_created_with_blockers_today_ended",
     "completed_actions": [
-      "Validated MATH math.PR D003 Distribution, variance, and tail risk.",
-      "Corrected Bayes/base-rate gate: P(A|E) is about 9.17%, not 90%, when P(A)=1%, P(E|A)=90%, and P(E|not A)=9%.",
-      "Recorded user risk answer: tail risk, trading friction, and time cost amplify false-positive signal costs.",
-      "Validated user can choose lower-variance/lower-tail-risk payoff distribution and explain why.",
-      "Validated Q-FIN q-fin.TR D004 pre-gate LOB walk and VWAP calculation: fill levels 50/30/20, last price 100.30, VWAP 100.09.",
-      "Created GitHub daily log for 2026-06-22 MATH D003 and Q-FIN gate.",
-      "Updated metrics.csv, progression_log.csv, teaching_adjustments.md, LEARNING_LOG.md, external_review_log.csv, and notion_sync_log.csv.",
-      "Synced concise MATH D003 notes to Notion arXiv Mathematics page.",
-      "Synced concise Q-FIN D004 gate notes to Notion arXiv Quantitative Finance page.",
-      "Created external review packet for 2026-06-22 and recorded reviewer blockers."
+      "Validated MATH math.PR D003 Distribution, variance, and tail risk earlier on 2026-06-22.",
+      "Validated Q-FIN q-fin.TR D004 LOB/VWAP pre-gate earlier on 2026-06-22.",
+      "Taught Q-FIN q-fin.TR D004 adverse selection.",
+      "Recorded VWAP recall: user understands weighted average execution cost; corrected narrative language away from 吸筹 toward order book depth and matching mechanism.",
+      "Recorded prompt-assisted limit-buy toxic-flow answer and did not count it as independent mastery.",
+      "Validated independent transfer on limit sell 100 then mid 100.70 scenario; corrected direction wording from down to up.",
+      "Created GitHub daily log for Q-FIN D004.",
+      "Synced concise Q-FIN D004 notes to Notion arXiv Quantitative Finance page.",
+      "Created external review packet for Q-FIN D004 and recorded reviewer blockers.",
+      "Updated metrics.csv, progression_log.csv, notion_sync_log.csv, teaching_adjustments.md, state.json, HANDOFF.md, PROJECT_INDEX.md, and LEARNING_LOG.md."
     ],
     "skipped_actions": [
-      "Did not mark Q-FIN D004 adverse selection lesson complete; only its LOB/VWAP pre-gate is validated.",
       "Did not mark PHYS D004 complete.",
+      "Did not mark MATH D004 complete.",
+      "Did not continue Q-FIN D005 because user requested ending today's learning.",
       "Did not claim external AI review handshake completed because no external reviewer completed in this turn."
     ],
     "connector_failures": [
-      "MCP docs resource notion://docs/enhanced-markdown-spec was unavailable through read_mcp_resource; Notion append used existing page format and simple markdown only.",
-      "Configured agent reviewer unavailable/not invoked for 2026-06-22 external review.",
-      "ChatGPT connector unavailable for 2026-06-22 external review.",
-      "Claude connector/API/browser unavailable for 2026-06-22 external review.",
-      "Perplexity connector/API/browser unavailable for 2026-06-22 external review.",
-      "Additional external reviewers unavailable for 2026-06-22 external review."
+      "Configured agent reviewer unavailable/not invoked for Q-FIN D004 external review.",
+      "ChatGPT connector unavailable for Q-FIN D004 external review.",
+      "Claude connector/API/browser unavailable for Q-FIN D004 external review.",
+      "Perplexity connector/API/browser unavailable for Q-FIN D004 external review.",
+      "Additional external reviewers unavailable for Q-FIN D004 external review."
     ],
-    "next_required_teaching_action": "Teach one archive only: Q-FIN q-fin.TR archive day 4 Adverse Selection. Start with active recall: explain VWAP from the 2026-06-22 LOB gate and why last price is not average execution price. Then teach why getting filled can be bad news when the counterparty or liquidity provider has better information. Connect to toxic flow, spread compensation, limit-order risk, and trading-agent action gates. Do not mark D004 complete until user explains why an immediate fill can signal adverse selection and gives one rule to avoid being the uninformed side.",
-    "operator_note": "Current date is 2026-06-22 Australia/Sydney. Project global day is D010, but archive progression is based on validated lessons. MATH is now D003 validated; Q-FIN remains D003 with D004 pre-gate validated; PHYS remains D003."
+    "next_required_teaching_action": "Default balanced next lesson: PHYS quant-ph archive day 4 Measurement, repeated shots, observable. Start with active recall: why amplitude/confidence is not probability/action permission, then teach measurement as interaction that yields an outcome distribution over repeated shots. If user chooses Q-FIN focus mode instead, continue q-fin.TR D005 toxic flow / spread compensation, starting with Q-FIN D004 recall: why a limit sell filled at 100 followed by mid 100.70 may be adverse selection.",
+    "operator_note": "Current date is 2026-06-22 Australia/Sydney. Today's arXiv learning is ended. Q-FIN q-fin.TR is now D004 validated; PHYS and MATH remain D003."
   },
   "last_learning_session": {
     "date": "2026-06-22",
     "calendar_global_day": 10,
-    "lesson_covered": "MATH math.PR D003 plus Q-FIN q-fin.TR D004 LOB gate",
-    "daily_log": "04_DAILY_LOGS/2026-06-22_MATH_math.PR_D003_QFIN_gate.md",
-    "status": "validated_github_and_notion_synced_review_packet_created_with_blockers",
-    "external_review_result": "05_REVIEWS/external_ai_reviews/2026-06-22_MATH_D003_QFIN_gate_review_packet.md",
-    "reason": "User corrected/accepted posterior vs action-gate risk, identified variance and tail risk in payoff distributions, and accurately computed Q-FIN LOB walk fill levels, last price, and VWAP."
+    "lesson_covered": "Q-FIN q-fin.TR D004 adverse selection",
+    "daily_log": "04_DAILY_LOGS/2026-06-22_QFIN_q-fin.TR_D004.md",
+    "status": "validated_github_and_notion_synced_review_packet_created_with_blockers_today_ended",
+    "external_review_result": "05_REVIEWS/external_ai_reviews/2026-06-22_QFIN_D004_review_packet.md",
+    "reason": "User independently transferred adverse selection to a limit-sell scenario and gave correct risk controls: lower size, widen spread, pause signal, or require extra confirmation; direction wording corrected."
   },
-  "next_action": "Teach one archive per output. Default next: Q-FIN q-fin.TR archive day 4 Adverse Selection because active tracks are now Q-FIN D003 with D004 LOB gate validated, PHYS D003, and MATH D003. Start Q-FIN D004 with quick VWAP recall: ask why VWAP 100.09 differs from last price 100.30 and quoted best ask 100.00. Then teach why immediate fill can be bad news, how informed flow/toxic flow hurts passive liquidity, and how a trading agent should gate orders using spread, depth, volatility, news, queue position, and post-trade adverse movement. Preserve roadmap page and do not mark unrelated archives complete.",
+  "next_action": "Today ended. Default next arXiv lesson is PHYS quant-ph archive day 4 Measurement, repeated shots, observable for balanced rotation because Q-FIN is now D004 while PHYS and MATH are D003. If the user explicitly chooses Q-FIN focus mode, continue q-fin.TR D005 toxic flow / spread compensation. Preserve roadmap page and do not mark unrelated archives complete.",
   "status": "active"
 }
