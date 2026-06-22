@@ -10,3 +10,5 @@ date,calendar_global_day,lesson_covered,track_id,group_code,archive_code,display
 2026-06-14,2,D003,1,Q-FIN,TR,Q-FIN - TR,3,false,4,4,4,18,d003_price_formation_validated
 2026-06-21,9,D001,3,MATH,PR,MATH - PR,1,false,3,4,3,5,d001_probability_uncertainty_compression_validated_with_finite_sample_correction
 2026-06-21,9,D002,3,MATH,PR,MATH - PR,2,false,4,4,5,11,d002_conditional_probability_bayesian_update_validated
+2026-06-22,10,D003,3,MATH,PR,MATH - PR,3,false,3,4,4,18,d003_distribution_variance_tail_risk_validated
+2026-06-22,10,D004_gate,1,Q-FIN,TR,Q-FIN - TR,3,false,5,4,5,18,d004_lob_walk_gate_vwap_validated
