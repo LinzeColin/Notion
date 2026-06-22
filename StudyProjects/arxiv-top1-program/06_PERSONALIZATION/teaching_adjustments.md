@@ -1,6 +1,6 @@
 # Teaching Adjustments
 
-Updated: 2026-06-14
+Updated: 2026-06-22
 Timezone: Australia/Sydney
 
 ## Daily arXiv Session Header And Single-Archive Teaching Rule
@@ -56,3 +56,6 @@ Timezone: Australia/Sydney
 - 2026-06-21 MATH / `math.PR` D001：用户能抓住长期频率、Expected Value、Payoff 的主线，但 `random variable` 容易说成“观测对象”。后续数学课必须固定使用“现实对象 -> 可计算数字 -> distribution -> decision”的链条，并把有限样本波动、variance、tail risk 加进交易/agent 例子。
 - 2026-06-21 MATH / `math.PR` D002：用户对 `P(A|B)` vs `P(B|A)` 和 posterior/action gate 理解较快。后续应继续用 agent confidence、trading signal、industrial alarm 三类例子，避免纯数学抽象；D003 必须压实 distribution、variance、tail risk，防止只看 posterior mean 或 win rate。
 - D002 reviewer correction：Bayes 公式要先给数学精确形式 `P(A|E) proportional to P(E|A) * P(A)`；evidence quality 放在 reliability/calibration/source audit 层。D003 开头必须测试 base rate 和 false positive，防止用户把 `P(E|A)` 误当 `P(A|E)`。
+- 2026-06-22 MATH / `math.PR` D003：用户能抓住 variance 和 tail risk，但 base-rate arithmetic 仍需要练习。后续概率课先让用户算 false-positive denominator，再迁移到 trading/agent/industrial alarm。
+- 2026-06-22 workflow correction：当用户说“下一步”且上一课已经 validated，Codex 应先保存/同步或明确问是否保存，不应直接进入新 lesson 导致记录断档。用户明确质疑“为什么不保存同步更新”，说明闭环优先级高。
+- 2026-06-22 Q-FIN gate：用户能正确计算 LOB walk、last price 和 VWAP。Q-FIN D004 可以正式讲 adverse selection，但开头要先复述 VWAP = volume-weighted average execution price，不是 quoted price。
