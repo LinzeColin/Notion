@@ -4,7 +4,7 @@
   "timezone": "Australia/Sydney",
   "program_start_date": "2026-06-13",
   "program_mode": "rolling_parallel_groups",
-  "current_global_day": 9,
+  "current_global_day": 10,
   "active_track_limit": 3,
   "archive_cycle_days": 30,
   "hard_rule": "One archive/category is always a 30-day cycle. A group is not 30 days; group route duration equals archive_count * 30 days.",
@@ -116,7 +116,7 @@
       "archive_cycle_days": 30,
       "mastery_pct": 18,
       "status": "active",
-      "last_lesson_status": "D003 price formation concept validated on 2026-06-14. User understands price as order-book formation through executable liquidity, not merely a quoted point or last price. External reviewer requires one order-book walk calculation gate before Q-FIN D004."
+      "last_lesson_status": "D003 price formation concept validated on 2026-06-14. D004 LOB walk calculation gate validated on 2026-06-22: market buy 100 against asks 100.00 x50, 100.10 x30, 100.30 x40 fills 50/30/20, last price 100.30, VWAP 100.09. Q-FIN D004 adverse selection can start next."
     },
     {
       "track_id": 2,
@@ -146,11 +146,11 @@
       "archive_count_in_group": 32,
       "start_date": "2026-06-15",
       "end_date": "2026-07-14",
-      "archive_day": 2,
+      "archive_day": 3,
       "archive_cycle_days": 30,
-      "mastery_pct": 11,
+      "mastery_pct": 18,
       "status": "active",
-      "last_lesson_status": "D002 conditional probability and Bayesian update validated on 2026-06-21. User understands P(A|B) vs P(B|A), posterior vs action gate, and can list prior/evidence/reliability/EV/tail risk checks. Continue reinforcing Bayesian update as probability distribution/belief update, not action permission."
+      "last_lesson_status": "D003 distribution, variance, and tail risk validated on 2026-06-22. User understands that posterior/win rate/mean alone cannot grant action permission; action gate requires distribution, EV, variance, tail risk, costs, liquidity, and rollback. Base-rate arithmetic still needs reinforcement: P(A|E) example corrected to about 9.17%, not 90%."
     }
   ],
   "promotion_rule": "Three active slots are maintained. From 2026-06-15 the active groups are Q-FIN, PHYS, and MATH. When an active group completes, the next queued group in group_order starts the next calendar day in the freed slot. Do not assign queued group start dates before promotion unless the queue simulation already determines them.",
@@ -199,52 +199,49 @@
       "Notion auto-linked some archive codes that look like URLs; GitHub roadmap remains clean"
     ]
   },
-  "last_sync_date": "2026-06-21",
+  "last_sync_date": "2026-06-22",
   "daily_sync": {
-    "date": "2026-06-21",
-    "ran_at": "2026-06-21T21:40:13+10:00",
-    "mode": "chat_session_local_sync",
-    "status": "math_d002_validated_github_and_notion_synced_review_completed_with_blockers",
+    "date": "2026-06-22",
+    "ran_at": "2026-06-22T00:00:00+10:00",
+    "mode": "chat_session_github_notion_sync",
+    "status": "math_d003_validated_qfin_lob_gate_validated_github_and_notion_synced_review_packet_created_with_blockers",
     "completed_actions": [
-      "Validated MATH math.PR D001 probability as uncertainty compression.",
-      "Recorded user recall: long-run frequency, random variable as observed object, and Expected Value/Payoff.",
-      "Applied correction: finite samples fluctuate; probability is distribution constraint, not one-trial certainty.",
-      "Updated GitHub daily log, metrics, progression log, active track state, personalization, and handoff.",
-      "Created Notion page arXiv Mathematics under Codex Study Timeline with matching arXiv page format and B-tech icon URL.",
-      "Synced MATH math.PR D001 learning notes to the new Notion page.",
-      "Completed external AI review handshake with blockers: Pauli, Chandrasekhar, and Socrates completed; ChatGPT, Claude, and Perplexity unavailable.",
-      "Adopted reviewer gate for MATH D002: finite-sample fluctuation, random variable as mapping/function, EV/tail risk, and agent confidence calibration.",
-      "Validated MATH math.PR D002 conditional probability and Bayesian update.",
-      "Synced MATH math.PR D002 learning notes to Notion arXiv Mathematics page.",
-      "Completed D002 external AI review handshake with blockers: Godel, Mencius, and Carver completed; ChatGPT, Claude, and Perplexity unavailable.",
-      "Adopted reviewer correction: Bayes formula should be P(A|E) proportional to P(E|A) times P(A); evidence quality belongs to reliability/calibration/source-audit layer.",
-      "Adopted D003 opening gate: base rate and false positive example P(A)=1%, P(E|A)=90%, P(E|not A)=9%.",
-      "Kept Q-FIN and PHYS at D003; MATH is now D002, so balanced catch-up next remains MATH D003."
+      "Validated MATH math.PR D003 Distribution, variance, and tail risk.",
+      "Corrected Bayes/base-rate gate: P(A|E) is about 9.17%, not 90%, when P(A)=1%, P(E|A)=90%, and P(E|not A)=9%.",
+      "Recorded user risk answer: tail risk, trading friction, and time cost amplify false-positive signal costs.",
+      "Validated user can choose lower-variance/lower-tail-risk payoff distribution and explain why.",
+      "Validated Q-FIN q-fin.TR D004 pre-gate LOB walk and VWAP calculation: fill levels 50/30/20, last price 100.30, VWAP 100.09.",
+      "Created GitHub daily log for 2026-06-22 MATH D003 and Q-FIN gate.",
+      "Updated metrics.csv, progression_log.csv, teaching_adjustments.md, LEARNING_LOG.md, external_review_log.csv, and notion_sync_log.csv.",
+      "Synced concise MATH D003 notes to Notion arXiv Mathematics page.",
+      "Synced concise Q-FIN D004 gate notes to Notion arXiv Quantitative Finance page.",
+      "Created external review packet for 2026-06-22 and recorded reviewer blockers."
     ],
     "skipped_actions": [
-      "Did not backfill 2026-06-15 to 2026-06-20 as completed study days because no GitHub learning logs exist for those dates."
+      "Did not mark Q-FIN D004 adverse selection lesson complete; only its LOB/VWAP pre-gate is validated.",
+      "Did not mark PHYS D004 complete.",
+      "Did not claim external AI review handshake completed because no external reviewer completed in this turn."
     ],
     "connector_failures": [
-      "MCP docs resource notion://docs/enhanced-markdown-spec was unavailable, so page content used only syntax already verified in existing arXiv pages.",
-      "ChatGPT connector unavailable for 2026-06-21 external review.",
-      "Claude connector/API/browser unavailable for 2026-06-21 external review.",
-      "Perplexity connector/API/browser unavailable for 2026-06-21 external review.",
-      "ChatGPT connector unavailable for 2026-06-21 D002 external review.",
-      "Claude connector/API/browser unavailable for 2026-06-21 D002 external review.",
-      "Perplexity connector/API/browser unavailable for 2026-06-21 D002 external review."
+      "MCP docs resource notion://docs/enhanced-markdown-spec was unavailable through read_mcp_resource; Notion append used existing page format and simple markdown only.",
+      "Configured agent reviewer unavailable/not invoked for 2026-06-22 external review.",
+      "ChatGPT connector unavailable for 2026-06-22 external review.",
+      "Claude connector/API/browser unavailable for 2026-06-22 external review.",
+      "Perplexity connector/API/browser unavailable for 2026-06-22 external review.",
+      "Additional external reviewers unavailable for 2026-06-22 external review."
     ],
-    "next_required_teaching_action": "Teach one archive only: MATH math.PR archive day 3 Distribution, variance, and tail risk. Start with Bayes/base-rate gate: P(A)=1%, P(E|A)=90%, P(E|not A)=9%, compute P(A|E) and explain why it is not 90%; then connect posterior to distribution shape, tail risk/drawdown, variance, calibration, and action permission. After MATH D003, balanced catch-up can return to PHYS quant-ph D004 or Q-FIN q-fin.TR D004; before Q-FIN D004, require the order-book walk calculation gate.",
-    "operator_note": "Current date is 2026-06-21 Australia/Sydney. Project global day is D009, but archive progression is based on validated lessons; MATH is D001 validated, not D009."
+    "next_required_teaching_action": "Teach one archive only: Q-FIN q-fin.TR archive day 4 Adverse Selection. Start with active recall: explain VWAP from the 2026-06-22 LOB gate and why last price is not average execution price. Then teach why getting filled can be bad news when the counterparty or liquidity provider has better information. Connect to toxic flow, spread compensation, limit-order risk, and trading-agent action gates. Do not mark D004 complete until user explains why an immediate fill can signal adverse selection and gives one rule to avoid being the uninformed side.",
+    "operator_note": "Current date is 2026-06-22 Australia/Sydney. Project global day is D010, but archive progression is based on validated lessons. MATH is now D003 validated; Q-FIN remains D003 with D004 pre-gate validated; PHYS remains D003."
   },
   "last_learning_session": {
-    "date": "2026-06-21",
-    "calendar_global_day": 9,
-    "lesson_covered": "MATH math.PR D002",
-    "daily_log": "04_DAILY_LOGS/2026-06-21_MATH_math.PR_D002.md",
-    "status": "validated",
-    "external_review_result": "05_REVIEWS/external_ai_reviews/2026-06-21_D002_review_results.md",
-    "reason": "User accurately distinguished P(A|B) from P(B|A), placed posterior into prior/evidence/reliability/EV/tail-risk/action-gate checks, and understood that probability updates do not directly grant execution permission."
+    "date": "2026-06-22",
+    "calendar_global_day": 10,
+    "lesson_covered": "MATH math.PR D003 plus Q-FIN q-fin.TR D004 LOB gate",
+    "daily_log": "04_DAILY_LOGS/2026-06-22_MATH_math.PR_D003_QFIN_gate.md",
+    "status": "validated_github_and_notion_synced_review_packet_created_with_blockers",
+    "external_review_result": "05_REVIEWS/external_ai_reviews/2026-06-22_MATH_D003_QFIN_gate_review_packet.md",
+    "reason": "User corrected/accepted posterior vs action-gate risk, identified variance and tail risk in payoff distributions, and accurately computed Q-FIN LOB walk fill levels, last price, and VWAP."
   },
-  "next_action": "Teach one archive per output. Default next: MATH math.PR archive day 3 Distribution, variance, and tail risk because balanced catch-up has MATH at D002 while Q-FIN and PHYS are at D003. D003 must start with Bayes/base-rate gate: P(A)=1%, P(E|A)=90%, P(E|not A)=9%, compute P(A|E) and explain why it is not 90%. Then connect distribution shape, expected value, variance, drawdown, and tail loss to agent confidence, trading signals, and industrial alarms. After MATH D003, return to PHYS quant-ph D004 or Q-FIN q-fin.TR D004 by slot/order and gate status. Before Q-FIN q-fin.TR D004, run the Q-FIN D003 LOB walk calculation gate: fill levels, last price, VWAP, and slippage/cost. Include daily judgment question: 如果我是交易系统/研究系统/agent 系统，今天这个概念会让我避免哪一种亏钱、误判或伪知识错觉？ Preserve the roadmap page and do not mark unrelated archives complete.",
+  "next_action": "Teach one archive per output. Default next: Q-FIN q-fin.TR archive day 4 Adverse Selection because active tracks are now Q-FIN D003 with D004 LOB gate validated, PHYS D003, and MATH D003. Start Q-FIN D004 with quick VWAP recall: ask why VWAP 100.09 differs from last price 100.30 and quoted best ask 100.00. Then teach why immediate fill can be bad news, how informed flow/toxic flow hurts passive liquidity, and how a trading agent should gate orders using spread, depth, volatility, news, queue position, and post-trade adverse movement. Preserve roadmap page and do not mark unrelated archives complete.",
   "status": "active"
 }
