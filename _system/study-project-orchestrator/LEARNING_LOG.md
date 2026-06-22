@@ -7,6 +7,26 @@
 - 学习频率不固定
 - 一次记录可以涉及多个项目
 
+## 2026-06-22｜AI Workflow Operating System｜D03-D04｜约 30 分钟
+
+- 学习内容：D03 Output Contract / Schema；D04 Action Gate / Stop Condition。重点从“输出格式理论”纠偏为“把验收、证据、停止条件沉淀进 AGENTS.md / skill / workflow，让用户只用短触发词”。
+- 学习行为：回忆 / 深化 / 迁移 / ROI / 教学纠偏
+- 用户反馈前的关键理解或回答：用户独立回答：context 以最新输入为主并排除冲突历史；output 应限制交付方式、验收标准、停止条件。对 GitHub 修改任务，用户列出修改文件、diff、code review/PR/CI log、验收标准、测试结果。对 D04，用户回答 Agent 不能只因理解目标就执行，因为会跑偏、忘记 baseline/context、幻觉。
+- 暴露出的错误或信息缺口：我把 Output Contract 讲成用户需要每次输入和记住的长 prompt，脱离用户的高 ROI 目标；没有及时同步学习记录，违背用户对 agent 主动闭环的预期。用户明确给教学质量评分 0。
+- 纠正后的核心理解：Output Contract 不应该增加用户输入负担，而应内置到仓库规则、skill、workflow 和最终交付格式中。用户只需使用短触发词，例如“给我可验收结果”或“按 Output Contract 重做”。
+- 深度理解与因果：强 Agent 不是靠用户每次讲清楚，而是把高频约束系统化。Context Contract 控制依据什么行动；Output Contract 控制交付结果如何验收；Action Gate 控制行动前必须通过哪些硬条件；Stop Condition 控制没通过时必须停止而不是硬编。
+- 边界、反例或证伪：没有 changed_files、validation、evidence 的 completed 应判定为 unvalidated。仅有“通过字样”不是证据；证据必须是 diff、PR、commit、CI/test output、artifact、文件路径或逐条验收项。
+- 陌生迁移：GitHub 修改任务可验收证据包括真实修改文件、diff summary、PR/commit、验证结果、未触碰禁止范围。学习任务可验收证据应包括用户原始回答、纠正前缺口、纠正后能否迁移，而不是 AI 代答。
+- 新视角：Output Contract 的 ROI 不在模板本身，而在减少用户反复追问“你到底做了什么、有没有证据、有没有越界”的成本。
+- ROI 或经济联系：低 ROI 是让用户每次复制长 prompt；高 ROI 是把输出合约写进 `AGENTS.md` 和项目规则，让 agent 默认输出可验收结果，并在缺证据时标记 `unvalidated` 或 `blocked`。
+- 突破能力证据：用户直接指出教学不现实并给 0 分，推动 D03 从理论模板改为可操作的系统内置规则；用户能识别无 diff/artifacts 的任务不能算完成。
+- 本次有证据的评分：Output Contract 概念识别：部分掌握；Action Gate：刚开始，未评估；教学质量：用户评分 0/10；同步闭环：本记录已补救。
+- 教学中有效的方法：把概念压缩成短触发词和判定规则；用 GitHub 修改任务作为实际验收场景。
+- 用户不满意的地方：讲解过于理论、不可现实复用；没有及时同步更新。
+- 下次需要调整的教学方式：先给现实可用版，再讲机制；每个概念必须回答“用户以后如何用一句短命令触发”；不要给用户增加记忆负担。
+- 需要复习：Output Contract = 可验收结果；completed without evidence = unvalidated；Action Gate = 行动前硬条件；Stop Condition = 自动停止规则。
+- 下次继续：D04 Action Gate / Stop Condition。继续回答 live trading agent 最重要的 3 个自动 Action Gate，但必须从用户目标 no human interference 出发，强调“自动化不是无规则，而是规则自动执行”。
+
 ## 2026-06-22｜AI Workflow Operating System｜D02｜约 25 分钟
 
 - 学习内容：Context Contract and Context Budget；如何让 Codex 用最小上下文保持目标、边界、验收和证据，不被旧聊天、旧报告、大目录或模糊记忆带偏。
