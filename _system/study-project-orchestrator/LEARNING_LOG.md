@@ -7,6 +7,26 @@
 - 学习频率不固定
 - 一次记录可以涉及多个项目
 
+## 2026-06-22 20:44 AEST｜AI Workflow Operating System｜D04-D06｜约 35 分钟
+
+- 学习内容：D04 Action Gate / Stop Condition；D05 State Machine / Workflow State；D06 Evaluation / Evals 开始。重点围绕 no-human-interference trading agent、Codex 工作流、状态机防越级、eval 防主观自信。
+- 学习行为：回忆 / 深化 / 迁移 / ROI / 结束学习并保存
+- 用户反馈前的关键理解或回答：用户独立回答 live trading agent 的关键 gate：是否做过 shadow trading、足够模型验证和数据研究、明确止损和停止条件。用户追问为什么 spread/liquidity 不是 Risk Gate 而是 Execution/Market Gate，并回答动作应为“不下单”。用户回答 `killed` 是 state machine 中的 final/强停止状态；`blocked_missing_permission` 时应先说明缺什么权限并停止；测试 Agent 可靠性应看测试结果通过百分比率。
+- 暴露出的错误或信息缺口：用户最初把上线前 gate、运行中 risk gate、kill switch 放在同一层；需要区分 Research Gate、Execution/Market Gate、Risk/Kill Gate。`blocked` 被理解成 final stage，需要修正为当前路径停止状态，不等于永远结束。D06 eval 还没有完成 critical-failure 场景判断。
+- 纠正后的核心理解：Action Gate 不是人工确认，而是自动硬规则；no human interference 不是 no gate，而是 gate 由代码、配置、risk engine、state machine 自动执行。State Machine 决定当前允许动作；Action Gate 判断当前动作能否通过；Stop Condition 决定失败后进入 paused/killed/blocked；Eval 用固定任务集和 pass/fail 规则验证 agent 是否真的变强。
+- 深度理解与因果：spread/liquidity 扩大首先是 Execution/Market Gate 问题，因为它描述当前订单能否以合理成本成交；只有系统性异常、长期异常、连续异常或数据源/broker 失控时才升级为 Kill Switch。`killed` 或 `blocked` 状态不能被一句自然语言“继续”跳过，必须走 review/re-arm/revalidate。
+- 边界、反例或证伪：shadow trading 通过不代表每一笔 live 订单都可执行；模型信号强不代表 execution 条件合格；pass rate 高也不一定可上线，如果失败项是权限不足仍继续执行、越权交易、风险失控等 critical failure。
+- 陌生迁移：Codex 修改 GitHub 的状态机可类比为 planning -> context_loaded -> contract_ready -> editing -> validating -> pr_ready -> merged；blocked_missing_permission 后必须先说明缺失权限并停止，权限恢复后回到合适前置状态重新验证，不能直接跳回 editing 或 merged。
+- 新视角：强 Agent 的自动化边界不是“人要不要确认”，而是“哪些状态允许哪些动作，哪些 gate 可以机器检查，哪些 failure 必须强停止”。Eval 的作用是把 agent 改进从感觉变好变成可重复测量。
+- ROI 或经济联系：对 trading agent，Research Gate 减少伪策略上线成本；Execution Gate 防止信号利润被 spread/slippage 吃掉；Risk/Kill Gate 防止一次尾部事件摧毁账户；Eval 防止把自然语言自信误认为系统可靠性。
+- 突破能力证据：用户能够指出 live trading 需要 shadow trading、模型验证、止损/停止条件；能主动追问 gate 归因边界；能把 `blocked_missing_permission` 迁移到 Codex 权限场景；能识别可靠性应看测试通过率而不是自信。
+- 本次有证据的评分：D04 Action Gate：4/5；D05 State Machine：4/5；D06 Eval：2/5，已启动但 critical-failure 判断未完成；教学质量：较 D03 已按用户要求转向现实可用版。
+- 教学中有效的方法：先解释现实系统如何自动执行 gate，再给机制；用 trading agent 与 Codex GitHub 修改互相迁移；避免长 prompt 模板。
+- 用户不满意的地方：此前未及时同步；D03 曾过于理论。本轮结束按用户明确要求保存。
+- 下次需要调整的教学方式：下次继续 D06 时不要讲长理论，直接用 critical failure case 压实：10 个任务过 8 个，但失败 2 个是越权/权限不足仍继续时，不能按 80% 可靠处理，而是 critical blocker。
+- 需要复习：Research Gate vs Execution/Market Gate vs Risk/Kill Gate；killed vs blocked；state transition 不可跳级；eval pass rate 与 critical failure 的区别。
+- 下次继续：D06 Evaluation / Evals。继续问题：如果 Agent 在 10 个测试任务里通过 8 个，但失败的 2 个都是“权限不足时仍然继续执行”，这是 80% 可靠，还是严重不可上线缺陷？为什么？
+
 ## 2026-06-22｜arXiv Top1 Program｜MATH D003 + Q-FIN D004 前置门｜约 35 分钟
 
 - 学习内容：MATH / `math.PR` D003：Distribution、variance、tail risk；Q-FIN / `q-fin.TR` D004 前置 LOB walk / VWAP 计算门。
